@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/product.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="pos-r">
+        <div class="container noscroll">
+            <div class="nav_logo pos-a">
+                <span>iMeals</span>
+            </div>
+            
+            <a href="#" class="whats_app_icon pos-a r-flex ali-c jut-c">
+                <img src="img/whats-app-icon.svg" alt="Whats app icon">
+            </a>
+            <div class="hamburger" onclick="toggleMenu()">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <nav class="menu">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Contact Us</a>
+            </nav>
+                
+            </div>
+        </div>
+    </header>
+
+    <main>
+        
+        <div class="deliveries_hero_section">
+            <div class="container">
+                <div class="deliver_panal_show r-flex ali-c jut-sb">
+                    <span>Total Deliveries: 170</span>
+                    <span>Pending Deliveries: 143</span>
+                </div>
+                <div class="top_zone_btn_box r-flex ali-c jut-sb">
+                    <div class="zon_btn_container">
+                        <input type="checkbox" name="zone" id="zone1" class="zone_input_boxDN">
+                        <label for="zone1" class="zone_btn r-flex ali-c">
+                            <span>Zone 1(56)</span>
+                            <img src="img/zone-cross.svg" alt="cross icon">
+                        </label>
+                    </div>
+                    <div class="zon_btn_container">
+                        <input type="checkbox" name="zone" id="zone2" class="zone_input_boxDN" checked>
+                        <label for="zone2" class="zone_btn r-flex ali-c">
+                            <span>Zone 1(56)</span>
+                            <img src="img/zone-cross.svg" alt="cross icon">
+                        </label>
+                    </div>
+                    <div class="zon_btn_container">
+                        <input type="checkbox" name="zone" id="zone3" class="zone_input_boxDN">
+                        <label for="zone3" class="zone_btn r-flex ali-c">
+                            <span>Zone 1(56)</span>
+                            <img src="img/zone-cross.svg" alt="cross icon">
+                        </label>
+                    </div>
+                </div>
+                <form action="#">
+                    <input type="search" id="search" placeholder="Search Here" class="del_serch">
+                    <div class="filter_row r-flex ali-c jut-sb">
+                        <div class="CR_result">Results 56</div>
+                        <div class="filter_btn_box r-flex ali-c" onclick="toggleBtn()">
+                            <img src="img/filter.svg" alt="filter">
+                            <span>Filters</span>
+                        </div>
+                    </div>
+                </form>
+                <div class="deliveries_items_container c-flex ali-c ">
+                    <div class="deliveries_items_box">
+                        <input type="checkbox" id="item1" name="deliveries items">
+                        <label for="item1" class="r-flex ali-c jut-sb DL_item">
+                            <div class="left_side_content">
+                                <div class="dlvry_boy_name r-flex ali-c">
+                                    <span>Mohan Bhargav Singh</span>
+                                    <img src="img/veg.svg" alt="veg. icone">
+                                </div>
+                                <div class="restornt_name"><i>Johri Enclave</i></div>
+                                <div class="dlvry_address">HN 45, Dilshad Garden, Delhi</div>
+                                <div class="daliy_doss">Daily Breakfast : <span>1 Dal, Sabji 1, Sabji 2</span> </div>
+                                <div class="note_addres">Note: Kaale Gate wale ghar me</div>
+                            </div>
+                            <div class="right_side_content c-flex jut-sb">
+                                <div class="tree_dot_img_box items_img_box">
+                                    <img src="img/three-dot.svg" alt="3 dots">
+                                </div>
+                                <a href="tel:00000000" class="call_phone_img_box items_img_box">
+                                    <img src="img/call-phone.svg" alt="phone icone">
+                                </a>
+                                <div class="check_box_icon_img items_img_box">
+                                    <img src="img/item-check.svg" alt="check icon">
+                                </div>
+                            </div>
+                        </label>
+                    </div>
+                    <div class="deliveries_items_box">
+                        <input type="checkbox" id="item2" name="deliveries items">
+                        <label for="item2" class="r-flex ali-c jut-sb DL_item">
+                            <div class="left_side_content">
+                                <div class="dlvry_boy_name r-flex ali-c">
+                                    <span>Mohan Bhargav Singh</span>
+                                    <img src="img/veg.svg" alt="veg. icone">
+                                </div>
+                                <div class="restornt_name"><i>Johri Enclave</i></div>
+                                <div class="dlvry_address">HN 45, Dilshad Garden, Delhi</div>
+                                <div class="daliy_doss">Daily Breakfast : <span>1 Dal, Sabji 1, Sabji 2</span> </div>
+                                <div class="note_addres">Note: Kaale Gate wale ghar me</div>
+                            </div>
+                            <div class="right_side_content c-flex jut-sb">
+                                <div class="tree_dot_img_box items_img_box">
+                                    <img src="img/three-dot.svg" alt="3 dots">
+                                </div>
+                                <a href="tel:00000000" class="call_phone_img_box items_img_box">
+                                    <img src="img/call-phone.svg" alt="phone icone">
+                                </a>
+                                <div class="check_box_icon_img items_img_box">
+                                    <img src="img/item-check.svg" alt="check icon">
+                                </div>
+                            </div>
+                        </label>
+                    </div>
+                    <div class="deliveries_items_box">
+                        <input type="checkbox" id="item3" name="deliveries items">
+                        <label for="item3" class="r-flex ali-c jut-sb DL_item">
+                            <div class="left_side_content">
+                                <div class="dlvry_boy_name r-flex ali-c">
+                                    <span>Mohan Bhargav Singh</span>
+                                    <img src="img/veg.svg" alt="veg. icone">
+                                </div>
+                                <div class="restornt_name"><i>Johri Enclave</i></div>
+                                <div class="dlvry_address">HN 45, Dilshad Garden, Delhi</div>
+                                <div class="daliy_doss">Daily Breakfast : <span>1 Dal, Sabji 1, Sabji 2</span> </div>
+                                <div class="note_addres">Note: Kaale Gate wale ghar me</div>
+                            </div>
+                            <div class="right_side_content c-flex jut-sb">
+                                <div class="tree_dot_img_box items_img_box">
+                                    <img src="img/three-dot.svg" alt="3 dots">
+                                </div>
+                                <a href="tel:00000000" class="call_phone_img_box items_img_box">
+                                    <img src="img/call-phone.svg" alt="phone icone">
+                                </a>
+                                <div class="check_box_icon_img items_img_box">
+                                    <img src="img/item-check.svg" alt="check icon">
+                                </div>
+                            </div>
+                        </label>
+                    </div>
+                    <div class="deliveries_items_box">
+                        <input type="checkbox" id="item4" name="deliveries items">
+                        <label for="item4" class="r-flex ali-c jut-sb DL_item">
+                            <div class="left_side_content">
+                                <div class="dlvry_boy_name r-flex ali-c">
+                                    <span>Mohan Bhargav Singh</span>
+                                    <img src="img/veg.svg" alt="veg. icone">
+                                </div>
+                                <div class="restornt_name"><i>Johri Enclave</i></div>
+                                <div class="dlvry_address">HN 45, Dilshad Garden, Delhi</div>
+                                <div class="daliy_doss">Daily Breakfast : <span>1 Dal, Sabji 1, Sabji 2</span> </div>
+                                <div class="note_addres">Note: Kaale Gate wale ghar me</div>
+                            </div>
+                            <div class="right_side_content c-flex jut-sb">
+                                <div class="tree_dot_img_box items_img_box">
+                                    <img src="img/three-dot.svg" alt="3 dots">
+                                </div>
+                                <a href="tel:00000000" class="call_phone_img_box items_img_box">
+                                    <img src="img/call-phone.svg" alt="phone icone">
+                                </a>
+                                <div class="check_box_icon_img items_img_box">
+                                    <img src="img/item-check.svg" alt="check icon">
+                                </div>
+                            </div>
+                        </label>
+                    </div>
+                    <div class="deliveries_items_box">
+                        <input type="checkbox" id="item5" name="deliveries items">
+                        <label for="item5" class="r-flex ali-c jut-sb DL_item">
+                            <div class="left_side_content">
+                                <div class="dlvry_boy_name r-flex ali-c">
+                                    <span>Mohan Bhargav Singh</span>
+                                    <img src="img/veg.svg" alt="veg. icone">
+                                </div>
+                                <div class="restornt_name"><i>Johri Enclave</i></div>
+                                <div class="dlvry_address">HN 45, Dilshad Garden, Delhi</div>
+                                <div class="daliy_doss">Daily Breakfast : <span>1 Dal, Sabji 1, Sabji 2</span> </div>
+                                <div class="note_addres">Note: Kaale Gate wale ghar me</div>
+                            </div>
+                            <div class="right_side_content c-flex jut-sb">
+                                <div class="tree_dot_img_box items_img_box">
+                                    <img src="img/three-dot.svg" alt="3 dots">
+                                </div>
+                                <a href="tel:00000000" class="call_phone_img_box items_img_box">
+                                    <img src="img/call-phone.svg" alt="phone icone">
+                                </a>
+                                <div class="check_box_icon_img items_img_box">
+                                    <img src="img/item-check.svg" alt="check icon">
+                                </div>
+                            </div>
+                        </label>
+                    </div>
+                    <div class="deliveries_items_box">
+                        <input type="checkbox" id="item6" name="deliveries items">
+                        <label for="item6" class="r-flex ali-c jut-sb DL_item">
+                            <div class="left_side_content">
+                                <div class="dlvry_boy_name r-flex ali-c">
+                                    <span>Mohan Bhargav Singh</span>
+                                    <img src="img/veg.svg" alt="veg. icone">
+                                </div>
+                                <div class="restornt_name"><i>Johri Enclave</i></div>
+                                <div class="dlvry_address">HN 45, Dilshad Garden, Delhi</div>
+                                <div class="daliy_doss">Daily Breakfast : <span>1 Dal, Sabji 1, Sabji 2</span> </div>
+                                <div class="note_addres">Note: Kaale Gate wale ghar me</div>
+                            </div>
+                            <div class="right_side_content c-flex jut-sb">
+                                <div class="tree_dot_img_box items_img_box">
+                                    <img src="img/three-dot.svg" alt="3 dots">
+                                </div>
+                                <a href="tel:00000000" class="call_phone_img_box items_img_box">
+                                    <img src="img/call-phone.svg" alt="phone icone">
+                                </a>
+                                <div class="check_box_icon_img items_img_box">
+                                    <img src="img/item-check.svg" alt="check icon">
+                                </div>
+                            </div>
+                        </label>
+                    </div>
+                    <div class="deliveries_items_box">
+                        <input type="checkbox" id="item7" name="deliveries items">
+                        <label for="item7" class="r-flex ali-c jut-sb DL_item">
+                            <div class="left_side_content">
+                                <div class="dlvry_boy_name r-flex ali-c">
+                                    <span>Mohan Bhargav Singh</span>
+                                    <img src="img/veg.svg" alt="veg. icone">
+                                </div>
+                                <div class="restornt_name"><i>Johri Enclave</i></div>
+                                <div class="dlvry_address">HN 45, Dilshad Garden, Delhi</div>
+                                <div class="daliy_doss">Daily Breakfast : <span>1 Dal, Sabji 1, Sabji 2</span> </div>
+                                <div class="note_addres">Note: Kaale Gate wale ghar me</div>
+                            </div>
+                            <div class="right_side_content c-flex jut-sb">
+                                <div class="tree_dot_img_box items_img_box">
+                                    <img src="img/three-dot.svg" alt="3 dots">
+                                </div>
+                                <a href="tel:00000000" class="call_phone_img_box items_img_box">
+                                    <img src="img/call-phone.svg" alt="phone icone">
+                                </a>
+                                <div class="check_box_icon_img items_img_box">
+                                    <img src="img/item-check.svg" alt="check icon">
+                                </div>
+                            </div>
+                        </label>
+                    </div>
+                    <div class="deliveries_items_box">
+                        <input type="checkbox" id="item8" name="deliveries items">
+                        <label for="item8" class="r-flex ali-c jut-sb DL_item">
+                            <div class="left_side_content">
+                                <div class="dlvry_boy_name r-flex ali-c">
+                                    <span>Mohan Bhargav Singh</span>
+                                    <img src="img/veg.svg" alt="veg. icone">
+                                </div>
+                                <div class="restornt_name"><i>Johri Enclave</i></div>
+                                <div class="dlvry_address">HN 45, Dilshad Garden, Delhi</div>
+                                <div class="daliy_doss">Daily Breakfast : <span>1 Dal, Sabji 1, Sabji 2</span> </div>
+                                <div class="note_addres">Note: Kaale Gate wale ghar me</div>
+                            </div>
+                            <div class="right_side_content c-flex jut-sb">
+                                <div class="tree_dot_img_box items_img_box">
+                                    <img src="img/three-dot.svg" alt="3 dots">
+                                </div>
+                                <a href="tel:00000000" class="call_phone_img_box items_img_box">
+                                    <img src="img/call-phone.svg" alt="phone icone">
+                                </a>
+                                <div class="check_box_icon_img items_img_box">
+                                    <img src="img/item-check.svg" alt="check icon">
+                                </div>
+                            </div>
+                        </label>
+                    </div>
+                    <div class="deliveries_items_box">
+                        <input type="checkbox" id="item9" name="deliveries items">
+                        <label for="item9" class="r-flex ali-c jut-sb DL_item">
+                            <div class="left_side_content">
+                                <div class="dlvry_boy_name r-flex ali-c">
+                                    <span>Mohan Bhargav Singh</span>
+                                    <img src="img/veg.svg" alt="veg. icone">
+                                </div>
+                                <div class="restornt_name"><i>Johri Enclave</i></div>
+                                <div class="dlvry_address">HN 45, Dilshad Garden, Delhi</div>
+                                <div class="daliy_doss">Daily Breakfast : <span>1 Dal, Sabji 1, Sabji 2</span> </div>
+                                <div class="note_addres">Note: Kaale Gate wale ghar me</div>
+                            </div>
+                            <div class="right_side_content c-flex jut-sb">
+                                <div class="tree_dot_img_box items_img_box">
+                                    <img src="img/three-dot.svg" alt="3 dots">
+                                </div>
+                                <a href="tel:00000000" class="call_phone_img_box items_img_box">
+                                    <img src="img/call-phone.svg" alt="phone icone">
+                                </a>
+                                <div class="check_box_icon_img items_img_box">
+                                    <img src="img/item-check.svg" alt="check icon">
+                                </div>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer_sty_box">
+            <div class="container">
+                <div class="top_line_sty_box r-flex ali-c jut-sb">
+                    <div class="top_sty_line_text">1 Item Selected out of 9 Total</div>
+                    <div class="right_check_box_sty r-flex ali-c ">
+                        <label for="visible">Select Visible</label>
+                        <input type="checkbox" name="visible" id="visible">
+                    </div>
+                    
+                </div>
+                <div class="bulk_action_btn">Bulk Actions</div>
+                    <div class="sty_btn_boxx r-flex ali-c jut-sb">
+                        <button class="left_side_btn_sty r-flex ali-c">
+                            <svg width="21" height="24" viewBox="0 0 27 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M9.52876 10.4859C9.68696 10.3136 9.90141 10.2167 10.125 10.2167C10.3486 10.2167 10.5631 10.3136 10.7213 10.4859L13.5 13.5173L16.2788 10.4859C16.356 10.3955 16.4492 10.323 16.5526 10.2726C16.6561 10.2223 16.7679 10.1953 16.8812 10.1931C16.9945 10.1909 17.107 10.2137 17.2121 10.26C17.3171 10.3062 17.4126 10.3752 17.4927 10.4626C17.5728 10.55 17.636 10.6541 17.6784 10.7687C17.7208 10.8833 17.7417 11.0061 17.7397 11.1297C17.7377 11.2532 17.7129 11.3751 17.6668 11.488C17.6206 11.6009 17.5542 11.7026 17.4713 11.7868L14.6925 14.8182L17.4713 17.8496C17.6203 18.024 17.7014 18.2548 17.6976 18.4933C17.6937 18.7318 17.6052 18.9593 17.4506 19.1279C17.296 19.2966 17.0874 19.3932 16.8688 19.3974C16.6503 19.4016 16.4387 19.3131 16.2788 19.1505L13.5 16.1191L10.7213 19.1505C10.644 19.2409 10.5509 19.3134 10.4474 19.3637C10.3439 19.4141 10.2321 19.4411 10.1188 19.4433C10.0056 19.4455 9.89302 19.4227 9.78796 19.3764C9.6829 19.3301 9.58746 19.2612 9.50734 19.1738C9.42722 19.0864 9.36405 18.9823 9.32162 18.8677C9.27918 18.7531 9.25834 18.6303 9.26034 18.5067C9.26234 18.3831 9.28714 18.2613 9.33325 18.1484C9.37937 18.0354 9.44586 17.9338 9.52876 17.8496L12.3075 14.8182L9.52876 11.7868C9.37075 11.6142 9.282 11.3803 9.282 11.1364C9.282 10.8925 9.37075 10.6585 9.52876 10.4859Z" fill="white"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M8.23162 4.71652C11.7331 4.29306 15.2668 4.29306 18.7684 4.71652C20.8237 4.96688 22.4831 6.73293 22.7239 8.98743C23.1401 12.8619 23.1401 16.7757 22.7239 20.6502C22.482 22.9047 20.8226 24.6695 18.7684 24.9211C15.2668 25.3446 11.7331 25.3446 8.23162 24.9211C6.17624 24.6695 4.51687 22.9047 4.27612 20.6502C3.86074 16.7758 3.86074 12.8618 4.27612 8.98743C4.51687 6.73293 6.17737 4.96688 8.23162 4.71652ZM18.5816 6.54516C15.2042 6.13676 11.7958 6.13676 8.41837 6.54516C7.79314 6.62083 7.20955 6.92423 6.76189 7.40635C6.31423 7.88848 6.02863 8.52117 5.95124 9.2022C5.55113 12.9343 5.55113 16.7046 5.95124 20.4367C6.02887 21.1175 6.31457 21.7499 6.76221 22.2318C7.20985 22.7136 7.79331 23.0169 8.41837 23.0925C11.7675 23.4999 15.2325 23.4999 18.5816 23.0925C19.2065 23.0166 19.7897 22.7133 20.2371 22.2314C20.6845 21.7495 20.97 21.1173 21.0476 20.4367C21.4477 16.7046 21.4477 12.9343 21.0476 9.2022C20.9698 8.52179 20.6842 7.88982 20.2368 7.4082C19.7894 6.92659 19.2063 6.62343 18.5816 6.54761" fill="white"/>
+                            </svg>                                
+                            <span>Wasted</span>
+                        </button>
+                        <button class="right_side_btn_sty r-flex ali-c jut-c">
+                            <svg width="21" height="24" viewBox="0 0 21 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1.75001 11.9091L3.93751 9.52273L8.31251 14.2955L17.0625 4.75L19.25 7.13636L8.31251 19.0682L1.75001 11.9091Z" stroke="white" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>                                
+                            <span>Mark as Delivered</span>
+                        </button>
+                    </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="power_by_text">Powered By iSahayak</div>
+        </footer>
+
+        <section class="popup_section">
+            <div class="background_pop_up">
+                <div class="pop_up_container">
+                    <div class="close_pop_up_box" onclick="toggleBtn()">
+                        <img src="img/close_cross.svg" alt="cross icon">
+                    </div>
+                    <div class="pop_heading_text">Request Edit in Meal Plan</div>
+                    <div class="dark_sub_heading">You have to request this to Soumya’s Kitchen Management Team on Whatsapp</div>
+                    <div class="short_not_box">Hi, I Want to modify my daily evening meal plan. Find My Profile by searching with my my number 986879678</div>
+
+                    
+                    <select id="cars">
+                        <option value="volvo">Volvo</option>
+                        <option value="saab">Saab</option>
+                        <option value="opel">Opel</option>
+                        <option value="audi">Audi</option>
+                      </select>
+                    <button class="pop_main_btn r-flex ali-c jut-c">
+                        <span pop_main_btn_text>Send Message on Whatspp</span>
+                        <img src="img/whast-app-btn-icon.svg" alt="what's app icon">
+                    </button>
+                    <a href="#" class="ss_on_whats_app_btn r-flex ali-c jut-c"> Send Screenshot on Whatsapp </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
