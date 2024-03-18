@@ -74,7 +74,7 @@ function toggleMenu() {
   }
   
   function paytoupi(){
-    var amountValue = document.getElementById("amount").value;
+    var amountValue = document.getElementById("amount_input_box").value;
     document.getElementById("popup_action_btn").onclick = function() {
         window.open("upi://pay?pa=digiheadway@icici&pn=Yogesh&cu=INR&tn=Add_to_9595844598&am="+amount);
       };
