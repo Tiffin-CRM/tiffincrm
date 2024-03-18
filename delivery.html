@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Delivery Manament - iMeals.in</title>
-    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/base.css?v0.0.1">
     <link rel="stylesheet" href="css/style.css?v1">
-    <link rel="stylesheet" href="css/product.css?v1">
+    <link rel="stylesheet" href="css/product.css?v=0.0.2">
 
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
 </head>
@@ -61,6 +61,20 @@
                     <div class="zon_btn_container">
                         <input type="checkbox" name="zone" id="zone3" class="zone_input_boxDN">
                         <label for="zone3" class="zone_btn r-flex ali-c">
+                            <span>Zone 1(56)</span>
+                            <img src="img/zone-cross.svg" alt="cross icon">
+                        </label>
+                    </div>
+                    <div class="zon_btn_container">
+                        <input type="checkbox" name="zone" id="zone4" class="zone_input_boxDN">
+                        <label for="zone4" class="zone_btn r-flex ali-c">
+                            <span>Zone 1(56)</span>
+                            <img src="img/zone-cross.svg" alt="cross icon">
+                        </label>
+                    </div>
+                    <div class="zon_btn_container">
+                        <input type="checkbox" name="zone" id="zone5" class="zone_input_boxDN">
+                        <label for="zone5" class="zone_btn r-flex ali-c">
                             <span>Zone 1(56)</span>
                             <img src="img/zone-cross.svg" alt="cross icon">
                         </label>
@@ -350,6 +364,7 @@
 
         <section class="popup_section">
             <div class="background_pop_up">
+                <div class="overly-touch" onclick="toggleBtn()"></div>
                 <div class="pop_up_container">
                     <div class="close_pop_up_box" onclick="toggleBtn()">
                         <img src="img/close_cross.svg" alt="cross icon">

@@ -19,7 +19,13 @@
 }
 .top_zone_btn_box{
     margin-top: 20px;
-    flex-wrap: wrap;
+    white-space: nowrap;
+    gap: 13px;
+    user-select: none;
+    overflow-x: scroll;
+}
+.top_zone_btn_box::-webkit-scrollbar{
+    display: none;
 }
 .zon_btn_container input{
     display: none;
