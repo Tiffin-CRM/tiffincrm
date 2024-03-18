@@ -99,15 +99,15 @@
     font-size: 15.961px;
     font-weight: 700;
 }
-.restornt_name{
+.card_zone_name{
     font-size: 15px;
 }
-.dlvry_address, .daliy_doss{
+.delivery_address, .card_daliy_order{
     color: var(--light-font-color);
     font-size: 14px;
     margin-top: 8px;
 }
-.note_addres{
+.card_note_addres{
     color: var(--mid-font-color);
     font-size: 15px;
     margin-top: 10px;
