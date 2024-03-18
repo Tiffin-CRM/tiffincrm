@@ -33,6 +33,9 @@ function toggleMenu() {
     var btn_text = "Send Message on Whatspp";
     changeElement(popupTitle, descText, noteText, btn_text);
 
+    var btn_icon = "img/whast-app-btn-icon.svg";
+    document.getElementById("btn_icon").src = btn_icon;
+    document.getElementById("btn_icon").style.display = "block";
     document.getElementById("popup_action_btn").onclick = function() {
         window.open("https://api.whatsapp.com/send?phone=919068062563&text=Hi%20Please%20Edit%20My%20Meal%20Plan");
       };
@@ -50,9 +53,7 @@ function toggleMenu() {
         paytoupi();
       };
     // Individual params
-    var btn_icon = "img/whast-app-btn-icon.svg";
-    document.getElementById("btn_icon").src = btn_icon;
-    document.getElementById("send_screenshot_link").style.display = "block";
+
     document.getElementById("steps_desc").style.display = "block";
     document.getElementById("amount_input_box").style.display = "block";
   }
