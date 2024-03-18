@@ -32,6 +32,10 @@ function toggleMenu() {
       "Note: Make sure to check the updated information here after requesting.";
     var btn_text = "Send Message on Whatspp";
     changeElement(popupTitle, descText, noteText, btn_text);
+
+    document.getElementById("popup_action_btn").onclick = function() {
+        window.open("https://api.whatsapp.com/send?phone=919068062563&text=Hi%20Please%20Edit%20My%20Meal%20Plan");
+      };
   }
   
   function add_balance() {
@@ -41,7 +45,10 @@ function toggleMenu() {
       "Remember: You must have to send payment screenshot to Soumya’sK Kitchen to Add the Balance in your wallet";
     var btn_text = "Pay Now";
     changeElement(popupTitle, descText, noteText, btn_text);
-  
+    
+    document.getElementById("popup_action_btn").onclick = function() {
+        paytoupi();
+      };
     // Individual params
     var btn_icon = "img/whast-app-btn-icon.svg";
     document.getElementById("btn_icon").src = btn_icon;
@@ -66,3 +73,9 @@ function toggleMenu() {
     document.getElementById("amount_input_box").style.display = "none";
   }
   
+  function paytoupi(){
+    var amountValue = document.getElementById("amount").value;
+    document.getElementById("popup_action_btn").onclick = function() {
+        window.open("upi://pay?pa=digiheadway@icici&pn=Yogesh&cu=INR&tn=Add_to_9595844598&am="+amount);
+      };
+  }
