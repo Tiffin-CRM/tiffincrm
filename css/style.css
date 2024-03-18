@@ -1,392 +1,395 @@
 :root {
-    --heading-color: #242425;
-    --mid-font-color: #575353;
-    --light-font-color: #808080;
-    --highlight-color: #5546af;
-    --theam-color: #ffffff;
-  }
-  header,
-  main {
-    width: 100%;
-    max-width: 500px;
-    margin: auto;
-    position: relative;
-    user-select: none; /* Standard */
-  }
-  header {
-    background-color: #ffffff;
-    align-items: center;
-  }
-  
-  .header_box {
-    padding: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  
-  body {
-    background-color: #faf9ff;
-  }
-  .hamburger {
-    flex-direction: column;
-    cursor: pointer;
-    display: flex;
-    margin-top: 8px;
-  }
-  
-  .bar {
-    width: 20px;
-    height: 2px;
-    background-color: var(--heading-color);
-    margin: 2.5px 0;
-  }
-  
-  .menu {
-    display: flex;
-  }
-  
-  .menu a {
-    color: var(--heading-color);
-    text-decoration: none;
-    margin-left: 20px;
-    transition: color 0.3s;
-  }
-  .menu {
-    flex-direction: column;
-    align-items: center;
-    background-color: var(--theam-color);
-    position: absolute;
-    top: 65px;
-    border: #e4e4e4 solid;
-    border-width: 0 1px 1px 1px;
-    left: -100%;
-    width: 100%;
-    height: 30vh;
-    flex-direction: column;
-    opacity: 0;
-    display: none;
-    transition: all 0.5s ease-in-out;
-  }
-  .menu.active {
-    display: flex;
-    opacity: 1;
-    left: 0px;
-    transition: all 0.5s ease-in-out;
-    padding: 30px 0px 0px 0px;
-    z-index: 2;
-  }
-  .menu a {
-    margin: 10px 0;
-  }
-  .nav_logo {
-    top: 15px;
-    font-size: 22.05px;
-    font-weight: 700;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    left: 40%;
-  }
-  .whats_app_icon {
-    right: 10px;
-    top: 5px;
-    width: 100%;
-    max-width: 34px;
-    min-width: 34px;
-    height: 37px;
-  }
-  .whats_app_icon img {
-    width: 100%;
-  }
-  
-  /* ____________ hero section _____________ */
-  main {
-    background: #faf9ff;
-  }
-  .delivery_name {
-    width: fit-content;
-    margin: auto;
-    gap: 4px;
-    padding-top: 25px;
-    margin-top: 10px;
-  }
-  .name_deliry_text {
-    font-size: 22.05px;
-    font-weight: 500;
-  }
-  .hero_cont_box {
-    padding: 15px;
-    background-color: var(--theam-color);
-    border-radius: 5px;
-    text-align: center;
-    color: var(--light-font-color);
-    width: 100%;
-    max-width: 361px;
-    margin: auto;
-    margin-top: 23px;
-  }
-  .cont_box_text {
-    font-size: 12px;
-  }
-  .app_installation_guide_box {
-    gap: 3px;
-  }
-  .app_installation_guide_box a {
-    color: var(--mid-font-color-color);
-    text-decoration: underline;
-    font-size: 12px;
-    font-weight: 700;
-  }
-  .app_installation_guide_box span {
-    color: var(--light-font-color);
-    font-size: 12px;
-  }
-  .active_deliveries_heading {
-    gap: 4px;
-  }
-  .active_deliveries_container {
-    margin-top: 19px;
-  }
-  .active_deliveries_heading > span {
-    font-size: 22.051px;
-    font-weight: 700;
-    color: var(--heading-color);
-  }
-  .active_deliveries_box {
-    margin-top: 12px;
-    background-color: var(--theam-color);
-    padding: 10px;
-    border-radius: 5px;
-  }
-  .brk_tre_box {
-    width: 100%;
-  }
-  .brk_box,
-  .pre_box {
-    gap: 4px;
-  }
-  .brk_box span {
-    font-size: 12px;
-    font-weight: 700;
-    color: #3e3d3d;
-  }
-  .pre_box {
-    font-size: 12px;
-    font-weight: 600;
-    color: var(--highlight-color);
-  }
-  .meal_item_list {
-    gap: 4px;
-    padding-left: 4px;
-    margin-top: 10px;
-  }
-  .meal_item_list span {
-    color: #000000;
-    font-size: 12px;
-    font-weight: 500;
-  }
-  .req_can_box {
-    margin-top: 10px;
-    padding-left: 4px;
-  }
-  .req_box,
-  .can_box {
-    gap: 4px;
-  }
-  .req_box span,
-  .can_box span {
-    font-size: 12px;
-    font-weight: 500;
-  }
-  .active_deloveries_note {
-    font-size: 12px;
-    font-weight: 400;
-    padding: 10px 0px 0px 0px;
-    border-top: 1px solid #f2f2f2;
-    margin-top: 15px;
-  }
-  .delivery_pause {
-    width: 100%;
-    padding: 12px 0px;
-    font-size: 14px;
-    color: var(--highlight-color);
-    gap: 8px;
-    border: 0.892px solid #eee;
-    background: var(--theam-color);
-    box-shadow: 0px 0.892px 1.695px -0.892px rgba(0, 0, 0, 0.25);
-    margin-top: 15px;
-    cursor: pointer;
-    font-weight: 700;
-  }
-  .delivery_pause_text {
-    color: var(--light-font-color);
-    text-align: center;
-    font-size: 12px;
-    margin-top: 10px;
-  }
-  
-  /* __________ section balance ___________ */
-  .add_balance_box {
-    border-radius: 5px;
-    border: 1px solid #efecec;
-    background: #fff;
-    padding: 15px 15px;
-    margin-top: 25px;
-  }
-  .wallet_icon {
-    gap: 5px;
-  }
-  .amount_balance_text {
-    font-size: 15.961px;
-    font-weight: 700;
-    color: #3d3d3d;
-  }
-  .balance_span_text {
-    color: #3d3d3d;
-    font-size: 10px;
-    font-weight: 400;
-  }
-  .right_add_balance_box {
-    color: var(--highlight-color);
-    font-size: 15.961px;
-    font-weight: 700;
-    cursor: pointer;
-  }
-  .go_to_trans_box {
-    font-size: 15px;
-    font-weight: 700;
-    width: 100%;
-    color: var(--heading-color);
-    padding: 12px 0px;
-    border: 1px solid #faf9ff;
-    background: var(--theam-color);
-    box-shadow: 0px 1px 1.9px -1px rgba(0, 0, 0, 0.25);
-    margin-top: 6px;
-    cursor: pointer;
-  }
-  
-  /* __________ meals plans _________- */
-  .eddite_meal_plan,
-  .resume_meal_plan {
-    color: var(--highlight-color);
-    font-weight: 700;
-    gap: 4px;
-  }
-  .user_log_out_btn {
-    gap: 5px;
-    background-color: transparent;
-    border: none;
-    outline: none;
-    margin: 40px auto;
-  }
-  .user_log_out_btn span {
-    font-size: 22.05px;
-    font-weight: 700;
-  }
-  .disclaimer_box {
-    font-size: 14px;
-    text-align: center;
-  }
-  
-  /* _________ pop up section ___________ */
-  .background_pop_up {
-    height: 100vh;
-    width: 100%;
-    background-color: #524e4e42;
-    position: fixed;
-    /* bottom: -110%; */
-    z-index: 1;
-    max-width: 500px;
-    opacity: 0;
-    transition: all 0.5s ease-in-out;
-  }
-  .background_pop_up.active {
-    bottom: 0;
-    opacity: 1;
-    transition: all 0.5s ease-in-out;
-  }
-  .pop_up_container {
-    position: absolute;
-    bottom: -100%;
-    width: 100%;
-    background-color: var(--theam-color);
-    padding: 15px;
-    border-radius: 10px 10px 0px 0px;
-    transition: all 0.5s ease-in-out;
-    margin: 0px;
-    width: 98%;
-    left: 1%;
-  }
-  .background_pop_up.active .pop_up_container {
-    bottom: 0px;
-    transition: all 0.5s ease-in-out;
-  }
-  .close_pop_up_box {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    cursor: pointer;
-  }
-  .pop_heading_text {
-    margin-top: 10px;
-    text-align: center;
-    font-size: 22.05px;
-    color: var(--heading-color);
-    font-weight: 700;
-  }
-  .dark_sub_heading {
-    margin-top: 20px;
-    font-size: 15px;
-    font-weight: 400;
-    text-align: center;
-  }
-  .short_not_box {
-    border-radius: 5px;
-    border: 1px solid #e8e8e8;
-    background: #faf9ff;
-    padding: 8px;
-    margin-top: 8px;
-    font-size: 12px;
-    text-align: center;
-  }
-  .pop_main_btn {
-    gap: 10px;
-    width: 100%;
-    border-radius: 5px;
-    background: var(--highlight-color);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    border: none;
-    padding: 10px 0px;
-    font-size: 16px;
-    color: var(--theam-color);
-    font-weight: 700;
-    margin-top: 15px;
-  }
-  .ss_on_whats_app_btn {
-    width: 100%;
-    text-align: center;
-    color: #000000;
-    text-decoration: underline;
-    padding: 10px 0px;
-    margin: 2px;
-  }
-  .amount_input_box {
-    padding: 13px 10px;
-    border-radius: 5px;
-    border: 1px solid #d9d9d9;
-    width: 100%;
-    margin-top: 20px;
-  }
-  
-  /* _____ footer ______ */
-  .power_by_text {
-    font-size: 14px;
-    font-weight: 700;
-    color: var(--theam-color);
-    background-color: var(--highlight-color);
-    padding: 12px 0px;
-    text-align: center;
-    margin-top: 60px;
-  }
-  
+  --heading-color: #242425;
+  --mid-font-color: #575353;
+  --light-font-color: #808080;
+  --highlight-color: #5546af;
+  --theam-color: #ffffff;
+}
+header,
+main {
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+  position: relative;
+  user-select: none; /* Standard */
+}
+header {
+  background-color: #ffffff;
+  align-items: center;
+}
+
+.header_box {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+body {
+  background-color: #faf9ff;
+}
+.hamburger {
+  flex-direction: column;
+  cursor: pointer;
+  display: flex;
+  margin-top: 8px;
+}
+
+.bar {
+  width: 20px;
+  height: 2px;
+  background-color: var(--heading-color);
+  margin: 2.5px 0;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu a {
+  color: var(--heading-color);
+  text-decoration: none;
+  margin-left: 20px;
+  transition: color 0.3s;
+}
+.menu {
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--theam-color);
+  position: absolute;
+  top: 65px;
+  border: #e4e4e4 solid;
+  border-width: 0 1px 1px 1px;
+  left: -100%;
+  width: 100%;
+  height: 30vh;
+  flex-direction: column;
+  opacity: 0;
+  display: none;
+  transition: all 0.5s ease-in-out;
+}
+.menu.active {
+  display: flex;
+  opacity: 1;
+  left: 0px;
+  transition: all 0.5s ease-in-out;
+  padding: 30px 0px 0px 0px;
+  z-index: 2;
+}
+.menu a {
+  margin: 10px 0;
+}
+.nav_logo {
+  top: 15px;
+  font-size: 22.05px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 40%;
+}
+.whats_app_icon {
+  right: 10px;
+  top: 5px;
+  width: 100%;
+  max-width: 34px;
+  min-width: 34px;
+  height: 37px;
+}
+.whats_app_icon img {
+  width: 100%;
+}
+
+/* ____________ hero section _____________ */
+main {
+  background: #faf9ff;
+}
+.delivery_name {
+  width: fit-content;
+  margin: auto;
+  gap: 4px;
+  padding-top: 25px;
+  margin-top: 10px;
+}
+.name_deliry_text {
+  font-size: 22.05px;
+  font-weight: 500;
+}
+.hero_cont_box {
+  padding: 15px;
+  background-color: var(--theam-color);
+  border-radius: 5px;
+  text-align: center;
+  color: var(--light-font-color);
+  width: 100%;
+  max-width: 361px;
+  margin: auto;
+  margin-top: 23px;
+}
+.cont_box_text {
+  font-size: 12px;
+}
+.app_installation_guide_box {
+  gap: 3px;
+}
+.app_installation_guide_box a {
+  color: var(--mid-font-color-color);
+  text-decoration: underline;
+  font-size: 12px;
+  font-weight: 700;
+}
+.app_installation_guide_box span {
+  color: var(--light-font-color);
+  font-size: 12px;
+}
+.active_deliveries_heading {
+  gap: 4px;
+}
+.active_deliveries_container {
+  margin-top: 19px;
+}
+.active_deliveries_heading > span {
+  font-size: 22.051px;
+  font-weight: 700;
+  color: var(--heading-color);
+}
+.active_deliveries_box {
+  margin-top: 12px;
+  background-color: var(--theam-color);
+  padding: 10px;
+  border-radius: 5px;
+}
+.brk_tre_box {
+  width: 100%;
+}
+.brk_box,
+.pre_box {
+  gap: 4px;
+}
+.brk_box span {
+  font-size: 12px;
+  font-weight: 700;
+  color: #3e3d3d;
+}
+.pre_box {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--highlight-color);
+}
+.meal_item_list {
+  gap: 4px;
+  padding-left: 4px;
+  margin-top: 10px;
+}
+.meal_item_list span {
+  color: #000000;
+  font-size: 12px;
+  font-weight: 500;
+}
+.req_can_box {
+  margin-top: 10px;
+  padding-left: 4px;
+}
+.req_box,
+.can_box {
+  gap: 4px;
+}
+.req_box span,
+.can_box span {
+  font-size: 12px;
+  font-weight: 500;
+}
+.active_deloveries_note {
+  font-size: 12px;
+  font-weight: 400;
+  padding: 10px 0px 0px 0px;
+  border-top: 1px solid #f2f2f2;
+  margin-top: 15px;
+}
+.delivery_pause {
+  width: 100%;
+  padding: 12px 0px;
+  font-size: 14px;
+  color: var(--highlight-color);
+  gap: 8px;
+  border: 0.892px solid #eee;
+  background: var(--theam-color);
+  box-shadow: 0px 0.892px 1.695px -0.892px rgba(0, 0, 0, 0.25);
+  margin-top: 15px;
+  cursor: pointer;
+  font-weight: 700;
+}
+.delivery_pause_text {
+  color: var(--light-font-color);
+  text-align: center;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+/* __________ section balance ___________ */
+.add_balance_box {
+  border-radius: 5px;
+  border: 1px solid #efecec;
+  background: #fff;
+  padding: 15px 15px;
+  margin-top: 25px;
+}
+.wallet_icon {
+  gap: 5px;
+}
+.amount_balance_text {
+  font-size: 15.961px;
+  font-weight: 700;
+  color: #3d3d3d;
+}
+.balance_span_text {
+  color: #3d3d3d;
+  font-size: 10px;
+  font-weight: 400;
+}
+.right_add_balance_box {
+  color: var(--highlight-color);
+  font-size: 15.961px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.go_to_trans_box {
+  font-size: 15px;
+  font-weight: 700;
+  width: 100%;
+  color: var(--heading-color);
+  padding: 12px 0px;
+  border: 1px solid #faf9ff;
+  background: var(--theam-color);
+  box-shadow: 0px 1px 1.9px -1px rgba(0, 0, 0, 0.25);
+  margin-top: 6px;
+  cursor: pointer;
+}
+
+/* __________ meals plans _________- */
+.eddite_meal_plan,
+.resume_meal_plan {
+  color: var(--highlight-color);
+  font-weight: 700;
+  gap: 4px;
+}
+.user_log_out_btn {
+  gap: 5px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  margin: 40px auto;
+}
+.user_log_out_btn span {
+  font-size: 22.05px;
+  font-weight: 700;
+}
+.disclaimer_box {
+  font-size: 14px;
+  text-align: center;
+}
+
+/* _________ pop up section ___________ */
+.background_pop_up {
+  height: 100vh;
+  width: 100%;
+  background-color: #524e4e42;
+  position: fixed;
+  /* bottom: -110%; */
+  z-index: 1;
+  max-width: 500px;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+.background_pop_up.active {
+  bottom: 0;
+  opacity: 1;
+  transition: all 0.5s ease-in-out;
+}
+.pop_up_container {
+  position: absolute;
+  bottom: -100%;
+  width: 100%;
+  background-color: var(--theam-color);
+  padding: 15px;
+  border-radius: 10px 10px 0px 0px;
+  transition: all 0.5s ease-in-out;
+  margin: 0px;
+  width: 98%;
+  left: 1%;
+}
+.background_pop_up.active .pop_up_container {
+  bottom: 0px;
+  transition: all 0.5s ease-in-out;
+}
+.close_pop_up_box {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+.pop_heading_text {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 22.05px;
+  color: var(--heading-color);
+  font-weight: 700;
+}
+.dark_sub_heading {
+  margin-top: 20px;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+}
+.short_not_box {
+  border-radius: 5px;
+  border: 1px solid #e8e8e8;
+  background: #faf9ff;
+  padding: 8px;
+  margin-top: 8px;
+  font-size: 12px;
+  text-align: center;
+}
+.pop_main_btn {
+  gap: 10px;
+  width: 100%;
+  border-radius: 5px;
+  background: var(--highlight-color);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border: none;
+  padding: 10px 0px;
+  font-size: 16px;
+  color: var(--theam-color);
+  font-weight: 700;
+  margin: 15px auto;
+}
+.ss_on_whats_app_btn {
+  width: 100%;
+  text-align: center;
+  color: #000000;
+  text-decoration: underline;
+  padding: 10px 0px;
+  margin: 2px;
+}
+.amount_input_box {
+  padding: 13px 10px;
+  border-radius: 5px;
+  border: 1px solid #d9d9d9;
+  width: 100%;
+  margin-top: 20px;
+}
+
+/* _____ footer ______ */
+.power_by_text {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--theam-color);
+  background-color: var(--highlight-color);
+  padding: 12px 0px;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.hideit {
+  display: none;
+}

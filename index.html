@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Manage Deliveries - iMeals</title>
     <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/style.css?v1">
+    <link rel="stylesheet" href="css/style.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap"
         rel="stylesheet">
@@ -74,11 +74,11 @@
                             <span>4 Chapati, Dal, Paneer, Raita</span>
                         </div>
                         <div class="req_can_box r-flex ali-c jut-sb">
-                            <div class="req_box r-flex ali-c">
+                            <div class="req_box r-flex ali-c" onclick="request_edit();">
                                 <img src="img/edite-icon.svg" alt="eddite text icon">
                                 <span>Request Edit in this delivery</span>
                             </div>
-                            <div class="can_box r-flex ali-c">
+                            <div class="can_box r-flex ali-c" onclick="cancel_delivery();">
                                 <img src="img/cancel.svg" alt="cancel icon">
                                 <span>Cancel This Delivery</span>
                             </div>
@@ -98,11 +98,11 @@
                         <div class="brk_tre_box r-flex ali-c jut-sb">
                             <div class="brk_box r-flex ali-c">
                                 <img src="img/sun-set.svg" alt="sun set and date">
-                                <span>BreakFast - Today</span>
+                                <span>Lunch - Today</span>
                             </div>
                             <div class="pre_box r-flex ali-c" style="color: #3E3D3D;">
                                 <img src="img/clock.svg" alt="line up and down">
-                                <span>Preparation Started</span>
+                                <span>Preparation Not Started</span>
                             </div>
                         </div>
                         <div class="meal_item_list r-flex ali-c">
@@ -110,11 +110,11 @@
                             <span>4 Chapati, Dal, Paneer, Raita</span>
                         </div>
                         <div class="req_can_box r-flex ali-c jut-sb">
-                            <div class="req_box r-flex ali-c">
+                            <div class="req_box r-flex ali-c" onclick="request_edit();">
                                 <img src="img/color-edite-icon.svg" alt="eddite text icon">
                                 <span style="color: #5546AF;">Request Edit in this delivery</span>
                             </div>
-                            <div class="can_box r-flex ali-c">
+                            <div class="can_box r-flex ali-c"  onclick="cancel_delivery()">
                                 <img src="img/color-cancel.svg" alt="cancel icon">
                                 <span style="color: #5546AF;">Cancel This Delivery</span>
                             </div>
@@ -124,7 +124,7 @@
                 </div>
 
                 <div class="pause_deliveries_btn">
-                    <button class="delivery_pause r-flex ali-c jut-c" onclick="toggleBtn()">
+                    <button class="delivery_pause r-flex ali-c jut-c" onclick="pause_plan();">
                         <img src="img/pause.svg" alt="pause icon">
                         <span>Pause Future Deliveries</span>
                     </button>
@@ -148,7 +148,7 @@
                         </div>
                     </div>
 
-                    <div class="right_add_balance_box" onclick="toggleBtn()">+Add Balance</div>
+                    <div class="right_add_balance_box" onclick="add_balance()">+Add Balance</div>
                 </div>
                 <button class="go_to_trans_box" onclick="toggleBtn()">Go to Transactions</button>
             </div>
@@ -182,14 +182,14 @@
                                 <span><i>Rs. 40/Meal</i></span>
                             </div>
                             <div class="can_box r-flex ali-c">
-                                <div class="eddite_meal_plan r-flex ali-c">
+                                <div class="eddite_meal_plan r-flex ali-c" onclick="request_edit();">
                                     <img src="img/color-edite-icon.svg" alt="cancel icon">
                                     <span>Request Edit</span>
                                 </div>
                                 &nbsp;
-                                <div class="resume_meal_plan r-flex ali-c">
+                                <div class="resume_meal_plan r-flex ali-c" onclick="pause_plan();">
                                     <img src="img/resume-icon.svg" alt="resume icon">
-                                    <span>Resume Now</span>
+                                    <span>Pause Now</span>
                                 </div>
                             </div>
                         </div>
@@ -220,13 +220,13 @@
                                 <img src="img/tag-icon.svg" alt="tag icon">
                                 <span><i>Rs. 40/Meal</i></span>
                             </div>
-                            <div class="can_box r-flex ali-c">
+                            <div class="can_box r-flex ali-c" onclick="request_edit();">
                                 <div class="eddite_meal_plan r-flex ali-c">
                                     <img src="img/color-edite-icon.svg" alt="cancel icon">
                                     <span>Request Edit</span>
                                 </div>
                                 &nbsp;
-                                <div class="resume_meal_plan r-flex ali-c">
+                                <div class="resume_meal_plan r-flex ali-c"  onclick="pause_plan();">
                                     <img src="img/resume-icon.svg" alt="resume icon">
                                     <span>Resume Now</span>
                                 </div>
@@ -252,9 +252,9 @@
                         <img src="img/close_cross.svg" alt="cross icon">
                     </div>
                     <div class="pop_heading_text" id="popupTitle">Request Edit in Meal Plan</div>
-                    <div class="dark_sub_heading">You have to request this to Soumya’s Kitchen Management Team on
+                    <div class="dark_sub_heading"  id="descText" >You have to request this to Soumya’s Kitchen Management Team on
                         Whatsapp</div>
-                    <div class="dark_sub_heading" id="descText" style="text-align: start; font-size: 14px;">
+                    <div class="dark_sub_heading" id="steps_desc" style="text-align: start; font-size: 14px;display:none;">
                         1. Enter Payment Amount & Click Below Button
                         <br>
                         2. Pay via any UPI apps
@@ -264,12 +264,12 @@
                     <div class="short_not_box" id="noteText">Remember: You must have to send payment screenshot to Soumya’sK Kitchen
                         to Add the Balance in your wallet</div>
 
-                    <input type="number" name="amount" id="amount" placeholder="Enter Amount" class="amount_input_box">
+                    <input type="number" name="amount" id="amount_input_box" placeholder="Enter Amount" class="amount_input_box">
                     <button class="pop_main_btn r-flex ali-c jut-c">
                         <span pop_main_btn_text id="btn_text">Send Message on Whatspp</span>
-                        <img src="img/whast-app-btn-icon.svg" alt="what's app icon">
+                        <img src="img/whast-app-btn-icon.svg" id="btn_icon" alt="what's app icon">
                     </button>
-                    <a href="#" class="ss_on_whats_app_btn r-flex ali-c jut-c"> Send Screenshot on Whatsapp </a>
+                    <a href="#" class="ss_on_whats_app_btn r-flex ali-c jut-c hideit" id="send_screenshot_link"> Send Screenshot on Whatsapp </a>
                 </div>
             </div>
         </section>
