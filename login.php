@@ -203,6 +203,8 @@ function getOTP() {
         })
         .then(response => response.json())
         .then(data => {
+          console.log('Response from server:', data); // Log response data for debugging
+
             if (data.success) {
                 // If OTP verification is successful, redirect the user to the logged-in page
                 window.location.href = 'logged_in_page.php'; // Replace 'logged_in_page.php' with the URL of your logged-in page
