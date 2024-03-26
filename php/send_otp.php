@@ -1,13 +1,6 @@
 <?php
 session_start(); // Start the session
 
-
-// Tell the browser to go to a new webpage
-header("Location: newpage.php");
-// Make sure no other code gets executed after the redirect
-exit;
-
-
 // Function to check if the user has exceeded the request limit
 function hasExceededRequestLimit($limit, $window)
 {
@@ -95,7 +88,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 
         // Execute the cURL request
-        $smsResponse = curl_exec($ch);
+        //$smsResponse = curl_exec($ch);
 
         // Debugging: Output the SMS response
        // $debug['sms_response'] = $smsResponse;

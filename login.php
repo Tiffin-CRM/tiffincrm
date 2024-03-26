@@ -205,10 +205,13 @@
       },
     })
       .then((response) => response.json())
-      .then((data) => {
+      .then(data => {
+        if (data.success) {
+            // If OTP verification is successful, redirect the user to the logged-in page
+            window.location.href = 'logged_in_page.php'; // Replace 'logged_in_page.php' with the URL of your logged-in page
+        } else {
         document.getElementById("resultMessage").innerText = data.message;
         document.getElementById("resultMessage").classList.remove("hideit");
-
       })
       .catch((error) => console.error("Error:", error));
     }
@@ -223,5 +226,7 @@
     } else {
       alert("Please enter a valid phone number"); // Display error message
     }
+  }
+
   }
 </script>
