@@ -133,7 +133,6 @@
         style="width: 300px; height: 300px"
         loop
         autoplay></dotlottie-player>
-
       </div>
       <div class="form_div">
         <div id="phone_section">
