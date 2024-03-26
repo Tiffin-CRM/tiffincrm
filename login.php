@@ -145,13 +145,13 @@
         </div>
         <div id="otp_section" class="hideit">
           <div class="input_div" id="otp">
-            <label for="phone">OTP</label>
+            <label for="otp">OTP</label>
             <input
               type="number"
-              name="phone"
-              id="phone"
+              name="otp"
+              id="otpInput"
               placeholder="Enter 4 Digit OTP here"
-              max="9999"
+              min="1000" max="9999"
               class="input_styling"
               required />
           </div>
