@@ -90,15 +90,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $errorMessage = curl_error($ch);
         echo json_encode(['error' => 'Error occurred while sending SMS: ' . $errorMessage]);
     } else {
-        // Check the HTTP status code of the response
-        $statusCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
-        if ($statusCode == 200) {
-            // SMS sent successfully
-            echo json_encode(['success' => true]);
-        } else {
-            // Failed to send SMS
-            echo json_encode(['error' => 'Failed to send SMS.']);
-        }
+        // Print SMS gateway response in JSON format
+        echo $response;
     }
 
     // Close cURL session
