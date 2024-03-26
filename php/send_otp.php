@@ -50,7 +50,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $payload = json_encode(array("phoneNumber" => $phoneNumber, "otp" => $otp));
 
     // Debugging: Output the payload
-   // $debug['payload'] = $payload;
+    $debug['payload'] = $payload;
 
     // Set up cURL to make a POST request to the webhook URL
     $ch = curl_init("https://webhook.site/8f4d8972-6500-4491-b02e-744540dcb9a0");
