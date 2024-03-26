@@ -1,3 +1,8 @@
+<?php 
+$phone = $_COOKIE['phone'];
+$phone = $phone / 4578348;
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -235,6 +240,7 @@
 
                     </div>
                 </div>
+                <p id="user_number">Loggen in With <?php echo $phone; ?></p>
 
                 <button class="user_log_out_btn r-flex ali-c jut-c">
                     <img src="img/log-out-icon.svg" alt="log out icon">

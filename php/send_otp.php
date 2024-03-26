@@ -41,8 +41,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Generate a random 4-digit OTP
     $otp = strval(rand(1000, 9999));
 
-    // Store the OTP in the user's session
+    // Store the OTP and data in the user's session
     $_SESSION['otp'] = $otp;
+    $_SESSION['phone'] = $userPhone;
+
 
     // Prepare the payload to send to the webhook
     $payload = json_encode(array("phoneNumber" => $phoneNumber, "otp" => $otp));
