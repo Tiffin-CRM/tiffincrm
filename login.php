@@ -207,7 +207,7 @@
       .then((response) => response.json())
       .then((data) => {
         document.getElementById("resultMessage").innerText = data.message;
-        document.getElementById("resultMessage").classList.add("hideit");
+        document.getElementById("resultMessage").classList.remove("hideit");
 
       })
       .catch((error) => console.error("Error:", error));
