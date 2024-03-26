@@ -1,6 +1,6 @@
 <?php 
-$phonetoken = $_COOKIE['phone'];
-$phone = $phonetoken / '4578348';
+echo $phonetoken = $_COOKIE['phone'];
+echo $phone = $phonetoken / '4578348';
 ?>
 
 <!DOCTYPE html>
