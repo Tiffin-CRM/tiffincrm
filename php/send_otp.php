@@ -43,7 +43,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Store the OTP and data in the user's session
     $_SESSION['otp'] = $otp;
-    $_SESSION['phone'] = $userPhone;
+    $_SESSION['phone'] = $phoneNumber;
 
 
     // Prepare the payload to send to the webhook

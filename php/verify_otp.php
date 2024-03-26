@@ -9,7 +9,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $storedOTP = isset($_SESSION['otp']) ? $_SESSION['otp'] : null;
 
     if ($storedOTP && $enteredOTP === $storedOTP) {
-        echo json_encode(['message' => 'OTP Verified successfully!']);
 
         if(isset($_SESSION['phone'])) {
             // Get the phone number from the session
@@ -19,6 +18,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             // Set the cookie with the calculated value
             setcookie("token", $cookie_value, time() + (86400 * 900), "/"); // 86400 = 1 day
             }
+            echo json_encode(['message' => 'OTP Verified successfully!']);
+
     } else {
         echo json_encode(['message' => 'Incorrect OTP. Please try again.']);
     }
