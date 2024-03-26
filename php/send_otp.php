@@ -57,7 +57,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $response = curl_exec($ch);
 
     // Integration with SMS gateway (Fast2SMS API) to send real SMS message
-    $apiKey = "VBTp0mNRSC3SgMYqRfn9mp7RFesrl1MU57E08lte84t7zbnobQejdLphPGiS"; 
+    $apiKey = "z7UZxnZfklfivP7B56x3v5tZaI6khsPgQHrD1n2KJH2O7UmKKt3Rs7piyGLS"; 
     $url = "https://www.fast2sms.com/dev/bulkV2"; 
 
     // Prepare the request body
