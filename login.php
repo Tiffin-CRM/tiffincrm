@@ -206,7 +206,7 @@
     })
       .then((response) => response.json())
       .then((data) => {
-        document.getElementById("verificationResult").style.display = "block";
+        document.getElementById("resultMessage").style.display = "block";
         document.getElementById("resultMessage").innerText = data.message;
       })
       .catch((error) => console.error("Error:", error));
