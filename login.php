@@ -125,7 +125,6 @@
           <p>Manage Your Meals Here</p>
         </div>
       </div>
-      <div class="lottieimg">
       <dotlottie-player
         src="https://lottie.host/c648d16f-6074-49f2-93c0-40ded41c2c2a/89d7HWG6LX.json"
         background="transparent"
@@ -133,7 +132,6 @@
         style="width: 300px; height: 300px"
         loop
         autoplay></dotlottie-player>
-      </div>
       <div class="form_div">
         <div id="phone_section">
           <div class="input_div">
