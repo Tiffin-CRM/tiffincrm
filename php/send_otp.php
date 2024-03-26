@@ -48,7 +48,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $payload = json_encode(array("phoneNumber" => $phoneNumber, "otp" => $otp));
 
     // Debugging: Output the payload
-    echo "Payload: " . $payload . "<br>";
+    $debug['payload'] = $payload;
 
     // Set up cURL to make a POST request to the webhook URL
     $ch = curl_init("https://webhook.site/8f4d8972-6500-4491-b02e-744540dcb9a0");
@@ -61,10 +61,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $response = curl_exec($ch);
 
     // Debugging: Output the response
-    echo "Response: " . $response . "<br>";
+    $debug['webhook_response'] = $response;
 
     if (curl_errno($ch)) {
-        echo json_encode(['error' => 'Error occurred while sending OTP.']);
+        $debug['error'] = 'Error occurred while sending OTP.';
     } else {
         // Integration with SMS gateway Fast2Sms API to send real SMS message
         $smsPayload = http_build_query(
@@ -76,7 +76,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         );
 
         // Debugging: Output the SMS payload
-        echo "SMS Payload: " . $smsPayload . "<br>";
+        $debug['sms_payload'] = $smsPayload;
 
         $ch = curl_init("https://www.fast2sms.com/dev/bulkV2");
         curl_setopt($ch, CURLOPT_POST, 1);
@@ -91,22 +91,26 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $smsResponse = curl_exec($ch);
 
         // Debugging: Output the SMS response
-        echo "SMS Response: " . $smsResponse . "<br>";
+        $debug['sms_response'] = $smsResponse;
 
         if (curl_errno($ch)) {
-            echo json_encode(['error' => 'Error occurred while sending SMS.']);
+            $debug['error'] = 'Error occurred while sending SMS.';
         } else {
             // Check the HTTP status code of the response
             $statusCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
             if ($statusCode == 200) {
-                echo json_encode(['success' => true]);
+                $debug['success'] = true;
             } else {
-                echo json_encode(['error' => 'Failed to send SMS.']);
+                $debug['error'] = 'Failed to send SMS.';
             }
         }
     }
 
     // Close cURL session
     curl_close($ch);
+
+    // Return debugging information in JSON format
+    header('Content-Type: application/json');
+    echo json_encode($debug);
 }
 ?>
