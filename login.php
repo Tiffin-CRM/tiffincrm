@@ -212,7 +212,7 @@
         } else {
         document.getElementById("resultMessage").innerText = data.message;
         document.getElementById("resultMessage").classList.remove("hideit");
-      })
+      }
       .catch((error) => console.error("Error:", error));
     }
   }
