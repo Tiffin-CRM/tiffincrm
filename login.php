@@ -205,10 +205,10 @@ function getOTP() {
         .then(data => {
           console.log('Response from server:', data); // Log response data for debugging
 
-            if (data.success) {
-                // If OTP verification is successful, redirect the user to the logged-in page
-                window.location.href = 'logged_in_page.php'; // Replace 'logged_in_page.php' with the URL of your logged-in page
-            } else {
+          if (data.hasOwnProperty('message') && data.message === 'OTP Verified successfully!') {
+            console.log('OTP verification successful. Redirecting to logged-in page...');
+            window.location.href = 'logged_in_page.php'; // Replace with actual URL
+        } else {
                 // If OTP verification fails, display an error message to the user
                 document.getElementById("resultMessage").innerText = data.message;
                 document.getElementById("resultMessage").classList.remove("hideit");
