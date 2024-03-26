@@ -32,7 +32,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Close cURL session
     curl_close($ch);
 
-    // Handle the response from the webhook (optional)
-    echo $response;
+    $success = true;
+    $response = $success ? ['success' => true] : ['success' => false];
+    echo json_encode($response);
 }
 ?>
