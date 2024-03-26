@@ -167,66 +167,65 @@
   </body>
 </html>
 <script>
-  function sendOTP() {
+function sendOTP() {
     var phoneNumber = document.getElementById("phoneNumber").value;
     document.getElementById("phoneNumber").disabled = true;
     document.getElementById("send_otp").classList.add("hideit");
     document.getElementById("otp_section").classList.remove("hideit");
 
     fetch("/php/send_otp.php", {
-      method: "POST",
-      body: JSON.stringify({ phoneNumber: phoneNumber }),
-      headers: {
-        "Content-Type": "application/json",
-      },
+        method: "POST",
+        body: JSON.stringify({ phoneNumber: phoneNumber }),
+        headers: {
+            "Content-Type": "application/json",
+        },
     })
-      .then((response) => response.json())
-      .then((data) => {
+    .then((response) => response.json())
+    .then((data) => {
         console.log(data); // Log the response from the server
-      })
-      .catch((error) => console.error("Error:", error));
-  }
+    })
+    .catch((error) => console.error("Error:", error));
+}
 
-  function getOTP() {
+function getOTP() {
     var enteredOTP = document.getElementById("otpInput").value;
 
     var otpPattern = /^\d{4}$/;
     if (!otpPattern.test(enteredOTP)) {
         alert("Please enter a valid otp"); // Display error message
     } else {
-      
-    
-
-    fetch("/php/verify_otp.php", {
-      method: "POST",
-      body: JSON.stringify({ otp: enteredOTP }),
-      headers: {
-        "Content-Type": "application/json",
-      },
-    })
-
-  .then(response => response.json())
-    .then(data => {
-        if (data.success) {
-            // If OTP verification is successful, redirect the user to the logged-in page
-            window.location.href = 'logged_in_page.php'; // Replace 'logged_in_page.php' with the URL of your logged-in page
-        } else {
-            // If OTP verification fails, display an error message to the user
-            document.getElementById("resultMessage").innerText = data.message;
-        document.getElementById("resultMessage").classList.remove("hideit");
-        }
-    })
-    .catch(error => console.error('Error:', error));
+        fetch("/php/verify_otp.php", {
+            method: "POST",
+            body: JSON.stringify({ otp: enteredOTP }),
+            headers: {
+                "Content-Type": "application/json",
+            },
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.success) {
+                // If OTP verification is successful, redirect the user to the logged-in page
+                window.location.href = 'logged_in_page.php'; // Replace 'logged_in_page.php' with the URL of your logged-in page
+            } else {
+                // If OTP verification fails, display an error message to the user
+                document.getElementById("resultMessage").innerText = data.message;
+                document.getElementById("resultMessage").classList.remove("hideit");
+            }
+        })
+        .catch(error => console.error('Error:', error));
+    }
 }
-  function check_number() {
+
+function check_number() {
     var phoneNumber = document.getElementById("phoneNumber").value;
     // Regular expression to validate phone number format (E.164 format)
     var phoneNumberPattern = /^\d{10}$/;
 
     if (phoneNumberPattern.test(phoneNumber)) {
-      sendOTP(); // If phone number format is correct, proceed to send OTP
+        sendOTP(); // If phone number format is correct, proceed to send OTP
     } else {
-      alert("Please enter a valid phone number"); // Display error message
+        alert("Please enter a valid phone number"); // Display error message
     }
-  }
+}
+
 </script>
