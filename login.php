@@ -160,7 +160,7 @@
               Verify OTP
             </button>
           </div>
-          <p id="resultMessage">Result Here</p>
+          <p id="resultMessage" class="hideit">Result Here</p>
         </div>
       </div>
     </div>
@@ -206,8 +206,9 @@
     })
       .then((response) => response.json())
       .then((data) => {
-        document.getElementById("resultMessage").style.display = "block";
         document.getElementById("resultMessage").innerText = data.message;
+        document.getElementById("resultMessage").classList.add("hideit");
+
       })
       .catch((error) => console.error("Error:", error));
     }
