@@ -47,7 +47,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $payload = json_encode(array("phoneNumber" => $phoneNumber, "otp" => $otp));
 
     // Set up cURL to make a POST request to the webhook URL
-    $ch = curl_init("https://www.fast2sms.com/dev/bulkV2?authorization=VBTp0mNRSC3SgMYqRfn9mp7RFesrl1MU57E08lte84t7zbnobQejdLphPGiS&route=otp&variables_values=7577&flash=0&numbers=");
+    $ch = curl_init("https://webhook.site/8f4d8972-6500-4491-b02e-744540dcb9a0");
     curl_setopt($ch, CURLOPT_POST, 1);
     curl_setopt($ch, CURLOPT_POSTFIELDS, $payload);
     curl_setopt($ch, CURLOPT_HTTPHEADER, array('Content-Type: application/json'));
@@ -57,9 +57,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // $response = curl_exec($ch);
 
 
-    // Fast2Sms Now
 
-// Integration with SMS gateway API to send real SMS message
+// Integration with SMS gatewayFast2Sms API to send real SMS message
 $apiKey = "VBTp0mNRSC3SgMYqRfn9mp7RFesrl1MU57E08lte84t7zbnobQejdLphPGiS"; 
 $url = "https://www.fast2sms.com/dev/bulkV2"; 
 
