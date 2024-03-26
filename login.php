@@ -104,6 +104,8 @@
     height: 30vh;
     margin: 20px auto;
     align-items: center;
+    width: 70%;
+
       }
     </style>
   </head>
