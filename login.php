@@ -125,13 +125,9 @@
           <p>Manage Your Meals Here</p>
         </div>
       </div>
-      <dotlottie-player
-        src="https://lottie.host/c648d16f-6074-49f2-93c0-40ded41c2c2a/89d7HWG6LX.json"
-        background="transparent"
-        speed="1"
-        style="width: 300px; height: 300px"
-        loop
-        autoplay></dotlottie-player>
+      <div class="lottieimg">
+      <iframe src="https://lottie.host/embed/f0e2ec99-3bc8-46e8-b88f-16fb9b4c958a/pw1a35AFiw.lottie"></iframe>
+      </div>
       <div class="form_div">
         <div id="phone_section">
           <div class="input_div">
