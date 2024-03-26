@@ -98,7 +98,12 @@
         font-weight: 500;
       }
       .lottieimg{
-        margin:20px auto;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    margin: 20px auto;
+    align-items: center;
       }
     </style>
   </head>
