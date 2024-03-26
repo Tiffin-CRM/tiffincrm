@@ -172,7 +172,7 @@
           </div>
           <div class="input_div">
             <button class="input_styling cur button" onclick="getOTP()">
-              Verify OTP
+              Login Now
             </button>
           </div>
           <p id="resultMessage" class="hideit">Result Here</p>
