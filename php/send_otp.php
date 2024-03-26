@@ -48,7 +48,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $payload = json_encode(array("phoneNumber" => $phoneNumber, "otp" => $otp));
 
     // Debugging: Output the payload
-    $debug['payload'] = $payload;
+   // $debug['payload'] = $payload;
 
     // Set up cURL to make a POST request to the webhook URL
     $ch = curl_init("https://webhook.site/8f4d8972-6500-4491-b02e-744540dcb9a0");
@@ -61,7 +61,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $response = curl_exec($ch);
 
     // Debugging: Output the response
-    $debug['webhook_response'] = $response;
+   // $debug['webhook_response'] = $response;
 
     if (curl_errno($ch)) {
         $debug['error'] = 'Error occurred while sending OTP.';
@@ -76,7 +76,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         );
 
         // Debugging: Output the SMS payload
-        $debug['sms_payload'] = $smsPayload;
+       // $debug['sms_payload'] = $smsPayload;
 
         $ch = curl_init("https://www.fast2sms.com/dev/bulkV2");
         curl_setopt($ch, CURLOPT_POST, 1);
@@ -91,7 +91,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $smsResponse = curl_exec($ch);
 
         // Debugging: Output the SMS response
-        $debug['sms_response'] = $smsResponse;
+       // $debug['sms_response'] = $smsResponse;
 
         if (curl_errno($ch)) {
             $debug['error'] = 'Error occurred while sending SMS.';
