@@ -60,8 +60,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Fast2Sms Now
 
 // Integration with SMS gateway API to send real SMS message
-$apiKey = "Your_API_Key"; // Replace this with your actual API key
-$url = "https://api.example.com/send_sms"; // Replace this with the SMS gateway API endpoint
+$apiKey = "VBTp0mNRSC3SgMYqRfn9mp7RFesrl1MU57E08lte84t7zbnobQejdLphPGiS"; 
+$url = "https://www.fast2sms.com/dev/bulkV2"; 
 
 // Prepare the request body
 $requestData = [
