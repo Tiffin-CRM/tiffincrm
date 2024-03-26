@@ -56,7 +56,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Execute the cURL request
     $response = curl_exec($ch);
 
-    // Integration with SMS gatewayFast2Sms API to send real SMS message
+    // Integration with SMS gateway (Fast2SMS API) to send real SMS message
     $apiKey = "VBTp0mNRSC3SgMYqRfn9mp7RFesrl1MU57E08lte84t7zbnobQejdLphPGiS"; 
     $url = "https://www.fast2sms.com/dev/bulkV2"; 
 
@@ -86,13 +86,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $response = curl_exec($ch);
 
     if (curl_errno($ch)) {
-        echo json_encode(['error' => 'Error occurred while sending SMS.']);
+        // Error occurred while sending SMS
+        $errorMessage = curl_error($ch);
+        echo json_encode(['error' => 'Error occurred while sending SMS: ' . $errorMessage]);
     } else {
         // Check the HTTP status code of the response
         $statusCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
         if ($statusCode == 200) {
+            // SMS sent successfully
             echo json_encode(['success' => true]);
         } else {
+            // Failed to send SMS
             echo json_encode(['error' => 'Failed to send SMS.']);
         }
     }
