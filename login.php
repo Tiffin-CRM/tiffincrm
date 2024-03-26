@@ -55,7 +55,7 @@
       .input_styling {
         width: 100%;
         padding: 18px;
-        font-size: 20px;
+        font-size: 16px;
         border: 1px solid #e5e5e5;
         margin-top: 8px;
         box-sizing: border-box; /* Add this line */
