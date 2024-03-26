@@ -126,8 +126,9 @@
         </div>
       </div>
       <div class="lottieimg">
-      <iframe src="https://lottie.host/embed/f0e2ec99-3bc8-46e8-b88f-16fb9b4c958a/pw1a35AFiw.lottie"></iframe>
-      </div>
+      <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+
+<dotlottie-player src="https://lottie.host/f0e2ec99-3bc8-46e8-b88f-16fb9b4c958a/pw1a35AFiw.lottie" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></dotlottie-player>      </div>
       <div class="form_div">
         <div id="phone_section">
           <div class="input_div">
