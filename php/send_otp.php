@@ -54,52 +54,48 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 
     // Execute the cURL request
-     $response = curl_exec($ch);
+    $response = curl_exec($ch);
 
-}
+    // Integration with SMS gatewayFast2Sms API to send real SMS message
+    $apiKey = "VBTp0mNRSC3SgMYqRfn9mp7RFesrl1MU57E08lte84t7zbnobQejdLphPGiS"; 
+    $url = "https://www.fast2sms.com/dev/bulkV2"; 
 
-// Integration with SMS gatewayFast2Sms API to send real SMS message
-$apiKey = "VBTp0mNRSC3SgMYqRfn9mp7RFesrl1MU57E08lte84t7zbnobQejdLphPGiS"; 
-$url = "https://www.fast2sms.com/dev/bulkV2"; 
+    // Prepare the request body
+    $requestData = [
+        'route' => 'otp',
+        'variables_values' => $otp,
+        'numbers' => $phoneNumber
+    ];
 
-// Prepare the request body
-$requestData = [
-    'route' => 'otp',
-    'variables_values' => $otp,
-    'numbers' => $phoneNumber
-];
+    // Prepare request headers
+    $headers = [
+        'Authorization: Bearer ' . $apiKey,
+        'Content-Type: application/json'
+    ];
 
-// Prepare request headers
-$headers = [
-    'Authorization: Bearer ' . $apiKey,
-    'Content-Type: application/json'
-];
+    // Initialize cURL session
+    $ch = curl_init($url);
 
-// Initialize cURL session
-$ch = curl_init($url);
+    // Set cURL options
+    curl_setopt($ch, CURLOPT_POST, true);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($requestData));
+    curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 
-// Set cURL options
-curl_setopt($ch, CURLOPT_POST, true);
-curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($requestData));
-curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
-curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    // Execute cURL request
+    $response = curl_exec($ch);
 
-// Execute cURL request
-$response = curl_exec($ch);
-
-
-if (curl_errno($ch)) {
-    echo json_encode(['error' => 'Error occurred while sending SMS.']);
-} else {
-    // Check the HTTP status code of the response
-    $statusCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
-    if ($statusCode == 200) {
-        echo json_encode(['success' => true]);
+    if (curl_errno($ch)) {
+        echo json_encode(['error' => 'Error occurred while sending SMS.']);
     } else {
-       // echo json_encode(['error' => 'Failed to send SMS.']);
-        echo json_encode(['error' => 'Failed to send SMS.']);
+        // Check the HTTP status code of the response
+        $statusCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+        if ($statusCode == 200) {
+            echo json_encode(['success' => true]);
+        } else {
+            echo json_encode(['error' => 'Failed to send SMS.']);
+        }
     }
-}
 
     // Close cURL session
     curl_close($ch);
