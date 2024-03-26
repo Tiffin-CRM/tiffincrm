@@ -57,7 +57,7 @@ $phone = $phonetoken / '4578348';
                     <div class="name_deliry_text">Soumya Kitchen</div>
                 </div>
                 <div class="hero_cont_box">
-                    <div class="cont_box_text">Hi Mohan, Welcome to Soumya Kitchen. Use iMeals app to manage your meals
+                    <div class="cont_box_text">Hi <?php echo $phone; ?>, Welcome to Soumya Kitchen. Use iMeals app to manage your meals
                         and pay to Soumya kitchen. </div>
                     <div class="app_installation_guide_box r-flex ali-c jut-c">
                         <a href="#">See Installation Guide</a> <span> (App size: 2 MB only)</span>
@@ -245,8 +245,6 @@ $phone = $phonetoken / '4578348';
 
                     </div>
                 </div>
-                <p id="user_number">Loggen in With <?php echo $phone; ?></p>
-
                 <button class="user_log_out_btn r-flex ali-c jut-c">
                     <img src="img/log-out-icon.svg" alt="log out icon">
                     <span>LogOut</span>
