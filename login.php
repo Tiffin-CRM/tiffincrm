@@ -97,6 +97,9 @@
         color: #353535;
         font-weight: 500;
       }
+      .lottieimg{
+        margin:20px auto;
+      }
     </style>
   </head>
   <body>
@@ -122,16 +125,26 @@
           <p>Manage Your Meals Here</p>
         </div>
       </div>
+      <div class="lottieimg">
+      <dotlottie-player
+        src="https://lottie.host/c648d16f-6074-49f2-93c0-40ded41c2c2a/89d7HWG6LX.json"
+        background="transparent"
+        speed="1"
+        style="width: 300px; height: 300px"
+        loop
+        autoplay></dotlottie-player>
+
+      </div>
       <div class="form_div">
         <div id="phone_section">
           <div class="input_div">
-            <label for="phone">Phone</label>
+            <label for="phone">Mobile Number</label>
             <input
               type="number"
               name="phone"
               id="phoneNumber"
               class="input_styling"
-              placeholder="Enter Your Registered Number"
+              placeholder="Enter Your Registered Phone Number"
               required />
             <div class="input_div">
               <button
