@@ -190,6 +190,13 @@
   function getOTP() {
     var enteredOTP = document.getElementById("otpInput").value;
 
+    var otpPattern = /^\d{4}$/;
+    if (!otpPattern.test(enteredOTP)) {
+        alert("Please enter a valid otp"); // Display error message
+    } else {
+      
+    
+
     fetch("/php/verify_otp.php", {
       method: "POST",
       body: JSON.stringify({ otp: enteredOTP }),
@@ -203,6 +210,7 @@
         document.getElementById("resultMessage").innerText = data.message;
       })
       .catch((error) => console.error("Error:", error));
+    }
   }
   function check_number() {
     var phoneNumber = document.getElementById("phoneNumber").value;
