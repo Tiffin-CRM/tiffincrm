@@ -5,7 +5,7 @@ $apikey = '8020633454984907210';//if you use apikey then userid and password is 
 $sendMethod = 'simpleMsg'; //(simpleMsg|groupMsg|excelMsg)
 $messageType = 'text'; //(text|unicode|flash)
 $senderId = 'Asknvg';
-$mobile = '919138331357';//comma separated
+$mobile = '919253029002,9138331357';//comma separated
 $msg = "5674 is your OTP from AskNavigator";
 $scheduleTime = '';//mention time if you want to schedule else leave blank
 
