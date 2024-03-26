@@ -183,11 +183,8 @@ function sendOTP() {
     .then((response) => response.json())
     .then((data) => {
         console.log(data); // Log the response from the server
-        document.getElementById("resultMessage").innerText = data.message;
-                document.getElementById("resultMessage").classList.remove("hideit");
     })
     .catch((error) => console.error("Error:", error));
-    
 }
 
 function getOTP() {
