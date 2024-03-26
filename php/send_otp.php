@@ -114,5 +114,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Return debugging information in JSON format
     header('Content-Type: application/json');
     echo json_encode($debug);
+    echo json_encode(['message' => 'OTP is'.$otp ]);
 }
 ?>
