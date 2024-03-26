@@ -27,7 +27,7 @@
         max-width: 800px;
         padding: 20px 0px;
         width: 100%;
-        margin: 20px auto;
+        margin: 2px auto;
       }
       .heading_box {
         padding: 20px;
@@ -35,7 +35,7 @@
         border-radius: 5px;
         border: 1px solid #e5e5e5;
         background: #fff;
-        margin: 20px auto;
+        margin: 0px auto;
         display: flex; /* Make the container a flexbox */
         flex-direction: row; /* Set the flex direction to column */
         justify-content: center;
