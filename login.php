@@ -204,18 +204,20 @@
         "Content-Type": "application/json",
       },
     })
-      .then((response) => response.json())
-      .then(data => {
+
+  .then(response => response.json())
+    .then(data => {
         if (data.success) {
             // If OTP verification is successful, redirect the user to the logged-in page
             window.location.href = 'logged_in_page.php'; // Replace 'logged_in_page.php' with the URL of your logged-in page
         } else {
-        document.getElementById("resultMessage").innerText = data.message;
+            // If OTP verification fails, display an error message to the user
+            document.getElementById("resultMessage").innerText = data.message;
         document.getElementById("resultMessage").classList.remove("hideit");
-      }
-      .catch((error) => console.error("Error:", error));
-    }
-  }
+        }
+    })
+    .catch(error => console.error('Error:', error));
+}
   function check_number() {
     var phoneNumber = document.getElementById("phoneNumber").value;
     // Regular expression to validate phone number format (E.164 format)
@@ -226,7 +228,5 @@
     } else {
       alert("Please enter a valid phone number"); // Display error message
     }
-  }
-
   }
 </script>
