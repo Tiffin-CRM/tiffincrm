@@ -54,9 +54,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 
     // Execute the cURL request
-    // $response = curl_exec($ch);
+     $response = curl_exec($ch);
 
-
+}
 
 // Integration with SMS gatewayFast2Sms API to send real SMS message
 $apiKey = "VBTp0mNRSC3SgMYqRfn9mp7RFesrl1MU57E08lte84t7zbnobQejdLphPGiS"; 
@@ -96,6 +96,7 @@ if (curl_errno($ch)) {
     if ($statusCode == 200) {
         echo json_encode(['success' => true]);
     } else {
+       // echo json_encode(['error' => 'Failed to send SMS.']);
         echo json_encode(['error' => 'Failed to send SMS.']);
     }
 }
