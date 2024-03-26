@@ -1,5 +1,10 @@
 <?php 
+
 $phonetoken = $_COOKIE['token'];
+if(!$phonetoken){
+    header("Location: login.php?not_logged_in");
+    exit;
+}
 $phone = $phonetoken / '4578348';
 ?>
 
