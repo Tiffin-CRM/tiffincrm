@@ -1,6 +1,38 @@
 <?php
 session_start(); // Start the session
 
+// Function to check if the user has exceeded the request limit
+function hasExceededRequestLimit($limit, $window) {
+    // Get the current timestamp
+    $currentTime = time();
+
+    // Initialize session variables if not set
+    if (!isset($_SESSION['request_count'])) {
+        $_SESSION['request_count'] = 0;
+        $_SESSION['request_start_time'] = $currentTime;
+    }
+
+    // Increment the request count if within the time window
+    if ($_SESSION['request_start_time'] + $window >= $currentTime) {
+        $_SESSION['request_count']++;
+    } else {
+        // Reset request count and start time if the time window has passed
+        $_SESSION['request_count'] = 1;
+        $_SESSION['request_start_time'] = $currentTime;
+    }
+
+    // Check if the request count has exceeded the limit
+    return $_SESSION['request_count'] > $limit;
+}
+
+// Check if the user has exceeded the request limit (e.g., 5 requests per minute)
+if (hasExceededRequestLimit(5, 60)) {
+    // If the limit is exceeded, return an error response
+    http_response_code(429); // 429 Too Many Requests
+    echo json_encode(['error' => 'Rate limit exceeded. Please try again later.']);
+    exit;
+}
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $data = json_decode(file_get_contents("php://input"));
     $phoneNumber = $data->phoneNumber;
