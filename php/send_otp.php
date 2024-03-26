@@ -8,7 +8,7 @@ function hasExceededRequestLimit($limit, $window)
     $currentTime = time();
 
     // Initialize session variables if not set
-    if (!isset ($_SESSION['request_count'])) {
+    if (!isset($_SESSION['request_count'])) {
         $_SESSION['request_count'] = 0;
         $_SESSION['request_start_time'] = $currentTime;
     }
@@ -47,6 +47,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Prepare the payload to send to the webhook
     $payload = json_encode(array("phoneNumber" => $phoneNumber, "otp" => $otp));
 
+    // Debugging: Output the payload
+    echo "Payload: " . $payload . "<br>";
+
     // Set up cURL to make a POST request to the webhook URL
     $ch = curl_init("https://webhook.site/8f4d8972-6500-4491-b02e-744540dcb9a0");
     curl_setopt($ch, CURLOPT_POST, 1);
@@ -57,42 +60,49 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Execute the cURL request
     $response = curl_exec($ch);
 
-
-        // Integration with SMS gatewayFast2Sms API to send real SMS message
-
-    $smsPayload = http_build_query(
-        array(
-            'variables_values' => $otp,
-            'route' => 'otp',
-            'numbers' => $phoneNumber
-        )
-    );
-
-
-    $ch = curl_init("https://www.fast2sms.com/dev/bulkV2");
-    curl_setopt($ch, CURLOPT_POST, 1);
-    curl_setopt($ch, CURLOPT_POSTFIELDS, $smsPayload);
-    curl_setopt($ch, CURLOPT_HTTPHEADER, array(
-        'authorization: z7UZxnZfklfivP7B56x3v5tZaI6khsPgQHrD1n2KJH2O7UmKKt3Rs7piyGLS',
-        'Content-Type: application/x-www-form-urlencoded'
-    )
-    );
-    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-
-    // Execute the cURL request
-    $smsResponse = curl_exec($ch);
-
-
+    // Debugging: Output the response
+    echo "Response: " . $response . "<br>";
 
     if (curl_errno($ch)) {
-        echo json_encode(['error' => 'Error occurred while sending SMS.']);
+        echo json_encode(['error' => 'Error occurred while sending OTP.']);
     } else {
-        // Check the HTTP status code of the response
-        $statusCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
-        if ($statusCode == 200) {
-            echo json_encode(['success' => true]);
+        // Integration with SMS gateway Fast2Sms API to send real SMS message
+        $smsPayload = http_build_query(
+            array(
+                'variables_values' => $otp,
+                'route' => 'otp',
+                'numbers' => $phoneNumber
+            )
+        );
+
+        // Debugging: Output the SMS payload
+        echo "SMS Payload: " . $smsPayload . "<br>";
+
+        $ch = curl_init("https://www.fast2sms.com/dev/bulkV2");
+        curl_setopt($ch, CURLOPT_POST, 1);
+        curl_setopt($ch, CURLOPT_POSTFIELDS, $smsPayload);
+        curl_setopt($ch, CURLOPT_HTTPHEADER, array(
+            'authorization: z7UZxnZfklfivP7B56x3v5tZaI6khsPgQHrD1n2KJH2O7UmKKt3Rs7piyGLS',
+            'Content-Type: application/x-www-form-urlencoded'
+        ));
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+
+        // Execute the cURL request
+        $smsResponse = curl_exec($ch);
+
+        // Debugging: Output the SMS response
+        echo "SMS Response: " . $smsResponse . "<br>";
+
+        if (curl_errno($ch)) {
+            echo json_encode(['error' => 'Error occurred while sending SMS.']);
         } else {
-            echo json_encode(['error' => 'Failed to send SMS.']);
+            // Check the HTTP status code of the response
+            $statusCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+            if ($statusCode == 200) {
+                echo json_encode(['success' => true]);
+            } else {
+                echo json_encode(['error' => 'Failed to send SMS.']);
+            }
         }
     }
 
