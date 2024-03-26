@@ -164,6 +164,7 @@
               id="otpInput"
               placeholder="Enter 4 Digit OTP here"
               min="1000" max="9999"
+              maxlength="4"
               class="input_styling"
               required />
           </div>
