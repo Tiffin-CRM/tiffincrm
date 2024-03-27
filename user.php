@@ -11,7 +11,9 @@ try {
 
     include("php/api.php");
     $user = getCustomer("58");
+    var_dump($user);
     $deliveries = getOrders($user["id"]);
+    var_dump($deliveries);
     //code...
 } catch (\Throwable $th) {
     echo $th->getMessage();
