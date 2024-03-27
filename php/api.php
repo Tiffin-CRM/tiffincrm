@@ -10,7 +10,7 @@ function request($action, $table, $key, $value){
 }
 
 function getCustomer($phone){
-    return request("select", "customers_view", "phone", $phone);
+    return request("select", "customers_view", "phone", $phone)[0];
 }
 
 function getOrders($id){
