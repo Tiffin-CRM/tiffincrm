@@ -1,15 +1,21 @@
-<?php 
+<?php
 
 $phonetoken = $_COOKIE['token'];
-if(!$phonetoken){
+if (!$phonetoken) {
     header("Location: login.php?not_logged_in");
     exit;
 }
 $phone = $phonetoken / '4578348';
 
-include("php/api.php");
-$user = getCustomer("58");
-$deliveries = getOrders($user["id"]);
+try {
+
+    include("php/api.php");
+    $user = getCustomer("58");
+    $deliveries = getOrders($user["id"]);
+    //code...
+} catch (\Throwable $th) {
+    echo $th->getMessage();
+}
 ?>
 
 <!DOCTYPE html>
@@ -72,41 +78,42 @@ $deliveries = getOrders($user["id"]);
                         <span>Active Deliveries</span>
                         <img src="img/green-tik.svg" alt="green verification tik">
                     </div>
-                    <?php foreach($deliveries as $delivery) {
-                            if($delivery['status'] == 'preparing') {
-                    ?> 
-                        <div class="active_deliveries_box">
-                            <div class="brk_tre_box r-flex ali-c jut-sb">
-                                <div class="brk_box r-flex ali-c">
-                                    <img src="img/sun-set.svg" alt="sun set and date">
-                                    <span>BreakFast - Today</span>
-                                </div>
-                                <div class="pre_box r-flex ali-c">
-                                    <img src="img/pre.svg" alt="line up and down">
-                                    <span>Preparation Started</span>
-                                </div>
-                            </div>
-                            <div class="meal_item_list r-flex ali-c">
-                                <img src="img/meals_icon.svg" alt="meal icon">
-                                <span>4 Chapati, Dal, Paneer, Raita</span>
-                            </div>
-                            <div class="req_can_box r-flex ali-c jut-sb">
-                                <div class="req_box r-flex ali-c" onclick="request_edit();">
-                                    <img src="img/edite-icon.svg" alt="eddite text icon">
-                                    <span>Request Edit in this delivery</span>
-                                </div>
-                                <div class="can_box r-flex ali-c" onclick="cancel_delivery();">
-                                    <img src="img/cancel.svg" alt="cancel icon">
-                                    <span>Cancel This Delivery</span>
-                                </div>
-                            </div>
+                    <?php foreach ($deliveries as $delivery) {
+                        if ($delivery['status'] == 'preparing') {
+                            ?> 
+                                <div class="active_deliveries_box">
+                                    <div class="brk_tre_box r-flex ali-c jut-sb">
+                                        <div class="brk_box r-flex ali-c">
+                                            <img src="img/sun-set.svg" alt="sun set and date">
+                                            <span>BreakFast - Today</span>
+                                        </div>
+                                        <div class="pre_box r-flex ali-c">
+                                            <img src="img/pre.svg" alt="line up and down">
+                                            <span>Preparation Started</span>
+                                        </div>
+                                    </div>
+                                    <div class="meal_item_list r-flex ali-c">
+                                        <img src="img/meals_icon.svg" alt="meal icon">
+                                        <span>4 Chapati, Dal, Paneer, Raita</span>
+                                    </div>
+                                    <div class="req_can_box r-flex ali-c jut-sb">
+                                        <div class="req_box r-flex ali-c" onclick="request_edit();">
+                                            <img src="img/edite-icon.svg" alt="eddite text icon">
+                                            <span>Request Edit in this delivery</span>
+                                        </div>
+                                        <div class="can_box r-flex ali-c" onclick="cancel_delivery();">
+                                            <img src="img/cancel.svg" alt="cancel icon">
+                                            <span>Cancel This Delivery</span>
+                                        </div>
+                                    </div>
 
-                            <div class="active_deloveries_note">
-                                <b>Note:</b> Amount is Deducted for this Delivery and cannot be refunded. But You can still
-                                cancel this to better utilisation of food prepared for you
-                            </div>
-                        </div>
-                    <?php }}?>
+                                    <div class="active_deloveries_note">
+                                        <b>Note:</b> Amount is Deducted for this Delivery and cannot be refunded. But You can still
+                                        cancel this to better utilisation of food prepared for you
+                                    </div>
+                                </div>
+                        <?php }
+                    } ?>
                 </div>
                 <div class="active_deliveries_container">
                     <div class="active_deliveries_heading r-flex ali-c">
