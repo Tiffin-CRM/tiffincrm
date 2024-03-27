@@ -73,7 +73,7 @@ $deliveries = getOrders($user["id"]);
                         <img src="img/green-tik.svg" alt="green verification tik">
                     </div>
                     <?php foreach($deliveries as $delivery) {
-                            if($delivery['status'] = 'preparing') {
+                            if($delivery['status'] == 'preparing') {
                     ?> 
                         <div class="active_deliveries_box">
                             <div class="brk_tre_box r-flex ali-c jut-sb">
