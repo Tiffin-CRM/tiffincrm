@@ -1,23 +1,64 @@
 <?php
 
-define("API", "https://letsprepare.in/delivery_management/site_api.php");
+define("API", "https://letsprepare.in/delivery_management/api.php");
 
-function request($action, $table, $key, $value){
-    $url = API . "?action=$action&table=$table&key=$key&value=$value";
-    $data = file_get_contents($url);
-    return json_decode($data, true)['data'];
+function request($payload)
+{
+    $ch = curl_init(API);
+    curl_setopt($ch, CURLOPT_POST, 1);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, $payload);
+    curl_setopt($ch, CURLOPT_HTTPHEADER, array('Content-Type: application/json'));
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+
+    $response = curl_exec($ch);
+    return json_decode($response, true)['data'];
 
 }
 
-function getCustomer($phone){
-    return request("select", "customers_view", "phone", $phone)[0];
+function updateStatus($id, $status)
+{
+    return request([
+        "action" => "update",
+        "table" => "orders",
+        "where" => [
+            "id" => $id
+        ],
+        "data" => [
+            "is_active" => $status == 'pause' ? 0 : 1
+        ]
+    ]);
 }
 
-function getOrders($id){
-    return request("select", "deliveries_view", "client_id", $id);
+function getCustomer($phone)
+{
+    return request([
+        "action" => "select",
+        "table" => "customers_view",
+        "where" => [
+            "phone" => $phone
+        ]
+    ])[0];
 }
-function getTransactions($id){
-    return request("select", "transactions", "client_id", $id);
+
+function getOrders($id)
+{
+    return request([
+        "action" => "select",
+        "table" => "deliveries_view",
+        "where" => [
+            "client_id" => $id
+        ]
+    ]);
+}
+function getTransactions($id)
+{
+    return request([
+        "action" => "select",
+        "table" => "transactions",
+        "where" => [
+            "client_id" => $id
+        ]
+    ]);
 }
 
 
