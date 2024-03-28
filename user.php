@@ -126,7 +126,7 @@ try {
                         <span>Upcoming Delivery</span>
                     </div>
                     <?php foreach ($deliveries as $delivery) {
-                        if ($delivery['status'] == 'pending') {
+                        if ($delivery['status'] == null) {
                             ?>
                             <div class="active_deliveries_box">
                                 <div class="brk_tre_box r-flex ali-c jut-sb">
