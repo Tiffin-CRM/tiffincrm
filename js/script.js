@@ -112,11 +112,14 @@ function updateAccount(btn, status) {
   if (!confirm("Are you sure you want to update this status?")) {
     return;
   }
-  var data = request({ status, action: "update_account_status" });
+  btn.querySelector("span").textContent = 'Updating.....'
+  var data = await request({ status, action: "update_account_status" });
   if (data != null) {
-    btn.querySelector("span").textContent = 'Reloading.....'
+    btn.querySelector("span").textContent = 'Status Updated! Reloading...';
     setTimeout(() => {
+
       window.location.reload();
-    }, 3000);
+    }, 2000);
+
   }
 }
