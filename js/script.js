@@ -108,11 +108,11 @@ async function updateOrderStatus(orderId, status) {
   }
 }
 
-function updateAccount(newStatus) {
+function updateAccount(status) {
   if (!confirm("Are you sure you want to update this status?")) {
     return;
   }
-  var data = request({ newStatus, action: "update_account_status" });
+  var data = request({ status, action: "update_account_status" });
   if (data != null) {
     window.location.reload();
   }
