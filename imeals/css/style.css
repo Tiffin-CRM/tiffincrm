@@ -480,7 +480,15 @@ body{
 .steps_items_container.active + .steps_collapse_btn{
     margin-top: 10px;
     background-color: #f5f3ff;
-
+}
+#step_collaps{
+    display: none;
+}
+.steps_items_container.active + .steps_collapse_btn #step_collaps{
+    display: block;
+}
+.steps_items_container.active + .steps_collapse_btn #setep_expand{
+    display: none;
 }
 
 @media (max-width: 730px){
