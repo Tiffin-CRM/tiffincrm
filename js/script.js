@@ -82,6 +82,9 @@ function paytoupi() {
 }
 
 function updateStatus(orderId, status) {
+  if(!confirm("Are you sure you want to update this status?")) {
+    return;
+  }
   fetch("/php/main.php", {
     method: "POST",
     body: JSON.stringify({ orderId, status, action: "update_status" }),

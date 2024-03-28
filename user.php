@@ -343,7 +343,7 @@ try {
 
 
 
-    <script src="js/script.js?v1.8"></script>
+    <script src="js/script.js?v1.9"></script>
 </body>
 
 </html>
