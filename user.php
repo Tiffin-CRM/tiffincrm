@@ -167,7 +167,7 @@ try {
                 </div>
 
                 <div class="pause_deliveries_btn">
-                    <button class="delivery_pause r-flex ali-c jut-c" onclick="updateAccount('<?php echo $user['status'] == 'active' ? 'paused' : 'active'; ?>');">
+                    <button class="delivery_pause r-flex ali-c jut-c" onclick="updateAccount(this, '<?php echo $user['status'] == 'active' ? 'paused' : 'active'; ?>');">
                         <img src="img/pause.svg" alt="pause icon">
                         <span><?php echo ($user['status'] == 'active') ? 'Pause' : 'Resume' ; ?>  Future Deliveries</span>
                     </button>
@@ -358,7 +358,7 @@ try {
 
 
 
-    <script src="js/script.js?v1.9.2"></script>
+    <script src="js/script.js?v1.9.3"></script>
 </body>
 
 </html>
