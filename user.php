@@ -358,7 +358,7 @@ try {
 
 
 
-    <script src="js/script.js?v1.9"></script>
+    <script src="js/script.js?v1.9.1"></script>
 </body>
 
 </html>
