@@ -11,7 +11,11 @@ function request($payload)
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 
     $response = curl_exec($ch);
-    return json_decode($response, true)['data'];
+    $response = json_decode($response, true);
+    if($response['res'] != 'success'){
+        throw new Exception($response['data'], 1);
+    }
+    return $response['data'];
 
 }
 

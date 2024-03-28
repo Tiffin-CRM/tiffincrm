@@ -81,13 +81,13 @@ function paytoupi() {
   window.open("upi://pay?pa=digiheadway@icici&pn=Yogesh&cu=INR&tn=Add_to_9595844598&am=" + amountValue);
 }
 
-function updateStatus(orderId, status) {
+function updateOrderStatus(orderId, status) {
   if(!confirm("Are you sure you want to update this status?")) {
     return;
   }
   fetch("/php/main.php", {
     method: "POST",
-    body: JSON.stringify({ orderId, status, action: "update_status" }),
+    body: JSON.stringify({ orderId, status, action: "update_order_status" }),
     headers: {
       "Content-Type": "application/json",
     },

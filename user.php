@@ -235,7 +235,7 @@ try {
                                             <span>Request Edit</span>
                                         </div>
                                         &nbsp;
-                                        <div class="resume_meal_plan r-flex ali-c" onclick="updateStatus(<?php echo $delivery['id']; ?>, 'pause');">
+                                        <div class="resume_meal_plan r-flex ali-c" onclick="updateOrderStatus(<?php echo $delivery['id']; ?>, 'pause');">
                                             <img src="img/resume-icon.svg" alt="resume icon">
                                             <span>Pause Now</span>
                                         </div>
@@ -279,7 +279,7 @@ try {
                                     <span>Request Edit</span>
                                 </div>
                                 &nbsp;
-                                <div class="resume_meal_plan r-flex ali-c" onclick="updateStatus(<?php echo $delivery['id']; ?>, 'resume');">
+                                <div class="resume_meal_plan r-flex ali-c" onclick="updateOrderStatus(<?php echo $delivery['id']; ?>, 'resume');">
                                     <img src="img/resume-icon.svg" alt="resume icon">
                                     <span>Resume Now</span>
                                 </div>
