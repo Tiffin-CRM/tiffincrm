@@ -1,6 +1,8 @@
 <?php
 
+session_start();
 $phonetoken = $_COOKIE['token'];
+
 if (!$phonetoken) {
     header("Location: login.php?not_logged_in");
     exit;
@@ -11,6 +13,7 @@ try {
 
     include ("php/api.php");
     $user = getCustomer("58");
+    $_SESSION['user_id'] = $user["id"];
     $deliveries = getOrders($user["id"]);
     //code...
 } catch (\Throwable $th) {
@@ -232,7 +235,7 @@ try {
                                             <span>Request Edit</span>
                                         </div>
                                         &nbsp;
-                                        <div class="resume_meal_plan r-flex ali-c" onclick="pause_plan();">
+                                        <div class="resume_meal_plan r-flex ali-c" onclick="updateStatus(<?php echo $delivery['id']; ?>, 'pause');">
                                             <img src="img/resume-icon.svg" alt="resume icon">
                                             <span>Pause Now</span>
                                         </div>
@@ -276,7 +279,7 @@ try {
                                     <span>Request Edit</span>
                                 </div>
                                 &nbsp;
-                                <div class="resume_meal_plan r-flex ali-c" onclick="pause_plan();">
+                                <div class="resume_meal_plan r-flex ali-c" onclick="updateStatus(<?php echo $delivery['id']; ?>, 'resume');">
                                     <img src="img/resume-icon.svg" alt="resume icon">
                                     <span>Resume Now</span>
                                 </div>
@@ -340,7 +343,7 @@ try {
 
 
 
-    <script src="js/script.js?v1.6"></script>
+    <script src="js/script.js?v1.7"></script>
 </body>
 
 </html>

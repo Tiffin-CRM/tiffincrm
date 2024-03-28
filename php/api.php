@@ -11,18 +11,18 @@ function request($payload)
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 
     $response = curl_exec($ch);
-    echo $response;
     return json_decode($response, true)['data'];
 
 }
 
-function updateStatus($id, $status)
+function updateStatus($id, $status, $client_id)
 {
     return request([
         "action" => "update",
         "table" => "orders",
         "where" => [
-            "id" => $id
+            "id" => $id,
+            "client_id" => $client_id
         ],
         "data" => [
             "is_active" => $status == 'pause' ? 0 : 1
