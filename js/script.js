@@ -108,7 +108,7 @@ async function updateOrderStatus(orderId, status) {
   }
 }
 
-function updateAccount(btn, status) {
+async function updateAccount(btn, status) {
   if (!confirm("Are you sure you want to update this status?")) {
     return;
   }
