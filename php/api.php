@@ -16,6 +16,9 @@ function getCustomer($phone){
 function getOrders($id){
     return request("select", "deliveries_view", "client_id", $id);
 }
+function getTransactions($id){
+    return request("select", "transactions", "client_id", $id);
+}
 
 
 
