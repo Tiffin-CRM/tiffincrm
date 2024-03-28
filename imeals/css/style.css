@@ -347,7 +347,7 @@ body{
 
 /* ____________ steps section ___________ */
 .help_steps_section{
-    margin-top: 100px;
+    margin-top: 50px;
 }
 .color_step_heading{
     color: var(--theam-color);
@@ -549,7 +549,7 @@ body{
     margin-top: 40px;
 }
 .worth_mentioning_section{
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 @media (max-width: 730px){
@@ -588,7 +588,7 @@ body{
 
 /* _________ pricing ______ */
 .pricing_section{
-    margin-top: 100px;
+    margin-top: 50px;
 }
 .pricing_color_heading{
     color: var(--theam-color);
