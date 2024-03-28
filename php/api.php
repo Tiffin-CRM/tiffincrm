@@ -47,7 +47,8 @@ function getOrders($id)
         "action" => "select",
         "table" => "deliveries_view",
         "where" => [
-            "client_id" => $id
+            "client_id" => $id,
+            "deleted" => "0"
         ]
     ]);
 }
