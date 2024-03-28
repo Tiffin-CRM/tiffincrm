@@ -81,25 +81,39 @@ function paytoupi() {
   window.open("upi://pay?pa=digiheadway@icici&pn=Yogesh&cu=INR&tn=Add_to_9595844598&am=" + amountValue);
 }
 
-function updateOrderStatus(orderId, status) {
-  if(!confirm("Are you sure you want to update this status?")) {
-    return;
-  }
-  fetch("/php/main.php", {
+async function request(body) {
+  const response = await fetch("/php/main.php", {
     method: "POST",
-    body: JSON.stringify({ orderId, status, action: "update_order_status" }),
+    body: JSON.stringify(body),
     headers: {
       "Content-Type": "application/json",
     },
-  })
-    .then((response) => response.json())
-    .then((data) => {
-      console.log(data); // Log the response from the server
-      if(data.res == "success"){
-        window.location.reload();
-      }else{
-        alert(data.data);
-      }
-    })
-    .catch((error) => console.error("Error:", error));
+  });
+  const data = await response.json();
+  if (data.res != "success") {
+    alert(data.data);
+    return null;
+  } else {
+    return data.data;
+  }
+}
+
+async function updateOrderStatus(orderId, status) {
+  if (!confirm("Are you sure you want to update this status?")) {
+    return;
+  }
+  var data = await request({ orderId, status, action: "update_order_status" });
+  if (data != null) {
+    window.location.reload();
+  }
+}
+
+function updateAccount(newStatus) {
+  if (!confirm("Are you sure you want to update this status?")) {
+    return;
+  }
+  var data = request({ newStatus, action: "update_account_status" });
+  if (data != null) {
+    window.location.reload();
+  }
 }

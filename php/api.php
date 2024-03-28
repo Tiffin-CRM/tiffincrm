@@ -65,6 +65,18 @@ function getTransactions($id)
         ]
     ]);
 }
+function updateAccountStatus($id, $status){
+    return request([
+        "action" => "update",
+        "table" => "clients",
+        "where" => [
+            "id" => $id
+        ],
+        "data" => [
+            "status" => $status
+        ]
+    ]);
+}
 
 
 
