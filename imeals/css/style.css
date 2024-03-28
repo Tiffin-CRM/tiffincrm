@@ -845,7 +845,7 @@ body{
     border-radius: 9px 9px 0px 0px;
 }
 .question.active{
-    color: var(--theam-color);
+    color: var(--heading-color);
 }
 
 /* <========== faqs answer ==========> */
@@ -858,7 +858,7 @@ body{
     padding: 10px 30px 21px 20px;
     line-height: 1.5rem;
     font-size: 18px;
-    color: var(--light-font-color);
+    color: var(--mid-font-color);
 }
 .answer ul{
     margin: 20px 15px;
@@ -880,7 +880,7 @@ footer{
         padding: 50px 0px;
     }
     .faq-container-box{
-        padding: 0px 7px;
+        padding: 0px 0px;
     }
     .faq-container-box:nth-child(2){
         margin-top: -20px;
