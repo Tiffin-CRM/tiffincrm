@@ -11,7 +11,6 @@ function request($payload)
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 
     $response = curl_exec($ch);
-    echo $response;
     return json_decode($response, true)['data'];
 
 }
