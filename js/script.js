@@ -84,7 +84,7 @@ function paytoupi() {
 function updateStatus(orderId, status) {
   fetch("/php/main.php", {
     method: "POST",
-    body: JSON.stringify({ orderId: status }),
+    body: JSON.stringify({ orderId, status, action: "update_status" }),
     headers: {
       "Content-Type": "application/json",
     },

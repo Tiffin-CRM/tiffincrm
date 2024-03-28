@@ -9,6 +9,8 @@ try {
         $client_id = $_SESSION['user_id'];
         if(!$client_id) throw new Exception("Invalid Request");
         $res['data'] = updateStatus($input["orderId"], $input["status"], $client_id);
+    }else{
+        throw new Exception("Invalid Request");
     }
 } catch (\Throwable $th) {
 
