@@ -132,7 +132,9 @@ try {
                                 <div class="brk_tre_box r-flex ali-c jut-sb">
                                     <div class="brk_box r-flex ali-c">
                                         <img src="img/sun-set.svg" alt="sun set and date">
-                                        <span><?php echo $delivery['time']; ?> - Today</span>
+                                        <span>
+                                            <?php echo $delivery['time']; ?> - Today
+                                        </span>
                                     </div>
                                     <div class="pre_box r-flex ali-c" style="color: #3E3D3D;">
                                         <img src="img/clock.svg" alt="line up and down">
@@ -141,7 +143,9 @@ try {
                                 </div>
                                 <div class="meal_item_list r-flex ali-c">
                                     <img src="img/meals_icon.svg" alt="meal icon">
-                                    <span><?php echo $delivery['items']; ?></span>
+                                    <span>
+                                        <?php echo $delivery['items']; ?>
+                                    </span>
                                 </div>
                                 <div class="req_can_box r-flex ali-c jut-sb">
                                     <div class="req_box r-flex ali-c" onclick="request_edit();">
@@ -199,50 +203,58 @@ try {
                         <span>Your Active Meal Plans</span>
                         <img src="img/green-tik.svg" alt="">
                     </div>
-                    <div class="active_deliveries_box">
-                        <div class="brk_tre_box r-flex ali-c jut-sb">
-                            <div class="brk_box r-flex ali-c">
-                                <img src="img/sun-set.svg" alt="sun set and date">
-                                <span>BreakFast - Today</span>
-                            </div>
-                            <div class="pre_box r-flex ali-c">
-                                <img src="img/scooter-icon.svg" alt="scooter icon">
-                                <span>24 Deliveries</span>
-                            </div>
-                        </div>
-                        <div class="meal_item_list r-flex ali-c">
-                            <img src="img/meals_icon.svg" alt="meal icon">
-                            <span>4 Chapati, Dal, Paneer, Raita</span>
-                        </div>
-                        <div class="req_can_box r-flex ali-c jut-sb">
-                            <div class="req_box r-flex ali-c">
-                                <img src="img/tag-icon.svg" alt="tag icon">
-                                <span><i>Rs. 40/Meal</i></span>
-                            </div>
-                            <div class="can_box r-flex ali-c">
-                                <div class="eddite_meal_plan r-flex ali-c" onclick="request_edit();">
-                                    <img src="img/color-edite-icon.svg" alt="cancel icon">
-                                    <span>Request Edit</span>
+                    <?php foreach ($deliveries as $delivery) {
+                        if ($delivery['is_active'] == 1) {
+                            ?>
+                            <div class="active_deliveries_box">
+                                <div class="brk_tre_box r-flex ali-c jut-sb">
+                                    <div class="brk_box r-flex ali-c">
+                                        <img src="img/sun-set.svg" alt="sun set and date">
+                                        <span><?php echo $delivery['time']; ?> - Today</span>
+                                    </div>
+                                    <div class="pre_box r-flex ali-c">
+                                        <img src="img/scooter-icon.svg" alt="scooter icon">
+                                        <span>24 Deliveries</span>
+                                    </div>
                                 </div>
-                                &nbsp;
-                                <div class="resume_meal_plan r-flex ali-c" onclick="pause_plan();">
-                                    <img src="img/resume-icon.svg" alt="resume icon">
-                                    <span>Pause Now</span>
+                                <div class="meal_item_list r-flex ali-c">
+                                    <img src="img/meals_icon.svg" alt="meal icon">
+                                    <span><?php echo $delivery['items']; ?></span>
                                 </div>
-                            </div>
-                        </div>
+                                <div class="req_can_box r-flex ali-c jut-sb">
+                                    <div class="req_box r-flex ali-c">
+                                        <img src="img/tag-icon.svg" alt="tag icon">
+                                        <span><i>Rs. <?php echo $delivery['price']; ?>/Meal</i></span>
+                                    </div>
+                                    <div class="can_box r-flex ali-c">
+                                        <div class="eddite_meal_plan r-flex ali-c" onclick="request_edit();">
+                                            <img src="img/color-edite-icon.svg" alt="cancel icon">
+                                            <span>Request Edit</span>
+                                        </div>
+                                        &nbsp;
+                                        <div class="resume_meal_plan r-flex ali-c" onclick="pause_plan();">
+                                            <img src="img/resume-icon.svg" alt="resume icon">
+                                            <span>Pause Now</span>
+                                        </div>
+                                    </div>
+                                </div>
 
-                    </div>
+                            </div>
+                        <?php }
+                    } ?>
                 </div>
                 <div class="active_deliveries_container" style="margin-top: 40px;">
                     <div class="active_deliveries_heading r-flex ali-c">
                         <span>Your Paused Meal Plans</span>
                     </div>
+                    <?php foreach ($deliveries as $delivery) {
+                        if ($delivery['is_active'] == 0) {
+                    ?>
                     <div class="active_deliveries_box">
                         <div class="brk_tre_box r-flex ali-c jut-sb">
                             <div class="brk_box r-flex ali-c">
                                 <img src="img/sun-set.svg" alt="sun set and date">
-                                <span>BreakFast - Today</span>
+                                <span><?php echo $delivery['time']; ?> - Today</span>
                             </div>
                             <div class="pre_box r-flex ali-c">
                                 <img src="img/scooter-icon.svg" alt="scooter icon">
@@ -251,12 +263,12 @@ try {
                         </div>
                         <div class="meal_item_list r-flex ali-c">
                             <img src="img/meals_icon.svg" alt="meal icon">
-                            <span>4 Chapati, Dal, Paneer, Raita</span>
+                            <span><?php echo $delivery['items']; ?></span>
                         </div>
                         <div class="req_can_box r-flex ali-c jut-sb">
                             <div class="req_box r-flex ali-c">
                                 <img src="img/tag-icon.svg" alt="tag icon">
-                                <span><i>Rs. 40/Meal</i></span>
+                                <span><i>Rs. <?php echo $delivery['price']; ?>/Meal</i></span>
                             </div>
                             <div class="can_box r-flex ali-c">
                                 <div class="eddite_meal_plan r-flex ali-c" onclick="request_edit();">
@@ -272,6 +284,8 @@ try {
                         </div>
 
                     </div>
+                    <?php }
+                    } ?>
                 </div>
                 <button class="user_log_out_btn r-flex ali-c jut-c">
                     <img src="img/log-out-icon.svg" alt="log out icon">
