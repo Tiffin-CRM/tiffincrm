@@ -91,7 +91,7 @@
       .cur {
         cursor: pointer;
       }
-      #resultMessage {
+      .response {
         text-align: center;
         font-size: 16px;
         color: #353535;
@@ -175,7 +175,9 @@
               Login Now
             </button>
           </div>
-          <p id="resultMessage" class="hideit">Result Here</p>
+          <p id="resultMessage" class="hideit response">Result Here</p>
+          <p id="show_response" class="response"><?php if(isset($_GET[''])) {echo $_GET[''];} ?></p>
+
         </div>
       </div>
     </div>
