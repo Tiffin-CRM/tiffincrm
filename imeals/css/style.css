@@ -394,7 +394,16 @@
     border-radius: 5px;
     border: 1px solid #5546af;
     padding: 30px 45px;
+    transition: background-color 0.3s ease;
+
   }
+  .steps_item_box:hover {
+    
+    background-color:  #f4f3ff;;
+  }
+
+ 
+
   .we_show_heading_box {
     width: 100%;
     max-width: 568px;
