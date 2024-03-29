@@ -262,7 +262,7 @@ try {
                 </div>
                 <hr style="margin: 20px auto; border: 1px solid #f9f5f5;">
 
-                <div id="paused_orders" class="active_deliveries_container" style="margin-top: 40px;">
+                <div id="paused_orders" class="active_deliveries_container" style="margin-top: 40px;opacity:80%;" >
                     <div class="active_deliveries_heading r-flex ali-c">
                         <span>Your Paused Meal Plans</span>
                     </div>
