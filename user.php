@@ -43,7 +43,7 @@ try {
                 </script>
                 <style>
                     .cancel_icon{
-                                    style:width: 16px;
+                                    width: 16px;
                                 }
                     .expandable_heading_container {
                         padding: 15px;
