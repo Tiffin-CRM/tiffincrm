@@ -202,7 +202,7 @@ try {
 
                     <div class="right_add_balance_box" onclick="add_balance()">+Add Balance</div>
                 </div>
-                <button class="go_to_trans_box" onclick="window.open('transactions.php');">Go to Transactions</button>
+                <!-- <button class="go_to_trans_box" onclick="window.open('transactions.php');">Go to Transactions</button> -->
             </div>
         </section>
         <hr style="margin: 20px auto; border: 1px solid #f9f5f5;">
