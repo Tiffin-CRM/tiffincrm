@@ -12,7 +12,7 @@ try {
     }else if($input['action'] == 'update_account_status'){
         $res['data'] = updateAccountStatus($client_id, $input["status"]);
     }else if($input['action'] == 'update_delivery_status'){
-        $res['data'] = updateDeliveryStatus($client_id, $input["status"]);
+        $res['data'] = updateDeliveryStatus($input["orderId"], $input["status"]);
     }else{
         throw new Exception("Invalid Request");
     }
