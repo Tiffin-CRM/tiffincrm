@@ -37,7 +37,7 @@ function request_edit() {
   document.getElementById("btn_icon").src = btn_icon;
   document.getElementById("btn_icon").style.display = "block";
   document.getElementById("popup_action_btn").onclick = function () {
-    window.open("https://api.whatsapp.com/send?phone=919068062563&text=Hi%20Please%20Edit%20My%20Meal%20Plan");
+    window.open("https://api.whatsapp.com/send?phone=919111225515&text=Hi%20Please%20Edit%20My%20Meal%20Plan");
   };
 }
 
@@ -78,7 +78,7 @@ function paytoupi() {
   // Get the value entered in the input box
   var amountValue = document.getElementById("amount_input_box").value;
   // Open the UPI payment link when the button is clicked
-  window.open("upi://pay?pa=digiheadway@icici&pn=Yogesh&cu=INR&tn=Add_to_9595844598&am=" + amountValue);
+  window.open("upi://pay?pa=7847992004@ybl&pn=Yogesh&cu=INR&tn=Add_to_9595844598&am=" + amountValue);
 }
 
 async function request(body) {
