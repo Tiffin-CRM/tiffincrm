@@ -106,6 +106,10 @@ try {
                                         <?php echo $delivery['items']; ?>
                                     </span>
                                 </div>
+                                <div class="active_deloveries_note">
+                                    <b>Note:</b> Amount is Deducted for this Delivery and cannot be refunded. But You can still
+                                    cancel this to better utilisation of food prepared for you
+                                </div>
                                 <div class="req_can_box r-flex ali-c jut-sb">
                                     <div class="req_box r-flex ali-c" onclick="request_edit();">
                                         <img src="img/edite-icon.svg" alt="eddite text icon">
@@ -117,10 +121,7 @@ try {
                                     </div>
                                 </div>
 
-                                <div class="active_deloveries_note">
-                                    <b>Note:</b> Amount is Deducted for this Delivery and cannot be refunded. But You can still
-                                    cancel this to better utilisation of food prepared for you
-                                </div>
+                                
                             </div>
                         <?php }
                     } ?>
