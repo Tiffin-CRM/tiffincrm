@@ -106,7 +106,7 @@ try {
                     <div class="name_deliry_text">Mom’s Canteen</div>
                 </div> -->
                 <div class="hero_cont_box">
-                    <div class="cont_box_text">Hi <?php echo $user["name"]; ?> (<?php echo $phone; ?>), Welcome to Mom’s Canteen. Use iMeals to manage your meals
+                    <div class="cont_box_text">Hi <?php echo $user["name"]; ?> (<span id="userPhone"><?php echo $phone; ?></span>), Welcome to Mom’s Canteen. Use iMeals to manage your meals
                         and pay to Mom’s Canteen.
                     </div>
                     <!-- <div class="app_installation_guide_box r-flex ali-c jut-c">
@@ -358,8 +358,8 @@ try {
                     } ?>
                 </div>
                 </div>
-                <button class="user_log_out_btn r-flex ali-c jut-c">
-                    <img src="img/log-out-icon.svg" alt="log out icon">
+                <button class="user_log_out_btn r-flex ali-c jut-c" onclick="">
+                    <img src="img/log-out-icon.svg" alt="log out icon" style="width:20px;">
                     <span>LogOut</span>
                 </button>
 
@@ -411,7 +411,7 @@ try {
 
 
 
-    <script src="js/script.js?v1.9.11"></script>
+    <script src="js/script.js?v1.9.12"></script>
 </body>
 
 </html>

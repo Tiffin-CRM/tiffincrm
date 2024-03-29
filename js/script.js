@@ -77,9 +77,24 @@ function popup_default() {
 function paytoupi() {
   // Get the value entered in the input box
   var amountValue = document.getElementById("amount_input_box").value;
+  var  userPhone = document.getElementById("userPhone").value;
+
   // Open the UPI payment link when the button is clicked
-  window.open("upi://pay?pa=7847992004@ybl&pn=Yogesh&cu=INR&tn=Add_to_9595844598&am=" + amountValue);
+  window.open("upi://pay?pa=7847992004@ybl&pn=Soumya&cu=INR&tn=Add_to_"+userPhone + "&am=" + amountValue);
 }
+
+function logout() {
+  // Set the expiration date to a past time to remove the cookie
+  var pastDate = new Date(0);
+
+  // Clear the authentication cookie
+  document.cookie = "token=; expires=" + pastDate.toUTCString() + "; path=/;"; 
+
+  // Redirect the user to the logout page or homepage
+  window.location.href = 'logout.html'; // Redirect to a logout page
+  // window.location.href = 'index.html'; // Redirect to the homepage
+}
+
 
 async function request(body) {
   const response = await fetch("/php/main.php", {
