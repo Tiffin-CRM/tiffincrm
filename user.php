@@ -246,11 +246,11 @@ try {
                                 <div class="req_can_box r-flex ali-c jut-sb">
                                     <div class="req_box r-flex ali-c" onclick="request_edit();">
                                         <img src="https://imeals.in/img/color-edite-icon.svg" alt="Edit Meal Plan">
-                                        <span>Edit Meal Plan</span>
+                                        <span  style="color: #5546AF;">Edit Meal Plan</span>
                                     </div>
                                     <div class="can_box r-flex ali-c" onclick="updateOrderStatus(<?php echo $delivery['id']; ?>, 'pause');">
                                         <img src="https://imeals.in/img/resume-icon.svg" style="width:6px;" alt="pause icon">
-                                        <span>Pause Now</span>
+                                        <span  style="color: #5546AF;">Pause Now</span>
                                     </div>
                                 </div>
                                 
