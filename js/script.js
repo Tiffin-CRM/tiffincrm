@@ -141,3 +141,8 @@ async function updateAccount(btn, status) {
     document.querySelector(`#${id}`).style.display = "none";
   }
 })
+
+var totalActive = document.querySelectorAll(`#active_meals .active_deliveries_box`).length;
+  if(totalActive == 0){
+    document.querySelector(`#no_active_meals`).style.display = "block";
+  }

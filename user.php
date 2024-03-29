@@ -17,7 +17,7 @@ try {
     $deliveries = getOrders($user["id"]);
     //code...
 } catch (\Throwable $th) {
-    header("Location: login.php?not_logged_in");
+    header("Location: login.php?phone_not_found");
     echo $th->getMessage();
 }
 ?>
@@ -203,7 +203,7 @@ try {
 
         <section class="meal_plasns_box">
             <div class="container">
-                <div class="active_deliveries_container" style="margin-top: 25px;">
+                <div id="active_meals" class="active_deliveries_container" style="margin-top: 25px;">
                     <div class="active_deliveries_heading r-flex ali-c">
                         <span>Your Active Meal Plans</span>
                         <img src="img/green-tik.svg" alt="">
@@ -254,6 +254,7 @@ try {
                             </div>
                         <?php }
                     } ?>
+                    <div style="display: none;" id="no_active_meals">No Active Meals</div>
                 </div>
                 <div id="paused_orders" class="active_deliveries_container" style="margin-top: 40px;">
                     <div class="active_deliveries_heading r-flex ali-c">
@@ -359,7 +360,7 @@ try {
 
 
 
-    <script src="js/script.js?v1.9.7"></script>
+    <script src="js/script.js?v1.9.8"></script>
 </body>
 
 </html>
