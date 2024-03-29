@@ -236,14 +236,13 @@ try {
                                         <?php echo $delivery['items']; ?>
                                     </span>
                                 </div>
-                                <div class="req_box r-flex ali-c">
+                                <div class="req_can_box r-flex ali-c jut-sb">
+                                    <div class="req_box r-flex ali-c">
                                         <img src="img/tag-icon.svg" alt="tag icon">
                                         <span><i>Rs.
                                                 <?php echo $delivery['price']; ?>/Meal
                                             </i></span>
                                     </div>
-                                <div class="req_can_box r-flex ali-c jut-sb">
-                                  
                                     <div class="can_box r-flex ali-c">
                                         <div class="eddite_meal_plan r-flex ali-c" onclick="request_edit();">
                                             <img src="img/color-edite-icon.svg" alt="cancel icon">
