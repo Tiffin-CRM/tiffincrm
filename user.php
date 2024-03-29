@@ -42,6 +42,9 @@ try {
 
                 </script>
                 <style>
+                    .cancel_btn{
+                                    style="width: 16px;" 
+                                }
                     .expandable_heading_container {
                         padding: 15px;
                         display: flex;
@@ -150,7 +153,7 @@ try {
                                         <span>Edit this delivery</span>
                                     </div>
                                     <div class="can_box r-flex ali-c" onclick="updateDeliveryStatus(<?php echo $delivery['id']; ?>, 'wasted');">
-                                        <img src="img/cancel.svg?v6" alt="cancel icon">
+                                        <img src="img/cancel.svg?v6" class="cancel_btn" alt="cancel icon">
                                         <span>Cancel This Delivery</span>
                                     </div>
                                 </div>
