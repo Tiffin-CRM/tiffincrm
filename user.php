@@ -236,26 +236,24 @@ try {
                                         <?php echo $delivery['items']; ?>
                                     </span>
                                 </div>
+                                <div class="meal_item_list r-flex ali-c">
+                                    <img src="img/tag-icon.svg" alt="meal icon">
+                                    <span>Rs.
+                                    <?php echo $delivery['price']; ?>/Meal
+                                    </span>
+                                </div>
+
                                 <div class="req_can_box r-flex ali-c jut-sb">
-                                    <div class="req_box r-flex ali-c">
-                                        <img src="img/tag-icon.svg" alt="tag icon">
-                                        <span><i>Rs.
-                                                <?php echo $delivery['price']; ?>/Meal
-                                            </i></span>
+                                    <div class="req_box r-flex ali-c" onclick="request_edit();">
+                                        <img src="https://imeals.in/img/color-edite-icon.svg" alt="Edit Meal Plan">
+                                        <span>Edit Meal Plan</span>
                                     </div>
-                                    <div class="can_box r-flex ali-c">
-                                        <div class="eddite_meal_plan r-flex ali-c" onclick="request_edit();">
-                                            <img src="img/color-edite-icon.svg" alt="cancel icon">
-                                            <span>Request Edit</span>
-                                        </div>
-                                        &nbsp;
-                                        <div class="resume_meal_plan r-flex ali-c"
-                                            onclick="updateOrderStatus(<?php echo $delivery['id']; ?>, 'pause');">
-                                            <img src="img/resume-icon.svg" alt="resume icon">
-                                            <span>Pause Now</span>
-                                        </div>
+                                    <div class="can_box r-flex ali-c" onclick="updateOrderStatus(<?php echo $delivery['id']; ?>, 'pause');">
+                                        <img src="https://imeals.in/img/resume-icon.svg" alt="pause icon">
+                                        <span>Pause Now</span>
                                     </div>
                                 </div>
+                                
 
                             </div>
                         <?php }
