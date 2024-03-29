@@ -271,7 +271,7 @@
     background-color: var(--theam-color);
     color: var(--white-bg);
     border-radius: 5px;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 700;
   }
   .play_stor_icon_box {
@@ -282,7 +282,7 @@
   }
   .ask_quetion_link {
     color: var(--theam-color);
-    font-size: 19.545px;
+    font-size: 16px;
     font-weight: 700;
   }
   
