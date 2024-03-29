@@ -126,6 +126,8 @@ try {
                         <?php }
                     } ?>
                 </div>
+                <hr style="margin: 20px auto; border: 1px solid #f9f5f5;">
+
                 <div class="active_deliveries_container">
                     <div class="active_deliveries_heading r-flex ali-c">
                         <span>Upcoming Delivery</span>
