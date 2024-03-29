@@ -189,12 +189,11 @@ function showInstallButton() {
                     <div class="name_deliry_text">Mom’s Canteen</div>
                 </div> -->
                 <div class="hero_cont_box">
-                    <div class="cont_box_text" onclick="deferredPrompt.prompt();">Hi <?php echo $user["name"]; ?> (<span id="userPhone"><?php echo $phone; ?></span>), Welcome to Mom’s Canteen. Use iMeals to manage your meals
-                        and pay to Mom’s Canteen.
+                    <div class="cont_box_text">Hi <?php echo $user["name"]; ?> (<span id="userPhone"><?php echo $phone; ?></span>), Welcome to Mom’s Canteen. Use iMeals to manage your meals.
                     </div>
-                    <!-- <div class="app_installation_guide_box r-flex ali-c jut-c">
-                        <a href="#">See Installation Guide</a> <span> (App size: 2 MB only)</span>
-                    </div> -->
+                    <div class="app_installation_guide_box r-flex ali-c jut-c">
+                        <a href="#"  onclick="deferredPrompt.prompt();">Install Now</a> <span> (Web App)</span>
+                    </div>
                 </div>
                 <div id="active_deliveries" class="active_deliveries_container">
                     <div class="active_deliveries_heading r-flex ali-c">
