@@ -417,8 +417,8 @@ try {
                     <div class="short_not_box" id="noteText">Remember: You must have to send payment screenshot to
                     Mom's Canteen
                         to Add the Balance in your wallet</div>
-                        <div class="upi_id_copy" onclick="copyText()" style="display:none">
-                        <input type="upiid" name="amount" id="upi_id_input_container" value="7847992004@ybl"
+                        <div class="upi_id_copy" onclick="copyText()" style="display:none" id="upi_id_input_container">
+                        <input type="upiid" name="amount" id="upi_id_input_box" value="7847992004@ybl"
                             class="amount_input_box" readonly>
                         <svg id="copy_icon" width="20" height="22" viewBox="0 0 20 22" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
