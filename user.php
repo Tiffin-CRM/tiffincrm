@@ -79,7 +79,7 @@ try {
                         <a href="#">See Installation Guide</a> <span> (App size: 2 MB only)</span>
                     </div>
                 </div>
-                <div class="active_deliveries_container">
+                <div id="active_deliveries" class="active_deliveries_container">
                     <div class="active_deliveries_heading r-flex ali-c">
                         <span>Active Deliveries</span>
                         <img src="img/green-tik.svg" alt="green verification tik">
@@ -255,7 +255,7 @@ try {
                         <?php }
                     } ?>
                 </div>
-                <div class="active_deliveries_container" style="margin-top: 40px;">
+                <div id="paused_orders" class="active_deliveries_container" style="margin-top: 40px;">
                     <div class="active_deliveries_heading r-flex ali-c">
                         <span>Your Paused Meal Plans</span>
                     </div>
@@ -359,7 +359,7 @@ try {
 
 
 
-    <script src="js/script.js?v1.9.5"></script>
+    <script src="js/script.js?v1.9.6"></script>
 </body>
 
 </html>

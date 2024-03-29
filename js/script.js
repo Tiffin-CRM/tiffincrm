@@ -133,3 +133,11 @@ async function updateAccount(btn, status) {
 
   }
 }
+
+["active_deliveries", "paused_orders"].forEach((id) => {
+  
+  var totalActive = document.querySelectorAll(`#${id} .active_deliveries_box`).length;
+  if(totalActive == 0){
+    document.querySelector("#paused_orders").style.display = "none";
+  }
+})
