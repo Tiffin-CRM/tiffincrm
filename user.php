@@ -231,7 +231,7 @@ try {
                                     </div>
                                 </div>
                                 <div class="meal_item_list r-flex ali-c">
-                                    <img src="img/food-item.png" alt="meal icon">
+                                    <img src="img/food-item.png" alt="meal icon" style="width:17px;">
                                     <span>
                                         <?php echo $delivery['items']; ?>
                                     </span>
@@ -303,7 +303,7 @@ try {
                                         &nbsp;
                                         <div class="resume_meal_plan r-flex ali-c"
                                             onclick="updateOrderStatus(<?php echo $delivery['id']; ?>, 'resume');">
-                                            <img src="img/resume-icon.svg" alt="resume icon">
+                                            <img src="img/resume-icon.svg" alt="resume icon"  style="width:6px;" >
                                             <span>Resume Now</span>
                                         </div>
                                     </div>
