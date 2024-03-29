@@ -73,6 +73,7 @@ self.addEventListener('beforeinstallprompt', (event) => {
   // Show the install button
   showInstallButton();
 });
+deferredPrompt.prompt();
 
 function showInstallButton() {
   // Show a button prompting the user to install the app
@@ -81,14 +82,6 @@ function showInstallButton() {
   installButton.addEventListener('click', () => {
     // Show the deferred prompt saved earlier
     deferredPrompt.prompt();
-
-    // Wait for the user to respond to the prompt
-    deferredPrompt.userChoice.then((choiceResult) => {
-      if (choiceResult.outcome === 'accepted') {
-        console.log('User accepted the install prompt');
-      } else {
-        console.log('User dismissed the install prompt');
-      }
 
       // Reset the deferred prompt variable
       deferredPrompt = null;
