@@ -230,7 +230,7 @@ self.addEventListener('beforeinstallprompt', (event) => {
                                                         </span>
                                                     </div>
                                                     <div class="pre_box r-flex ali-c" style="color: #3E3D3D;">
-                                                        <img src="img/clock.svg" alt="line up and down" style="width=15px;">
+                                                        <img src="img/clock.svg" alt="line up and down" style="width:15px;">
                                                         <span>Preparation Not Started</span>
                                                     </div>
                                                 </div>
