@@ -158,7 +158,7 @@ try {
                                         <span style="color: #5546AF;">Edit this delivery</span>
                                     </div>
                                     <div class="can_box r-flex ali-c" onclick="updateDeliveryStatus(<?php echo $delivery['id']; ?>, 'cancelled')">
-                                        <img src="img/color-cancel.svg?v1" alt="cancel icon">
+                                        <img src="img/color-cancel.svg?v2" alt="cancel icon">
                                         <span style="color: #5546AF;">Cancel This Delivery</span>
                                     </div>
                                 </div>
