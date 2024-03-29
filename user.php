@@ -61,6 +61,7 @@ try {
         });
     });
   }
+  
   let deferredPrompt;
 
 self.addEventListener('beforeinstallprompt', (event) => {
@@ -71,10 +72,10 @@ self.addEventListener('beforeinstallprompt', (event) => {
   deferredPrompt = event;
   
   // Show the install button
-  showInstallButton();
+//   showInstallButton();
 });
-deferredPrompt.prompt();
 
+deferredPrompt.prompt();
 function showInstallButton() {
   // Show a button prompting the user to install the app
   const installButton = document.createElement('button');
@@ -82,6 +83,14 @@ function showInstallButton() {
   installButton.addEventListener('click', () => {
     // Show the deferred prompt saved earlier
     deferredPrompt.prompt();
+
+    // Wait for the user to respond to the prompt
+    deferredPrompt.userChoice.then((choiceResult) => {
+      if (choiceResult.outcome === 'accepted') {
+        console.log('User accepted the install prompt');
+      } else {
+        console.log('User dismissed the install prompt');
+      }
 
       // Reset the deferred prompt variable
       deferredPrompt = null;
@@ -91,7 +100,6 @@ function showInstallButton() {
   // Append the install button to the document body
   document.body.appendChild(installButton);
 }
-
 
                 </script>
                 <style>
