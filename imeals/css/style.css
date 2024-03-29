@@ -464,7 +464,7 @@
     font-weight: 400;
   }
   .steps_items_container {
-    height: 100vh;
+    /* height: 100vh; */
     overflow: hidden;
     margin-top: 70px;
   }
