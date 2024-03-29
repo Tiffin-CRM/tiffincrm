@@ -91,7 +91,7 @@ function logout() {
   document.cookie = "token=; expires=" + pastDate.toUTCString() + "; path=/;"; 
 
   // Redirect the user to the logout page or homepage
-  window.location.href = 'logout.html'; // Redirect to a logout page
+  window.location.href = '/'; // Redirect to a logout page
   // window.location.href = 'index.html'; // Redirect to the homepage
 }
 

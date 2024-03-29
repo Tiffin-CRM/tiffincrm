@@ -361,7 +361,7 @@ try {
                     } ?>
                 </div>
                 </div>
-                <button class="user_log_out_btn r-flex ali-c jut-c" onclick="">
+                <button class="user_log_out_btn r-flex ali-c jut-c" onclick="logout();">
                     <img src="img/log-out-icon.svg" alt="log out icon" style="width:20px;">
                     <span>LogOut</span>
                 </button>
