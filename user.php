@@ -30,7 +30,7 @@ try {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Manage Deliveries - iMeals</title>
     <link rel="stylesheet" href="css/base.css?v=0.0.1">
-    <link rel="stylesheet" href="css/style.css?v4">
+    <link rel="stylesheet" href="css/style.css?v5">
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap"
         rel="stylesheet">
@@ -226,7 +226,7 @@ try {
                                         </span>
                                     </div>
                                     <div class="pre_box r-flex ali-c">
-                                        <img src="img/scooter-icon.svg" alt="scooter icon">
+                                        <img src="img/scooter-icon.svg?v1" alt="scooter icon">
                                         <span>24 Deliveries</span>
                                     </div>
                                 </div>
