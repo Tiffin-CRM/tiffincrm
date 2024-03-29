@@ -70,13 +70,15 @@ self.addEventListener('beforeinstallprompt', (event) => {
   // Save the event for later use
   deferredPrompt = event;
   
-  // Show the install prompt immediately (if available)
-  showInstallPrompt();
+  // Show the install button
+  showInstallButton();
 });
 
-function showInstallPrompt() {
-  // Show the install prompt if it's available
-  if (deferredPrompt) {
+function showInstallButton() {
+  // Show a button prompting the user to install the app
+  const installButton = document.createElement('button');
+  installButton.textContent = 'Install App';
+  installButton.addEventListener('click', () => {
     // Show the deferred prompt saved earlier
     deferredPrompt.prompt();
 
@@ -91,11 +93,11 @@ function showInstallPrompt() {
       // Reset the deferred prompt variable
       deferredPrompt = null;
     });
-  }
-}
+  });
 
-// Trigger the showInstallPrompt function when the page loads
-window.addEventListener('load', showInstallPrompt);
+  // Append the install button to the document body
+  document.body.appendChild(installButton);
+}
 
 
                 </script>
