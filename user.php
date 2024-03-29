@@ -61,7 +61,6 @@ try {
         });
     });
   }
-  
   let deferredPrompt;
 
 self.addEventListener('beforeinstallprompt', (event) => {
