@@ -301,7 +301,7 @@ try {
                                         <span  style="color: #5546AF;">Edit Meal Plan</span>
                                     </div>
                                     <div class="can_box r-flex ali-c" onclick="updateOrderStatus(<?php echo $delivery['id']; ?>, 'resume');">
-                                        <img src="https://imeals.in/img/resume-again.svg?v1" style="width:6px;" alt="pause icon">
+                                        <img src="https://imeals.in/img/resume-again.svg?v1" style="width:10px;" alt="pause icon">
                                         <span  style="color: #5546AF;">Resume Now</span>
                                     </div>
                                 </div>
