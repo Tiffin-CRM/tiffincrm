@@ -283,6 +283,10 @@
   .ask_quetion_link {
     color: var(--drk-font-color);
     font-size: 16px;
+    font-weight: 500;
+  }
+  .ask_quetion_link:hover {
+    color: var(--theam-color);
     font-weight: 600;
   }
   
