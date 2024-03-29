@@ -43,7 +43,7 @@ try {
                 </script>
                 <style>
                     .cancel_btn{
-                                    style="width: 16px;" 
+                                    style:width: 16px;
                                 }
                     .expandable_heading_container {
                         padding: 15px;
@@ -124,43 +124,43 @@ try {
                     <?php foreach ($deliveries as $delivery) {
                         if ($delivery['status'] == 'preparing') {
                             ?>
-                            <div class="active_deliveries_box">
-                                <div class="brk_tre_box r-flex ali-c jut-sb">
-                                    <div class="brk_box r-flex ali-c">
-                                        <img src="img/time.svg" alt="sun set and date">
-                                        <span>
-                                            <?php echo $delivery['time']; ?> - Today
-                                        </span>
-                                    </div>
-                                    <div class="pre_box r-flex ali-c">
-                                        <img src="img/pre.svg" alt="line up and down">
-                                        <span>Preparation Started</span>
-                                    </div>
-                                </div>
-                                <div class="meal_item_list r-flex ali-c">
-                                    <img src="img/food-item.png" alt="meal icon">
-                                    <span>
-                                        <?php echo $delivery['items']; ?>
-                                    </span>
-                                </div>
-                                <div class="active_deloveries_note">
-                                    <b>Note:</b> Amount is Deducted for this Delivery and cannot be refunded. But You can still
-                                    cancel this to better utilisation of food prepared for you
-                                </div>
-                                <div class="req_can_box r-flex ali-c jut-sb">
-                                    <div class="req_box r-flex ali-c" onclick="request_edit();">
-                                        <img src="img/edite-icon.svg" alt="eddite text icon">
-                                        <span>Edit this delivery</span>
-                                    </div>
-                                    <div class="can_box r-flex ali-c" onclick="updateDeliveryStatus(<?php echo $delivery['id']; ?>, 'wasted');">
-                                        <img src="img/cancel.svg?v6" class="cancel_btn" alt="cancel icon">
-                                        <span>Cancel This Delivery</span>
-                                    </div>
-                                </div>
+                                            <div class="active_deliveries_box">
+                                                <div class="brk_tre_box r-flex ali-c jut-sb">
+                                                    <div class="brk_box r-flex ali-c">
+                                                        <img src="img/time.svg" alt="sun set and date">
+                                                        <span>
+                                                            <?php echo $delivery['time']; ?> - Today
+                                                        </span>
+                                                    </div>
+                                                    <div class="pre_box r-flex ali-c">
+                                                        <img src="img/pre.svg" alt="line up and down">
+                                                        <span>Preparation Started</span>
+                                                    </div>
+                                                </div>
+                                                <div class="meal_item_list r-flex ali-c">
+                                                    <img src="img/food-item.png" alt="meal icon">
+                                                    <span>
+                                                        <?php echo $delivery['items']; ?>
+                                                    </span>
+                                                </div>
+                                                <div class="active_deloveries_note">
+                                                    <b>Note:</b> Amount is Deducted for this Delivery and cannot be refunded. But You can still
+                                                    cancel this to better utilisation of food prepared for you
+                                                </div>
+                                                <div class="req_can_box r-flex ali-c jut-sb">
+                                                    <div class="req_box r-flex ali-c" onclick="request_edit();">
+                                                        <img src="img/edite-icon.svg" alt="eddite text icon">
+                                                        <span>Edit this delivery</span>
+                                                    </div>
+                                                    <div class="can_box r-flex ali-c" onclick="updateDeliveryStatus(<?php echo $delivery['id']; ?>, 'wasted');">
+                                                        <img src="img/cancel.svg?v6" class="cancel_btn" alt="cancel icon">
+                                                        <span>Cancel This Delivery</span>
+                                                    </div>
+                                                </div>
 
                                 
-                            </div>
-                        <?php }
+                                            </div>
+                                <?php }
                     } ?>
                 </div>
                 <hr style="margin: 20px auto; border: 1px solid #f9f5f5;">
@@ -172,49 +172,49 @@ try {
                     <?php foreach ($deliveries as $delivery) {
                         if ($delivery['status'] == null) {
                             ?>
-                            <div class="active_deliveries_box">
-                                <div class="brk_tre_box r-flex ali-c jut-sb">
-                                    <div class="brk_box r-flex ali-c">
-                                        <img src="img/time.svg" alt="sun set and date">
-                                        <span>
-                                            <?php echo $delivery['time']; ?> - Today
-                                        </span>
-                                    </div>
-                                    <div class="pre_box r-flex ali-c" style="color: #3E3D3D;">
-                                        <img src="img/clock.svg" alt="line up and down">
-                                        <span>Preparation Not Started</span>
-                                    </div>
-                                </div>
-                                <div class="meal_item_list r-flex ali-c">
-                                    <img src="img/food-item.png" alt="meal icon">
-                                    <span>
-                                        <?php echo $delivery['items']; ?>
-                                    </span>
-                                </div>
-                                <div class="req_can_box r-flex ali-c jut-sb">
-                                    <div class="req_box r-flex ali-c" onclick="request_edit();">
-                                        <img src="img/color-edite-icon.svg" alt="eddite text icon">
-                                        <span style="color: #5546AF;">Edit this delivery</span>
-                                    </div>
-                                    <div class="can_box r-flex ali-c" onclick="updateDeliveryStatus(<?php echo $delivery['id']; ?>, 'cancelled')">
-                                        <img src="img/color-cancel.svg?v2" alt="cancel icon">
-                                        <span style="color: #5546AF;">Cancel This Delivery</span>
-                                    </div>
-                                </div>
+                                            <div class="active_deliveries_box">
+                                                <div class="brk_tre_box r-flex ali-c jut-sb">
+                                                    <div class="brk_box r-flex ali-c">
+                                                        <img src="img/time.svg" alt="sun set and date">
+                                                        <span>
+                                                            <?php echo $delivery['time']; ?> - Today
+                                                        </span>
+                                                    </div>
+                                                    <div class="pre_box r-flex ali-c" style="color: #3E3D3D;">
+                                                        <img src="img/clock.svg" alt="line up and down">
+                                                        <span>Preparation Not Started</span>
+                                                    </div>
+                                                </div>
+                                                <div class="meal_item_list r-flex ali-c">
+                                                    <img src="img/food-item.png" alt="meal icon">
+                                                    <span>
+                                                        <?php echo $delivery['items']; ?>
+                                                    </span>
+                                                </div>
+                                                <div class="req_can_box r-flex ali-c jut-sb">
+                                                    <div class="req_box r-flex ali-c" onclick="request_edit();">
+                                                        <img src="img/color-edite-icon.svg" alt="eddite text icon">
+                                                        <span style="color: #5546AF;">Edit this delivery</span>
+                                                    </div>
+                                                    <div class="can_box r-flex ali-c" onclick="updateDeliveryStatus(<?php echo $delivery['id']; ?>, 'cancelled')">
+                                                        <img src="img/color-cancel.svg?v2" alt="cancel icon">
+                                                        <span style="color: #5546AF;">Cancel This Delivery</span>
+                                                    </div>
+                                                </div>
 
-                            </div>
-                        <?php }
+                                            </div>
+                                <?php }
                     } ?>
                 </div>
 
                 <div class="pause_deliveries_btn">
                     <button class="delivery_pause r-flex ali-c jut-c" onclick="updateAccount(this, '<?php echo $user['status'] == 'active' ? 'paused' : 'active'; ?>');">
                         <img src="img/pause.svg" alt="pause icon">
-                        <span><?php echo ($user['status'] == 'active') ? 'Pause' : 'Resume' ; ?> All  Future Deliveries</span>
+                        <span><?php echo ($user['status'] == 'active') ? 'Pause' : 'Resume'; ?> All  Future Deliveries</span>
                     </button>
                     <?php if ($user['status'] == 'active') { ?>
-                        <div class="delivery_pause_text">This will pause all your future deliveries until you resume it
-                            back. Remember: This will not impact Active deliveries</div>
+                                <div class="delivery_pause_text">This will pause all your future deliveries until you resume it
+                                    back. Remember: This will not impact Active deliveries</div>
                     <?php } ?>
                 </div>
             </div>
@@ -260,46 +260,46 @@ try {
                     <?php foreach ($deliveries as $delivery) {
                         if ($delivery['is_active'] == 1) {
                             ?>
-                            <div class="active_deliveries_box">
-                                <div class="brk_tre_box r-flex ali-c jut-sb">
-                                    <div class="brk_box r-flex ali-c">
-                                        <img src="img/time.svg" alt="sun set and date">
-                                        <span>
-                                            <?php echo $delivery['time']; ?> - Daily
-                                        </span>
-                                    </div>
-                                    <div class="pre_box r-flex ali-c">
-                                        <img src="img/scooter-icon.svg?v1" alt="scooter icon">
-                                        <span>24 Deliveries</span>
-                                    </div>
-                                </div>
-                                <div class="meal_item_list r-flex ali-c">
-                                    <img src="img/food-item.png" alt="meal icon" style="width:17px;">
-                                    <span>
-                                        <?php echo $delivery['items']; ?>
-                                    </span>
-                                </div>
-                                <div class="meal_item_list r-flex ali-c">
-                                    <img src="img/subscription-icon.svg" alt="meal icon">
-                                    <span>₹
-                                    <?php echo $delivery['price']; ?>/Meal
-                                    </span>
-                                </div>
+                                            <div class="active_deliveries_box">
+                                                <div class="brk_tre_box r-flex ali-c jut-sb">
+                                                    <div class="brk_box r-flex ali-c">
+                                                        <img src="img/time.svg" alt="sun set and date">
+                                                        <span>
+                                                            <?php echo $delivery['time']; ?> - Daily
+                                                        </span>
+                                                    </div>
+                                                    <div class="pre_box r-flex ali-c">
+                                                        <img src="img/scooter-icon.svg?v1" alt="scooter icon">
+                                                        <span>24 Deliveries</span>
+                                                    </div>
+                                                </div>
+                                                <div class="meal_item_list r-flex ali-c">
+                                                    <img src="img/food-item.png" alt="meal icon" style="width:17px;">
+                                                    <span>
+                                                        <?php echo $delivery['items']; ?>
+                                                    </span>
+                                                </div>
+                                                <div class="meal_item_list r-flex ali-c">
+                                                    <img src="img/subscription-icon.svg" alt="meal icon">
+                                                    <span>₹
+                                                    <?php echo $delivery['price']; ?>/Meal
+                                                    </span>
+                                                </div>
 
-                                <div class="req_can_box r-flex ali-c jut-sb">
-                                    <div class="req_box r-flex ali-c" onclick="request_edit();">
-                                        <img src="https://imeals.in/img/color-edite-icon.svg" alt="Edit Meal Plan">
-                                        <span  style="color: #5546AF;">Edit Meal Plan</span>
-                                    </div>
-                                    <div class="can_box r-flex ali-c" onclick="updateOrderStatus(<?php echo $delivery['id']; ?>, 'pause');">
-                                        <img src="https://imeals.in/img/resume-icon.svg" style="width:6px;" alt="pause icon">
-                                        <span  style="color: #5546AF;">Pause Now</span>
-                                    </div>
-                                </div>
+                                                <div class="req_can_box r-flex ali-c jut-sb">
+                                                    <div class="req_box r-flex ali-c" onclick="request_edit();">
+                                                        <img src="https://imeals.in/img/color-edite-icon.svg" alt="Edit Meal Plan">
+                                                        <span  style="color: #5546AF;">Edit Meal Plan</span>
+                                                    </div>
+                                                    <div class="can_box r-flex ali-c" onclick="updateOrderStatus(<?php echo $delivery['id']; ?>, 'pause');">
+                                                        <img src="https://imeals.in/img/resume-icon.svg" style="width:6px;" alt="pause icon">
+                                                        <span  style="color: #5546AF;">Pause Now</span>
+                                                    </div>
+                                                </div>
                                 
 
-                            </div>
-                        <?php }
+                                            </div>
+                                <?php }
                     } ?>
                     <div style="display: none;" id="no_active_meals">No Active Meals</div>
                 </div>
@@ -319,45 +319,45 @@ try {
                     <?php foreach ($deliveries as $delivery) {
                         if ($delivery['is_active'] == 0) {
                             ?>
-                            <div class="active_deliveries_box">
-                                <div class="brk_tre_box r-flex ali-c jut-sb">
-                                    <div class="brk_box r-flex ali-c">
-                                        <img src="img/time.svg" alt="sun set and date">
-                                        <span>
-                                            <?php echo $delivery['time']; ?> - Daily
-                                        </span>
-                                    </div>
-                                    <div class="pre_box r-flex ali-c">
-                                        <img src="img/scooter-icon.svg" alt="scooter icon">
-                                        <span>24 Deliveries</span>
-                                    </div>
-                                </div>
-                                <div class="meal_item_list r-flex ali-c">
-                                    <img src="img/food-item.png" alt="meal icon">
-                                    <span>
-                                        <?php echo $delivery['items']; ?>
-                                    </span>
-                                </div>
-                                <div class="meal_item_list r-flex ali-c">
-                                    <img src="img/subscription-icon.svg" alt="meal icon">
-                                    <span>₹
-                                    <?php echo $delivery['price']; ?>/Meal
-                                    </span>
-                                </div>
+                                            <div class="active_deliveries_box">
+                                                <div class="brk_tre_box r-flex ali-c jut-sb">
+                                                    <div class="brk_box r-flex ali-c">
+                                                        <img src="img/time.svg" alt="sun set and date">
+                                                        <span>
+                                                            <?php echo $delivery['time']; ?> - Daily
+                                                        </span>
+                                                    </div>
+                                                    <div class="pre_box r-flex ali-c">
+                                                        <img src="img/scooter-icon.svg" alt="scooter icon">
+                                                        <span>24 Deliveries</span>
+                                                    </div>
+                                                </div>
+                                                <div class="meal_item_list r-flex ali-c">
+                                                    <img src="img/food-item.png" alt="meal icon">
+                                                    <span>
+                                                        <?php echo $delivery['items']; ?>
+                                                    </span>
+                                                </div>
+                                                <div class="meal_item_list r-flex ali-c">
+                                                    <img src="img/subscription-icon.svg" alt="meal icon">
+                                                    <span>₹
+                                                    <?php echo $delivery['price']; ?>/Meal
+                                                    </span>
+                                                </div>
 
-                                <div class="req_can_box r-flex ali-c jut-sb">
-                                    <div class="req_box r-flex ali-c" onclick="request_edit();">
-                                        <img src="https://imeals.in/img/color-edite-icon.svg" alt="Edit Meal Plan">
-                                        <span  style="color: #5546AF;">Edit Meal Plan</span>
-                                    </div>
-                                    <div class="can_box r-flex ali-c" onclick="updateOrderStatus(<?php echo $delivery['id']; ?>, 'resume');">
-                                        <img src="https://imeals.in/img/resume-again.svg?v1" style="width:10px;" alt="pause icon">
-                                        <span  style="color: #5546AF;">Resume Now</span>
-                                    </div>
-                                </div>
+                                                <div class="req_can_box r-flex ali-c jut-sb">
+                                                    <div class="req_box r-flex ali-c" onclick="request_edit();">
+                                                        <img src="https://imeals.in/img/color-edite-icon.svg" alt="Edit Meal Plan">
+                                                        <span  style="color: #5546AF;">Edit Meal Plan</span>
+                                                    </div>
+                                                    <div class="can_box r-flex ali-c" onclick="updateOrderStatus(<?php echo $delivery['id']; ?>, 'resume');">
+                                                        <img src="https://imeals.in/img/resume-again.svg?v1" style="width:10px;" alt="pause icon">
+                                                        <span  style="color: #5546AF;">Resume Now</span>
+                                                    </div>
+                                                </div>
 
-                            </div>
-                        <?php }
+                                            </div>
+                                <?php }
                     } ?>
                 </div>
                 </div>
