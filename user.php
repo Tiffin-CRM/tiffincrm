@@ -249,7 +249,7 @@ try {
                                         <span>Edit Meal Plan</span>
                                     </div>
                                     <div class="can_box r-flex ali-c" onclick="updateOrderStatus(<?php echo $delivery['id']; ?>, 'pause');">
-                                        <img src="https://imeals.in/img/resume-icon.svg" alt="pause icon">
+                                        <img src="https://imeals.in/img/resume-icon.svg" style="width=15px" alt="pause icon">
                                         <span>Pause Now</span>
                                     </div>
                                 </div>
