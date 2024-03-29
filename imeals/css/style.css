@@ -465,15 +465,15 @@
   }
   .steps_items_container {
     /* height: 100vh; */
-    overflow: visible;
+    overflow: hidden;
     margin-top: 70px;
   }
   .steps_items_container.active {
     height: 100%;
-   display: block;
+    overflow: visible;
   }
   .steps_collapse_btn {
-    margin: 20px auto;
+    margin: auto;
     width: fit-content;
     cursor: pointer;
     padding: 6px 15px;
@@ -963,6 +963,3 @@
     }
   }
   
-  .collapsable{
-    display: none;
-  }
