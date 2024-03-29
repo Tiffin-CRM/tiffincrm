@@ -298,13 +298,13 @@ self.addEventListener('beforeinstallprompt', (event) => {
                     <div class="active_deliveries_heading r-flex ali-c expandable_heading_container"  onclick="toogleList('active_plans_list','active_plan_arrow');">
                         <span>Your Active Meal Plans <img src="img/green-tik.svg" alt=""></span>
                         
-                        <span><svg id="active_plan_arrow" width="15" height="9" viewBox="0 0 15 9" fill="none"
+                        <span><svg class="rotateit" id="active_plan_arrow" width="15" height="9" viewBox="0 0 15 9" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path d="M14 1L7.5 8L1 1" stroke="#272727" stroke-linecap="square" />
                             </svg>
                         </span>
                     </div>
-                    <div id="active_plans_list" class="hideit">
+                    <div id="active_plans_list">
 
                     <?php foreach ($deliveries as $delivery) {
                         if ($delivery['is_active'] == 1) {
