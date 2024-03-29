@@ -84,15 +84,21 @@ function paytoupi() {
 }
 
 function logout() {
-  // Set the expiration date to a past time to remove the cookie
-  var pastDate = new Date(0);
+  // Display a confirmation dialog
+  var confirmation = confirm("Are you sure you want to log out?");
 
-  // Clear the authentication cookie
-  document.cookie = "token=; expires=" + pastDate.toUTCString() + "; path=/;"; 
+  // Check if the user confirmed
+  if (confirmation) {
+      // Set the expiration date to a past time to remove the cookie
+      var pastDate = new Date(0);
 
-  // Redirect the user to the logout page or homepage
-  window.location.href = '/'; // Redirect to a logout page
-  // window.location.href = 'index.html'; // Redirect to the homepage
+      // Clear the authentication cookie
+      document.cookie = "token=; expires=" + pastDate.toUTCString() + "; path=/;"; 
+
+      // Redirect the user to the logout page or homepage
+      window.location.href = '/'; // Redirect to a logout page
+      // window.location.href = 'index.html'; // Redirect to the homepage
+  }
 }
 
 
