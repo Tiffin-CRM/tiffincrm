@@ -48,7 +48,7 @@ try {
             <div class="nav_logo">
                                         <img src="https://imeals.in/img/tool-kitchen.svg" alt="nife icon">
 
-                <span  class="name_deliry_text">Mom's Kitchen</span>
+                <span>Mom's Kitchen</span>
             </div>
             <a href="https://api.whatsapp.com/send?phone=919068062563" class="whats_app_icon">
                 <img src="img/whast-app-btn-icon.svg" alt="Whats app icon">
