@@ -465,13 +465,13 @@
   }
   .steps_items_container {
     /* height: 100vh; */
-    overflow: hidden;
+    overflow: visible;
     margin-top: 70px;
   }
-  .steps_items_container.active {
+  /* .steps_items_container.active {
     height: 100%;
     overflow: visible;
-  }
+  } */
   .steps_collapse_btn {
     margin: auto;
     width: fit-content;
@@ -963,3 +963,6 @@
     }
   }
   
+  .hideit{
+    display: none;
+  }
