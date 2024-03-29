@@ -363,7 +363,7 @@ try {
                     <span>LogOut</span>
                 </button>
 
-                <div class="disclaimer_box">Disclaimer: This Information is provided by Soumya’s Kitchen.</div>
+                <div class="disclaimer_box">Disclaimer: This Information is provided by Mom's Kitchen.</div>
             </div>
         </section>
 
@@ -375,7 +375,7 @@ try {
                         <img src="img/close_cross.svg" alt="cross icon">
                     </div>
                     <div class="pop_heading_text" id="popupTitle">Request Edit in Meal Plan</div>
-                    <div class="dark_sub_heading" id="descText">You have to request this to Soumya’s Kitchen Management
+                    <div class="dark_sub_heading" id="descText">You have to request this to Mom's Kitchen Management
                         Team on
                         Whatsapp</div>
                     <div class="dark_sub_heading" id="steps_desc"
@@ -384,10 +384,10 @@ try {
                         <br>
                         2. Pay via any UPI apps
                         <br>
-                        3. Send Payment Screenshot to Soumya’s Kitchen
+                        3. Send Payment Screenshot to Mom's Kitchen
                     </div>
                     <div class="short_not_box" id="noteText">Remember: You must have to send payment screenshot to
-                        Soumya’sK Kitchen
+                    Mom's Kitchen
                         to Add the Balance in your wallet</div>
 
                     <input type="number" name="amount" id="amount_input_box" placeholder="Enter Amount"
@@ -405,7 +405,7 @@ try {
 
 
         <footer>
-            <div class="power_by_text">Powered By iSahayak</div>
+            <div class="power_by_text">Powered By TiffinCRM</div>
         </footer>
     </main>
 
