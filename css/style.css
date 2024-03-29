@@ -126,7 +126,7 @@ main {
   background-color: var(--theam-color);
   border-radius: 5px;
   text-align: center;
-  color: var(--light-font-color);
+  color: var(--mid-font-color);
   width: 100%;
   max-width: 500px;
   margin: auto;
