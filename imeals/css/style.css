@@ -386,7 +386,7 @@
   }
   
   .steps_item_box {
-    background-color: #f2f1ff;
+    background-color: White;
     border-radius: 5px;
     border: 1px solid #5546af;
     padding: 30px 45px;
@@ -552,7 +552,7 @@
     padding: 40px;
     border-radius: 5px;
     border: 1px solid #5546af;
-    background: #f2f1ff;
+    background: #ffffff;
   }
   .cakes_box {
     margin-top: 40px;
@@ -564,7 +564,7 @@
   @media (max-width: 730px) {
     .cakes_container {
       padding: 15px;
-      margin-top: 80px;
+      margin-top: 40px;
     }
     .cakes_main_heading {
       font-size: 14px;
