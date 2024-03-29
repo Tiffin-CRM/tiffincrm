@@ -79,9 +79,9 @@ try {
                 </svg>
             </div> -->
             <div class="nav_logo">
-                                        <img src="https://imeals.in/img/tool-kitchen.svg?v2" alt="nife icon">
+                                        <img src="https://imeals.in/img/tool-Canteen.svg?v2" alt="nife icon">
 
-                <span>Mom's Kitchen</span>
+                <span>Mom's Canteen</span>
             </div>
             <a href="https://api.whatsapp.com/send?phone=919068062563" class="whats_app_icon">
                 <img src="img/whast-app-btn-icon.svg?v2" alt="Whats app icon">
@@ -101,7 +101,7 @@ try {
             <div class="container">
                 <!-- <div class="delivery_name r-flex ali-c">
                     <div class="tool_kic_img">
-                        <img src="img/tool-kitchen.svg" alt="nife icon">
+                        <img src="img/tool-Canteen.svg" alt="nife icon">
                     </div>
                     <div class="name_deliry_text">Mom’s Canteen</div>
                 </div> -->
@@ -363,7 +363,7 @@ try {
                     <span>LogOut</span>
                 </button>
 
-                <div class="disclaimer_box">Disclaimer: This Information is provided by Mom's Kitchen.</div>
+                <div class="disclaimer_box">Disclaimer: This Information is provided by Mom's Canteen.</div>
             </div>
         </section>
 
@@ -375,7 +375,7 @@ try {
                         <img src="img/close_cross.svg" alt="cross icon">
                     </div>
                     <div class="pop_heading_text" id="popupTitle">Request Edit in Meal Plan</div>
-                    <div class="dark_sub_heading" id="descText">You have to request this to Mom's Kitchen Management
+                    <div class="dark_sub_heading" id="descText">You have to request this to Mom's Canteen Management
                         Team on
                         Whatsapp</div>
                     <div class="dark_sub_heading" id="steps_desc"
@@ -384,10 +384,10 @@ try {
                         <br>
                         2. Pay via any UPI apps
                         <br>
-                        3. Send Payment Screenshot to Mom's Kitchen
+                        3. Send Payment Screenshot to Mom's Canteen
                     </div>
                     <div class="short_not_box" id="noteText">Remember: You must have to send payment screenshot to
-                    Mom's Kitchen
+                    Mom's Canteen
                         to Add the Balance in your wallet</div>
 
                     <input type="number" name="amount" id="amount_input_box" placeholder="Enter Amount"

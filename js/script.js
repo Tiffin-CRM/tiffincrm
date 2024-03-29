@@ -27,7 +27,7 @@ function pause_plan() {
 function request_edit() {
   var popupTitle = "Request Edit in Meal Plan";
   var descText =
-    "You have to request this to Mom's Kitchen Management Team on Whatsapp?";
+    "You have to request this to Mom's Canteen Management Team on Whatsapp?";
   var noteText =
     "Note: Make sure to check the updated information here after requesting.";
   var btn_text = "Send Message on Whatspp";
@@ -45,7 +45,7 @@ function add_balance() {
   var popupTitle = "Add Balance in Wallet";
   var descText = "Must Follow Below Steps to Add Balance";
   var noteText =
-    "Remember: You must have to send payment screenshot to Mom's Kitchen to Add the Balance in your wallet";
+    "Remember: You must have to send payment screenshot to Mom's Canteen to Add the Balance in your wallet";
   var btn_text = "Pay Now";
   changeElement(popupTitle, descText, noteText, btn_text);
 
