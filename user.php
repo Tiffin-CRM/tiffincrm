@@ -136,7 +136,7 @@ try {
                             <div class="active_deliveries_box">
                                 <div class="brk_tre_box r-flex ali-c jut-sb">
                                     <div class="brk_box r-flex ali-c">
-                                        <img src="img/sun-set.svg" alt="sun set and date">
+                                        <img src="img/time.svg" alt="sun set and date">
                                         <span>
                                             <?php echo $delivery['time']; ?> - Today
                                         </span>
@@ -147,7 +147,7 @@ try {
                                     </div>
                                 </div>
                                 <div class="meal_item_list r-flex ali-c">
-                                    <img src="img/meals_icon.svg" alt="meal icon">
+                                    <img src="img/food-item.png" alt="meal icon">
                                     <span>
                                         <?php echo $delivery['items']; ?>
                                     </span>
@@ -155,10 +155,10 @@ try {
                                 <div class="req_can_box r-flex ali-c jut-sb">
                                     <div class="req_box r-flex ali-c" onclick="request_edit();">
                                         <img src="img/color-edite-icon.svg" alt="eddite text icon">
-                                        <span style="color: #5546AF;">Request Edit in this delivery</span>
+                                        <span style="color: #5546AF;">Edit this delivery</span>
                                     </div>
                                     <div class="can_box r-flex ali-c" onclick="updateDeliveryStatus(<?php echo $delivery['id']; ?>, 'cancelled')">
-                                        <img src="img/color-cancel.svg" alt="cancel icon">
+                                        <img src="img/color-cancel.svg?v1" alt="cancel icon">
                                         <span style="color: #5546AF;">Cancel This Delivery</span>
                                     </div>
                                 </div>
