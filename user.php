@@ -73,8 +73,7 @@ try {
                     <div class="name_deliry_text">Mom’s Canteen</div>
                 </div> -->
                 <div class="hero_cont_box">
-                    <div class="cont_box_text">Hi Name (
-                        <?php echo $phone; ?>), Welcome to Mom’s Canteen. Use iMeals to manage your meals
+                    <div class="cont_box_text">Hi Name (<?php echo $phone; ?>), Welcome to Mom’s Canteen. Use iMeals to manage your meals
                         and pay to Mom’s Canteen.
                     </div>
                     <!-- <div class="app_installation_guide_box r-flex ali-c jut-c">
@@ -175,7 +174,7 @@ try {
                 <div class="pause_deliveries_btn">
                     <button class="delivery_pause r-flex ali-c jut-c" onclick="updateAccount(this, '<?php echo $user['status'] == 'active' ? 'paused' : 'active'; ?>');">
                         <img src="img/pause.svg" alt="pause icon">
-                        <span><?php echo ($user['status'] == 'active') ? 'Pause' : 'Resume' ; ?>  Future Deliveries</span>
+                        <span><?php echo ($user['status'] == 'active') ? 'Pause' : 'Resume' ; ?>All  Future Deliveries</span>
                     </button>
                     <?php if ($user['status'] == 'active') { ?>
                         <div class="delivery_pause_text">This will pause all your future deliveries until you resume it
@@ -184,6 +183,7 @@ try {
                 </div>
             </div>
         </section>
+        <hr style="margin: 20px auto; border: 1px solid #f9f5f5;">
 
         <section class="transactions_section">
             <div class="container">
@@ -205,6 +205,7 @@ try {
                 <button class="go_to_trans_box" onclick="toggleBtn()">Go to Transactions</button>
             </div>
         </section>
+        <hr style="margin: 20px auto; border: 1px solid #f9f5f5;">
 
         <section class="meal_plasns_box">
             <div class="container">
@@ -219,7 +220,7 @@ try {
                             <div class="active_deliveries_box">
                                 <div class="brk_tre_box r-flex ali-c jut-sb">
                                     <div class="brk_box r-flex ali-c">
-                                        <img src="img/sun-set.svg" alt="sun set and date">
+                                        <img src="img/time.svg" alt="sun set and date">
                                         <span>
                                             <?php echo $delivery['time']; ?> - Today
                                         </span>
@@ -230,18 +231,19 @@ try {
                                     </div>
                                 </div>
                                 <div class="meal_item_list r-flex ali-c">
-                                    <img src="img/meals_icon.svg" alt="meal icon">
+                                    <img src="img/food-item.png" alt="meal icon">
                                     <span>
                                         <?php echo $delivery['items']; ?>
                                     </span>
                                 </div>
-                                <div class="req_can_box r-flex ali-c jut-sb">
-                                    <div class="req_box r-flex ali-c">
+                                <div class="req_box r-flex ali-c">
                                         <img src="img/tag-icon.svg" alt="tag icon">
                                         <span><i>Rs.
                                                 <?php echo $delivery['price']; ?>/Meal
                                             </i></span>
                                     </div>
+                                <div class="req_can_box r-flex ali-c jut-sb">
+                                  
                                     <div class="can_box r-flex ali-c">
                                         <div class="eddite_meal_plan r-flex ali-c" onclick="request_edit();">
                                             <img src="img/color-edite-icon.svg" alt="cancel icon">
@@ -261,6 +263,8 @@ try {
                     } ?>
                     <div style="display: none;" id="no_active_meals">No Active Meals</div>
                 </div>
+                <hr style="margin: 20px auto; border: 1px solid #f9f5f5;">
+
                 <div id="paused_orders" class="active_deliveries_container" style="margin-top: 40px;">
                     <div class="active_deliveries_heading r-flex ali-c">
                         <span>Your Paused Meal Plans</span>
@@ -271,7 +275,7 @@ try {
                             <div class="active_deliveries_box">
                                 <div class="brk_tre_box r-flex ali-c jut-sb">
                                     <div class="brk_box r-flex ali-c">
-                                        <img src="img/sun-set.svg" alt="sun set and date">
+                                        <img src="img/time.svg" alt="sun set and date">
                                         <span>
                                             <?php echo $delivery['time']; ?> - Today
                                         </span>
@@ -282,7 +286,7 @@ try {
                                     </div>
                                 </div>
                                 <div class="meal_item_list r-flex ali-c">
-                                    <img src="img/meals_icon.svg" alt="meal icon">
+                                    <img src="img/food-item.png" alt="meal icon">
                                     <span>
                                         <?php echo $delivery['items']; ?>
                                     </span>
