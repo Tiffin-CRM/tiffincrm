@@ -113,7 +113,7 @@ try {
                                 <div class="req_can_box r-flex ali-c jut-sb">
                                     <div class="req_box r-flex ali-c" onclick="request_edit();">
                                         <img src="img/edite-icon.svg" alt="eddite text icon">
-                                        <span>Request Edit in this delivery</span>
+                                        <span>Edit this delivery</span>
                                     </div>
                                     <div class="can_box r-flex ali-c" onclick="updateDeliveryStatus(<?php echo $delivery['id']; ?>, 'wasted');">
                                         <img src="img/cancel.svg?v6" alt="cancel icon">
