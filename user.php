@@ -66,39 +66,9 @@ try {
 self.addEventListener('beforeinstallprompt', (event) => {
   // Prevent the default prompt from showing
   event.preventDefault();
-  
   // Save the event for later use
   deferredPrompt = event;
-  
-  // Show the install button
-//   showInstallButton();
 });
-
-deferredPrompt.prompt();
-function showInstallButton() {
-  // Show a button prompting the user to install the app
-  const installButton = document.createElement('button');
-  installButton.textContent = 'Install App';
-  installButton.addEventListener('click', () => {
-    // Show the deferred prompt saved earlier
-    deferredPrompt.prompt();
-
-    // Wait for the user to respond to the prompt
-    deferredPrompt.userChoice.then((choiceResult) => {
-      if (choiceResult.outcome === 'accepted') {
-        console.log('User accepted the install prompt');
-      } else {
-        console.log('User dismissed the install prompt');
-      }
-
-      // Reset the deferred prompt variable
-      deferredPrompt = null;
-    });
-  });
-
-  // Append the install button to the document body
-  document.body.appendChild(installButton);
-}
 
                 </script>
                 <style>
