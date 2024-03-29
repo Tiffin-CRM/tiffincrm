@@ -62,6 +62,10 @@ try {
                     background-color: rgb(255, 255, 255);
                     padding: 5px;
                    }
+                   #active_meals{
+                    background-color: rgb(255, 255, 255);
+                    padding: 5px;
+                   }
                 </style>
 </head>
 
@@ -238,11 +242,18 @@ try {
 
         <section class="meal_plasns_box">
             <div class="container">
-                <div id="active_meals" class="active_deliveries_container" style="margin-top: 25px;">
-                    <div class="active_deliveries_heading r-flex ali-c">
-                        <span>Your Active Meal Plans</span>
-                        <img src="img/green-tik.svg" alt="">
+                <div id="active_meals" class="active_deliveries_container " style="margin-top: 25px;">
+                    <div class="active_deliveries_heading r-flex ali-c expandable_heading_container"  onclick="toogleList('active_plans_list','active_plan_arrow');">
+                        <span>Your Active Meal Plans <img src="img/green-tik.svg" alt=""></span>
+                        
+                        <span><svg id="active_plan_arrow" width="15" height="9" viewBox="0 0 15 9" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M14 1L7.5 8L1 1" stroke="#272727" stroke-linecap="square" />
+                            </svg>
+                        </span>
                     </div>
+                    <div id="active_plans_list" class="hideit">
+
                     <?php foreach ($deliveries as $delivery) {
                         if ($delivery['is_active'] == 1) {
                             ?>
@@ -288,6 +299,7 @@ try {
                         <?php }
                     } ?>
                     <div style="display: none;" id="no_active_meals">No Active Meals</div>
+                </div>
                 </div>
                 <hr style="margin: 20px auto; border: 1px solid #f9f5f5;">
 
