@@ -32,6 +32,7 @@ try {
     <link rel="icon" href="/assets/icons/favicon.ico" sizes="any">
     <link rel="apple-touch-icon" href="/assets/icons/apple-touch-icon.png">
     <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#5546af" />
 
     <link rel="stylesheet" href="css/base.css?v=0.0.1">
     <link rel="stylesheet" href="css/style.css?v7">

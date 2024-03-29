@@ -7,6 +7,7 @@
     <link rel="icon" href="/assets/icons/favicon.ico" sizes="any">
     <link rel="apple-touch-icon" href="/assets/icons/apple-touch-icon.png">
     <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#5546af" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />

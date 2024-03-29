@@ -1,6 +1,6 @@
 {
-    "name": "iMeal",
-    "short_name": "iMeal",
+    "name": "iMeals",
+    "short_name": "iMeals",
     "description": "Manage your tiffin deliveries",
     "start_url": "/user.php",
     "display": "standalone",
@@ -14,3 +14,4 @@
         { "src": "/assets/icons/icon-512-maskable.png", "type": "image/png", "sizes": "512x512", "purpose": "maskable" }
       ]
   }
+
