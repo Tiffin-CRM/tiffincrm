@@ -138,6 +138,6 @@ async function updateAccount(btn, status) {
   
   var totalActive = document.querySelectorAll(`#${id} .active_deliveries_box`).length;
   if(totalActive == 0){
-    document.querySelector("#paused_orders").style.display = "none";
+    document.querySelector(`#${id}`).style.display = "none";
   }
 })
