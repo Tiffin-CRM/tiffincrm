@@ -51,7 +51,7 @@ try {
                 <span>Mom's Kitchen</span>
             </div>
             <a href="https://api.whatsapp.com/send?phone=919068062563" class="whats_app_icon">
-                <img src="img/whast-app-btn-icon.svg?v1" alt="Whats app icon">
+                <img src="img/whast-app-btn-icon.svg?v2" alt="Whats app icon">
             </a>
         </div>
         </div>
