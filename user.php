@@ -79,7 +79,7 @@ try {
                 </svg>
             </div> -->
             <div class="nav_logo">
-                                        <img src="https://imeals.in/img/tool-Canteen.svg?v2" alt="nife icon">
+                                        <img src="https://imeals.in/img/tool-kitchen.svg" alt="nife icon">
 
                 <span>Mom's Canteen</span>
             </div>
