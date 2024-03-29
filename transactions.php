@@ -14,7 +14,7 @@ $phone = $phonetoken / '4578348';
 try {
 
     include ("php/api.php");
-    $user = getCustomer("58");
+    $user = getCustomer($phone);
     $transactions = getTransactions($user["id"]);
     //code...
 } catch (\Throwable $th) {
