@@ -110,7 +110,7 @@ try {
                                         <img src="img/edite-icon.svg" alt="eddite text icon">
                                         <span>Request Edit in this delivery</span>
                                     </div>
-                                    <div class="can_box r-flex ali-c" onclick="cancel_delivery();">
+                                    <div class="can_box r-flex ali-c" onclick="updateDeliveryStatus(<?php echo $delivery['id']; ?>, 'wasted');">
                                         <img src="img/cancel.svg" alt="cancel icon">
                                         <span>Cancel This Delivery</span>
                                     </div>
@@ -155,7 +155,7 @@ try {
                                         <img src="img/color-edite-icon.svg" alt="eddite text icon">
                                         <span style="color: #5546AF;">Request Edit in this delivery</span>
                                     </div>
-                                    <div class="can_box r-flex ali-c" onclick="cancel_delivery()">
+                                    <div class="can_box r-flex ali-c" onclick="updateDeliveryStatus(<?php echo $delivery['id']; ?>, 'cancelled')">
                                         <img src="img/color-cancel.svg" alt="cancel icon">
                                         <span style="color: #5546AF;">Cancel This Delivery</span>
                                     </div>
@@ -358,7 +358,7 @@ try {
 
 
 
-    <script src="js/script.js?v1.9.4"></script>
+    <script src="js/script.js?v1.9.5"></script>
 </body>
 
 </html>

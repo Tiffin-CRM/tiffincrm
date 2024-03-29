@@ -12,7 +12,7 @@ function request($payload)
 
     $response = curl_exec($ch);
     $response = json_decode($response, true);
-    if($response['res'] != 'success'){
+    if ($response['res'] != 'success') {
         throw new Exception($response['data'], 1);
     }
     return $response['data'];
@@ -65,7 +65,8 @@ function getTransactions($id)
         ]
     ]);
 }
-function updateAccountStatus($id, $status){
+function updateAccountStatus($id, $status)
+{
     return request([
         "action" => "update",
         "table" => "clients",
@@ -78,6 +79,30 @@ function updateAccountStatus($id, $status){
     ]);
 }
 
+
+function updateDeliveryStatus($id, $status)
+{
+    if ($status == "cancelled") {
+
+        return request([
+            "action" => "insert",
+            "table" => "deliveries",
+            "data" => [
+                "order_id" => $id,
+                "status" => "cancelled"
+            ]
+        ]);
+    } else {
+        return request([
+            "action" => "update",
+            "table" => "deliveries",
+            "where" => "order_id = $id AND timestamp > curdate()",
+            "data" => [
+                "status" => $status
+            ]
+        ]);
+    }
+}
 
 
 ?>

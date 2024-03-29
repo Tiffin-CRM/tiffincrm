@@ -108,6 +108,16 @@ async function updateOrderStatus(orderId, status) {
   }
 }
 
+async function updateDeliveryStatus(orderId, status) {
+  if(!confirm("Are you sure you want to update this status?")) {
+    return;
+  }
+  var data = await request({ orderId, status, action: "update_delivery_status" });
+  if (data != null) {
+    window.location.reload();
+  }
+}
+
 async function updateAccount(btn, status) {
   if (!confirm("Are you sure you want to update this status?")) {
     return;
