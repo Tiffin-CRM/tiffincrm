@@ -101,7 +101,7 @@ try {
                                     </div>
                                 </div>
                                 <div class="meal_item_list r-flex ali-c">
-                                    <img src="img/food-icon.png" alt="meal icon">
+                                    <img src="img/food-item.png" alt="meal icon">
                                     <span>
                                         <?php echo $delivery['items']; ?>
                                     </span>
