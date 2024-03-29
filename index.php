@@ -1,10 +1,10 @@
 <?php
-// Set the HTTP status code to 302 Found for temporary redirection
-header("HTTP/1.1 302 Found");
-// Make sure search engines don't index the original page
-echo '<meta name="robots" content="noindex">';
-// Make sure no other code gets executed after the redirect
-header("Location: login.php");
-
-exit;
+// Check if the 'token' cookie is set
+if(isset($_COOKIE['token'])) { // isset() checks if a variable is set and is not NULL
+    header("Location: user.php"); // Redirect to user.php
+    exit; // Stop further execution
+} else {
+    header("Location: login.php"); // Redirect to login.php
+    exit; // Stop further execution
+}
 ?>
