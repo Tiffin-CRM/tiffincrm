@@ -12,7 +12,7 @@ $phone = $phonetoken / '4578348';
 try {
 
     include ("php/api.php");
-    $user = getCustomer("58");
+    $user = getCustomer($phone);
     $_SESSION['user_id'] = $user["id"];
     $deliveries = getOrders($user["id"]);
     //code...
