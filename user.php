@@ -66,34 +66,37 @@ try {
 self.addEventListener('beforeinstallprompt', (event) => {
   // Prevent the default prompt from showing
   event.preventDefault();
-
+  
   // Save the event for later use
   deferredPrompt = event;
+  
+  // Show the install prompt immediately (if available)
+  showInstallPrompt();
 });
 
-// Trigger install prompt when the page loads
-window.addEventListener('load', () => {
+function showInstallPrompt() {
   // Show the install prompt if it's available
   if (deferredPrompt) {
-    // Optionally, you can delay the prompt to ensure a better user experience
-    setTimeout(() => {
-      // Show the deferred prompt saved earlier
-      deferredPrompt.prompt();
+    // Show the deferred prompt saved earlier
+    deferredPrompt.prompt();
 
-      // Wait for the user to respond to the prompt
-      deferredPrompt.userChoice.then((choiceResult) => {
-        if (choiceResult.outcome === 'accepted') {
-          console.log('User accepted the install prompt');
-        } else {
-          console.log('User dismissed the install prompt');
-        }
+    // Wait for the user to respond to the prompt
+    deferredPrompt.userChoice.then((choiceResult) => {
+      if (choiceResult.outcome === 'accepted') {
+        console.log('User accepted the install prompt');
+      } else {
+        console.log('User dismissed the install prompt');
+      }
 
-        // Reset the deferred prompt variable
-        deferredPrompt = null;
-      });
-    }, 2000); // Delay the prompt by 2 seconds (optional)
+      // Reset the deferred prompt variable
+      deferredPrompt = null;
+    });
   }
-});
+}
+
+// Trigger the showInstallPrompt function when the page loads
+window.addEventListener('load', showInstallPrompt);
+
 
                 </script>
                 <style>
