@@ -167,7 +167,7 @@ try {
 
                 <div class="active_deliveries_container">
                     <div class="active_deliveries_heading r-flex ali-c">
-                        <span>Upcoming Delivery</span>
+                        <span>Upcoming Deliveries</span>
                     </div>
                     <?php foreach ($deliveries as $delivery) {
                         if ($delivery['status'] == null) {
