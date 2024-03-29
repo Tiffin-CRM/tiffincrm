@@ -77,7 +77,7 @@ function popup_default() {
 function paytoupi() {
   // Get the value entered in the input box
   var amountValue = document.getElementById("amount_input_box").value;
-  var  userPhone = document.getElementById("userPhone").value;
+  var  userPhone = document.getElementById("userPhone").textContent;
 
   // Open the UPI payment link when the button is clicked
   window.open("upi://pay?pa=7847992004@ybl&pn=Soumya&cu=INR&tn=Add_to_"+userPhone + "&am=" + amountValue);
