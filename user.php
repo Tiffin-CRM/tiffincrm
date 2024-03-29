@@ -301,9 +301,9 @@ try {
                     <div style="display: none;" id="no_active_meals">No Active Meals</div>
                 </div>
                 </div>
-                <hr style="margin: 20px auto; border: 1px solid #f9f5f5;">
+                <hr style="border: 1px solid #f9f5f5;">
 
-                <div id="paused_orders" class="active_deliveries_container" style="margin-top: 40px;opacity:80%;" >
+                <div id="paused_orders" class="active_deliveries_container" style="margin-top: 10px;opacity:80%;" >
                 <div class="active_deliveries_heading r-flex ali-c expandable_heading_container" onclick="toogleList('paused_plans_list','paused_plan_arrow');">
                         <span>Your Paused Meal Plans</span>
                         <span><svg id="paused_plan_arrow" width="15" height="9" viewBox="0 0 15 9" fill="none"
