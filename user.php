@@ -42,7 +42,7 @@ try {
 
                 </script>
                 <style>
-                    .cancel_btn{
+                    .cancel_icon{
                                     style:width: 16px;
                                 }
                     .expandable_heading_container {
@@ -153,7 +153,7 @@ try {
                                                         <span>Edit this delivery</span>
                                                     </div>
                                                     <div class="can_box r-flex ali-c" onclick="updateDeliveryStatus(<?php echo $delivery['id']; ?>, 'wasted');">
-                                                        <img src="img/cancel.svg?v6" class="cancel_btn" alt="cancel icon">
+                                                        <img src="img/cancel.svg?v6" class="cancel_icon" alt="cancel icon">
                                                         <span>Cancel This Delivery</span>
                                                     </div>
                                                 </div>
@@ -197,7 +197,7 @@ try {
                                                         <span style="color: #5546AF;">Edit this delivery</span>
                                                     </div>
                                                     <div class="can_box r-flex ali-c" onclick="updateDeliveryStatus(<?php echo $delivery['id']; ?>, 'cancelled')">
-                                                        <img src="img/color-cancel.svg?v2" alt="cancel icon">
+                                                        <img src="img/color-cancel.svg?v2" alt="cancel icon" class="cancel_icon">
                                                         <span style="color: #5546AF;">Cancel This Delivery</span>
                                                     </div>
                                                 </div>
