@@ -90,7 +90,7 @@ try {
                         #copy_icon {
                             position: absolute;
                             top: 62%;
-                            right: 11px;
+                            right: 30px;
                             /* Adjust as needed */
                             transform: translateY(-50%);
                         }
@@ -448,7 +448,7 @@ try {
 
 
 
-    <script src="js/script.js?v1.9.15"></script>
+    <script src="js/script.js?v1.9.16"></script>
 </body>
 
 </html>
