@@ -53,7 +53,7 @@ function add_balance() {
     paytoupi();
   };
   // Individual params
-
+  document.getElementById("upi_id_input_container").style.display = "block";
   document.getElementById("steps_desc").style.display = "block";
   document.getElementById("amount_input_box").style.display = "block";
 }
@@ -72,6 +72,8 @@ function popup_default() {
   document.getElementById("steps_desc").style.display = "none";
   document.getElementById("btn_icon").style.display = "none";
   document.getElementById("amount_input_box").style.display = "none";
+  document.getElementById("upi_id_input_container").style.display = "none";
+
 }
 
 function paytoupi() {
