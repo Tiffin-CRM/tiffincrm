@@ -933,6 +933,7 @@
     padding: 50px 0px;
     background-color: var(--white-bg);
     margin-top: 150px;
+    border-top: 1px #dedede solid;
   }
   .footer_copyright {
     font-size: 15.975px;
