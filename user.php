@@ -30,7 +30,7 @@ try {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Manage Deliveries - iMeals</title>
     <link rel="stylesheet" href="css/base.css?v=0.0.1">
-    <link rel="stylesheet" href="css/style.css?v2">
+    <link rel="stylesheet" href="css/style.css?v3">
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap"
         rel="stylesheet">
