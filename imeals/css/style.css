@@ -281,9 +281,9 @@
     max-height: 18px;
   }
   .ask_quetion_link {
-    color: var(--theam-color);
+    color: var(--mid-font-color);
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 500;
   }
   
   .hero_service_vdo_container {
