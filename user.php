@@ -17,6 +17,7 @@ try {
     $deliveries = getOrders($user["id"]);
     //code...
 } catch (\Throwable $th) {
+    header("Location: login.php?not_logged_in");
     echo $th->getMessage();
 }
 ?>

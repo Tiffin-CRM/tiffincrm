@@ -36,13 +36,17 @@ function updateStatus($id, $status, $client_id)
 
 function getCustomer($phone)
 {
-    return request([
+    $users = request([
         "action" => "select",
         "table" => "customers_view",
         "where" => [
             "phone" => $phone
         ]
-    ])[0];
+        ]);
+        if(count($users) == 0){
+            throw new Exception("User not found", 1);
+        }
+        return $users[0];
 }
 
 function getOrders($id)
