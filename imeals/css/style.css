@@ -291,6 +291,11 @@
     cursor: pointer;
     max-width: 483px;
   }
+    
+  .hero_service_vdo_container img{
+    width: 100%;
+   border-radius:5px;
+  }
   
   @media (max-width: 990px) {
     .serice_hero_container {
