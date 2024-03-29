@@ -73,7 +73,7 @@ try {
                     <div class="name_deliry_text">Mom’s Canteen</div>
                 </div> -->
                 <div class="hero_cont_box">
-                    <div class="cont_box_text">Hi Name (<?php echo $phone; ?>), Welcome to Mom’s Canteen. Use iMeals to manage your meals
+                    <div class="cont_box_text">Hi <?php echo $user["name"]; ?> (<?php echo $phone; ?>), Welcome to Mom’s Canteen. Use iMeals to manage your meals
                         and pay to Mom’s Canteen.
                     </div>
                     <!-- <div class="app_installation_guide_box r-flex ali-c jut-c">
