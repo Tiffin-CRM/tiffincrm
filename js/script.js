@@ -8,6 +8,8 @@ function toggleBtn() {
   background_pop_up.classList.toggle("active");
   document.body.classList.toggle("noscroll");
 
+  var overlayTouch = document.getElementById('overly-touch');
+
   // Check if toggleBtn is already assigned to onclick
   if (overlayTouch.onclick === toggleBtn) {
     overlayTouch.onclick = null; // Remove the onclick event
