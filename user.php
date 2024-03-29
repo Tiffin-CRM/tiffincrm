@@ -34,6 +34,35 @@ try {
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap"
         rel="stylesheet">
+        <script>
+                    function toogleList(ele_id,icon) {
+                        document.getElementById(ele_id).classList.toggle('hideit');
+                        document.getElementById(icon).classList.toggle('rotateit');
+                    }
+
+                </script>
+                <style>
+                    .expandable_heading_container {
+                        padding: 15px;
+                        display: flex;
+                        margin: 0;
+                        justify-content: space-between;
+                        flex-direction: row;
+                        background: #ffffff;
+                        border-radius: 5px;
+                    }
+                   .hideit
+                   {
+                       display: none;
+                   }
+                   .rotateit{
+                       transform: rotate(180deg);
+                   }
+                   #paused_orders{
+                    background-color: rgb(255, 255, 255);
+                    padding: 5px;
+                   }
+                </style>
 </head>
 
 <body>
@@ -263,9 +292,15 @@ try {
                 <hr style="margin: 20px auto; border: 1px solid #f9f5f5;">
 
                 <div id="paused_orders" class="active_deliveries_container" style="margin-top: 40px;opacity:80%;" >
-                    <div class="active_deliveries_heading r-flex ali-c">
+                    <div class="active_deliveries_heading expandable_heading_container r-flex ali-c">
                         <span>Your Paused Meal Plans</span>
+                        <span><svg id="paused_plan_arrow" width="15" height="9" viewBox="0 0 15 9" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M14 1L7.5 8L1 1" stroke="#272727" stroke-linecap="square" />
+                            </svg>
+                        </span>
                     </div>
+                    <div id="paused_plans_list" class="hideit">
                     <?php foreach ($deliveries as $delivery) {
                         if ($delivery['is_active'] == 0) {
                             ?>
@@ -309,6 +344,7 @@ try {
                             </div>
                         <?php }
                     } ?>
+                </div>
                 </div>
                 <button class="user_log_out_btn r-flex ali-c jut-c">
                     <img src="img/log-out-icon.svg" alt="log out icon">
