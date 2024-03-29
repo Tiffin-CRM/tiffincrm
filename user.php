@@ -31,6 +31,8 @@ try {
     <title>Manage Deliveries - iMeals</title>
     <link rel="icon" href="/assets/icons/favicon.ico" sizes="any">
     <link rel="apple-touch-icon" href="/assets/icons/apple-touch-icon.png">
+    <link rel="manifest" href="/manifest.json">
+
     <link rel="stylesheet" href="css/base.css?v=0.0.1">
     <link rel="stylesheet" href="css/style.css?v7">
     <link
@@ -47,6 +49,18 @@ try {
     document.execCommand("copy");
     alert("Upi Id copied to clipboard! Now Paste in Any Upi App & Pay");
   }
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('/service-worker.js')
+        .then(registration => {
+          console.log('Service Worker registered with scope:', registration.scope);
+        })
+        .catch(error => {
+          console.error('Service Worker registration failed:', error);
+        });
+    });
+  }
+
                 </script>
                 <style>
                     .cancel_icon{
