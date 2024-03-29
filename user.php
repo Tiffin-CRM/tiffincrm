@@ -29,6 +29,8 @@ try {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Manage Deliveries - iMeals</title>
+    <link rel="icon" href="/assets/icons/favicon.ico" sizes="any">
+    <link rel="apple-touch-icon" href="/assets/icons/apple-touch-icon.png">
     <link rel="stylesheet" href="css/base.css?v=0.0.1">
     <link rel="stylesheet" href="css/style.css?v7">
     <link
