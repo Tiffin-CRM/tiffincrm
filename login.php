@@ -176,7 +176,9 @@
             </button>
           </div>
           <p id="resultMessage" class="hideit response">Result Here</p>
-          <p id="show_response" class="response"><?php if(isset($_GET[''])) {echo $_GET[''];} ?></p>
+          <p id="show_response" class="response">
+    <?php if(isset($_GET[''])) {echo $_GET[''];} ?>
+</p>
 
         </div>
       </div>
