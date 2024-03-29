@@ -473,7 +473,7 @@
     overflow: visible;
   } */
   .steps_collapse_btn {
-    margin: auto;
+    margin: 20px auto;
     width: fit-content;
     cursor: pointer;
     padding: 6px 15px;

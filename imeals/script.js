@@ -11,10 +11,10 @@ stepCheckButtons.forEach(function(button) {
 
 // +++++++ collabes ++++++++
 function toggleMenu() {
-  const hiddenSteps = document.querySelectorAll('.hidden_steps');
+  const hiddenSteps = document.querySelectorAll('.hideit');
 
   hiddenSteps.forEach(step => {
-      step.classList.remove('hidden_steps');
+      step.classList.remove('hideit');
   });
   
 }
