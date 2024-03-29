@@ -68,16 +68,16 @@ try {
                     <div class="tool_kic_img">
                         <img src="img/tool-kitchen.svg" alt="nife icon">
                     </div>
-                    <div class="name_deliry_text">Soumya Kitchen</div>
+                    <div class="name_deliry_text">Mom’s Canteen</div>
                 </div>
                 <div class="hero_cont_box">
-                    <div class="cont_box_text">Hi
-                        <?php echo $phone; ?>, Welcome to Soumya Kitchen. Use iMeals app to manage your meals
-                        and pay to Soumya kitchen.
+                    <div class="cont_box_text">Hi Name (
+                        <?php echo $phone; ?>), Welcome to Mom’s Canteen. Use iMeals app to manage your meals
+                        and pay to Mom’s Canteen.
                     </div>
-                    <div class="app_installation_guide_box r-flex ali-c jut-c">
+                    <!-- <div class="app_installation_guide_box r-flex ali-c jut-c">
                         <a href="#">See Installation Guide</a> <span> (App size: 2 MB only)</span>
-                    </div>
+                    </div> -->
                 </div>
                 <div id="active_deliveries" class="active_deliveries_container">
                     <div class="active_deliveries_heading r-flex ali-c">
@@ -90,7 +90,7 @@ try {
                             <div class="active_deliveries_box">
                                 <div class="brk_tre_box r-flex ali-c jut-sb">
                                     <div class="brk_box r-flex ali-c">
-                                        <img src="img/sun-set.svg" alt="sun set and date">
+                                        <img src="img/time.svg" alt="sun set and date">
                                         <span>
                                             <?php echo $delivery['time']; ?> - Today
                                         </span>
@@ -101,7 +101,7 @@ try {
                                     </div>
                                 </div>
                                 <div class="meal_item_list r-flex ali-c">
-                                    <img src="img/meals_icon.svg" alt="meal icon">
+                                    <img src="img/food-icon.png" alt="meal icon">
                                     <span>
                                         <?php echo $delivery['items']; ?>
                                     </span>
@@ -112,7 +112,7 @@ try {
                                         <span>Request Edit in this delivery</span>
                                     </div>
                                     <div class="can_box r-flex ali-c" onclick="updateDeliveryStatus(<?php echo $delivery['id']; ?>, 'wasted');">
-                                        <img src="img/cancel.svg" alt="cancel icon">
+                                        <img src="img/cancel.svg?v6" alt="cancel icon">
                                         <span>Cancel This Delivery</span>
                                     </div>
                                 </div>

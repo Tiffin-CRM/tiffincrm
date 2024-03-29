@@ -1,9 +1,13 @@
 :root {
-  --heading-color: #242425;
+  --heading-color: #2a2a2a;
   --mid-font-color: #575353;
   --light-font-color: #808080;
   --highlight-color: #5546af;
   --theam-color: #ffffff;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #1c1c1c;
 }
 header,
 main {
@@ -112,8 +116,9 @@ main {
   margin-top: 10px;
 }
 .name_deliry_text {
-  font-size: 22.05px;
-  font-weight: 500;
+  font-size: 24px;
+  font-weight: 600;
+  color: #5546af;
 }
 .hero_cont_box {
   padding: 15px;
@@ -122,12 +127,13 @@ main {
   text-align: center;
   color: var(--light-font-color);
   width: 100%;
-  max-width: 361px;
+  max-width: 500px;
   margin: auto;
   margin-top: 23px;
+  border: hsl(258, 100%, 97%) solid 1px;
 }
 .cont_box_text {
-  font-size: 12px;
+  font-size: 14px;
 }
 .app_installation_guide_box {
   gap: 3px;
@@ -135,12 +141,12 @@ main {
 .app_installation_guide_box a {
   color: var(--mid-font-color-color);
   text-decoration: underline;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 700;
 }
 .app_installation_guide_box span {
   color: var(--light-font-color);
-  font-size: 12px;
+  font-size: 14px;
 }
 .active_deliveries_heading {
   gap: 4px;
@@ -149,15 +155,19 @@ main {
   margin-top: 19px;
 }
 .active_deliveries_heading > span {
-  font-size: 22.051px;
+  font-size: 18px;
   font-weight: 700;
   color: var(--heading-color);
+}
+.active_deliveries_box img {
+  width: 20px;
 }
 .active_deliveries_box {
   margin-top: 12px;
   background-color: var(--theam-color);
-  padding: 10px;
+  padding: 15px;
   border-radius: 5px;
+  border: #e6e6e6 solid 1px;
 }
 .brk_tre_box {
   width: 100%;
@@ -167,7 +177,7 @@ main {
   gap: 4px;
 }
 .brk_box span {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 700;
   color: #3e3d3d;
 }
@@ -179,28 +189,30 @@ main {
 .meal_item_list {
   gap: 4px;
   padding-left: 4px;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 .meal_item_list span {
   color: #000000;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 500;
 }
 .req_can_box {
-  margin-top: 10px;
-  padding-left: 4px;
+  margin-top: 15px;
+  padding: 15px 0px 5px 0px;
+  border-top: 1px solid #f8f8f8;
 }
+
 .req_box,
 .can_box {
   gap: 4px;
 }
 .req_box span,
 .can_box span {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 500;
 }
 .active_deloveries_note {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 400;
   padding: 10px 0px 0px 0px;
   border-top: 1px solid #f2f2f2;
@@ -218,11 +230,12 @@ main {
   margin-top: 15px;
   cursor: pointer;
   font-weight: 700;
+  border: #eeeeee solid 1px;
 }
 .delivery_pause_text {
   color: var(--light-font-color);
   text-align: center;
-  font-size: 12px;
+  font-size: 14px;
   margin-top: 10px;
 }
 
@@ -254,7 +267,7 @@ main {
   cursor: pointer;
 }
 .go_to_trans_box {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 700;
   width: 100%;
   color: var(--heading-color);
@@ -347,7 +360,7 @@ main {
   background: #faf9ff;
   padding: 8px;
   margin-top: 8px;
-  font-size: 12px;
+  font-size: 14px;
   text-align: center;
 }
 .pop_main_btn {
