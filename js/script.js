@@ -7,6 +7,14 @@ function toggleBtn() {
   const background_pop_up = document.querySelector(".background_pop_up");
   background_pop_up.classList.toggle("active");
   document.body.classList.toggle("noscroll");
+
+  // Check if toggleBtn is already assigned to onclick
+  if (overlayTouch.onclick === toggleBtn) {
+    overlayTouch.onclick = null; // Remove the onclick event
+} else {
+    overlayTouch.onclick = toggleBtn; // Assign toggleBtn to onclick
+}
+
 }
 
 function cancel_delivery() {
