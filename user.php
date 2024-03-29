@@ -30,7 +30,7 @@ try {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Manage Deliveries - iMeals</title>
     <link rel="stylesheet" href="css/base.css?v=0.0.1">
-    <link rel="stylesheet" href="css/style.css?v3">
+    <link rel="stylesheet" href="css/style.css?v4">
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap"
         rel="stylesheet">
@@ -46,7 +46,7 @@ try {
                 </svg>
             </div>
             <div class="nav_logo">
-                                        <img src="https://imeals.in/img/tool-kitchen.svg" alt="nife icon">
+                                        <img src="https://imeals.in/img/tool-kitchen.svg?v2" alt="nife icon">
 
                 <span>Mom's Kitchen</span>
             </div>
