@@ -90,7 +90,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 
         // Execute the cURL request
-        //$smsResponse = curl_exec($ch);
+        $smsResponse = curl_exec($ch);
 
         // Debugging: Output the SMS response
        // $debug['sms_response'] = $smsResponse;
