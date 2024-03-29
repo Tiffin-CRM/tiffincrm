@@ -11,12 +11,8 @@ stepCheckButtons.forEach(function(button) {
 
 // +++++++ collabes ++++++++
 function toggleMenu() {
-  const hiddenSteps = document.querySelectorAll('.hideit');
-
-  hiddenSteps.forEach(step => {
-      step.classList.remove('hideit');
-  });
-  
+  const menu = document.querySelector('.steps_items_container');
+  menu.classList.toggle('active');
 }
 // +++++++ hamburger click ++++++++
 function hamburger() {

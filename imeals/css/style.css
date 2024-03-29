@@ -468,10 +468,9 @@
     overflow: visible;
     margin-top: 70px;
   }
-  /* .steps_items_container.active {
-    height: 100%;
-    overflow: visible;
-  } */
+  .steps_items_container.active {
+   display: block;
+  }
   .steps_collapse_btn {
     margin: 20px auto;
     width: fit-content;
@@ -963,6 +962,6 @@
     }
   }
   
-  .hideit{
+  .collapsable{
     display: none;
   }
