@@ -177,7 +177,7 @@
           </div>
           <p id="resultMessage" class="hideit response">Result Here</p>
           <p id="show_response" class="response">
-    <?php if(isset($_GET[''])) {echo $_GET[''];} ?>
+    <?php if(isset($_GET['show_response'])) {echo $_GET['show_response'];} ?>
 </p>
 
         </div>
