@@ -46,7 +46,9 @@ try {
                 </svg>
             </div>
             <div class="nav_logo">
-                <span>iMeals</span>
+                                        <img src="https://imeals.in/img/tool-kitchen.svg" alt="nife icon">
+
+                <span  class="name_deliry_text">Mom's Kitchen</span>
             </div>
             <a href="https://api.whatsapp.com/send?phone=919068062563" class="whats_app_icon">
                 <img src="img/whast-app-btn-icon.svg" alt="Whats app icon">
@@ -64,12 +66,12 @@ try {
     <main>
         <section class="hero_secion">
             <div class="container">
-                <div class="delivery_name r-flex ali-c">
+                <!-- <div class="delivery_name r-flex ali-c">
                     <div class="tool_kic_img">
                         <img src="img/tool-kitchen.svg" alt="nife icon">
                     </div>
                     <div class="name_deliry_text">Mom’s Canteen</div>
-                </div>
+                </div> -->
                 <div class="hero_cont_box">
                     <div class="cont_box_text">Hi Name (
                         <?php echo $phone; ?>), Welcome to Mom’s Canteen. Use iMeals to manage your meals
