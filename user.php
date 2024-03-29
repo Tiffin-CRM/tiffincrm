@@ -174,7 +174,7 @@ try {
                 <div class="pause_deliveries_btn">
                     <button class="delivery_pause r-flex ali-c jut-c" onclick="updateAccount(this, '<?php echo $user['status'] == 'active' ? 'paused' : 'active'; ?>');">
                         <img src="img/pause.svg" alt="pause icon">
-                        <span><?php echo ($user['status'] == 'active') ? 'Pause' : 'Resume' ; ?>All  Future Deliveries</span>
+                        <span><?php echo ($user['status'] == 'active') ? 'Pause' : 'Resume' ; ?> All  Future Deliveries</span>
                     </button>
                     <?php if ($user['status'] == 'active') { ?>
                         <div class="delivery_pause_text">This will pause all your future deliveries until you resume it
