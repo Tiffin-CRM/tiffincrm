@@ -397,7 +397,7 @@ try {
 
         <section class="popup_section">
             <div class="background_pop_up">
-                <div class="overly-touch"></div>
+                <div class="overly-touch"  id="overly-touch"></div>
                 <div class="pop_up_container">
                     <div class="close_pop_up_box" onclick="toggleBtn()">
                         <img src="img/close_cross.svg" alt="cross icon">
