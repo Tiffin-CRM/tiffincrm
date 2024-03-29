@@ -39,12 +39,12 @@ try {
 <body>
     <header class="pos-r">
         <div class="container noscroll header_box">
-            <div class="hamburger" onclick="toggleMenu()">
+            <!-- <div class="hamburger" onclick="toggleMenu()">
                 <svg width="18" height="24" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M1 1H17M1 7H9M1 13H17" stroke="#3E3E3E" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round" />
                 </svg>
-            </div>
+            </div> -->
             <div class="nav_logo">
                                         <img src="https://imeals.in/img/tool-kitchen.svg?v2" alt="nife icon">
 
