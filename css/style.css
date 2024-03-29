@@ -185,7 +185,7 @@ main {
 .pre_box {
   font-size: 12px;
   font-weight: 600;
-  color: var(--highlight-color);
+  color: var(--heading-color);
 }
 .meal_item_list {
   gap: 4px;
@@ -193,7 +193,7 @@ main {
   margin-top: 20px;
 }
 .meal_item_list span {
-  color: #000000;
+  color: var(--heading-color);
   font-size: 14px;
   font-weight: 500;
 }
