@@ -237,7 +237,7 @@ try {
                                     </span>
                                 </div>
                                 <div class="meal_item_list r-flex ali-c">
-                                    <img src="img/tag-icon.svg" alt="meal icon">
+                                    <img src="img/subscription-icon.svg" alt="meal icon">
                                     <span>Rs.
                                     <?php echo $delivery['price']; ?>/Meal
                                     </span>
