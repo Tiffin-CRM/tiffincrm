@@ -4,7 +4,7 @@ session_start();
 $phonetoken = $_COOKIE['token'];
 
 if (!$phonetoken) {
-    header("Location: login.php?not_logged_in");
+    header("Location: login.php?show_response=Please Login First");
     exit;
 }
 $phone = $phonetoken / '4578348';
