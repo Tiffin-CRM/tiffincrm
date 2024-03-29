@@ -262,7 +262,7 @@ try {
                                     <div class="brk_box r-flex ali-c">
                                         <img src="img/time.svg" alt="sun set and date">
                                         <span>
-                                            <?php echo $delivery['time']; ?> - Today
+                                            <?php echo $delivery['time']; ?> - Daily
                                         </span>
                                     </div>
                                     <div class="pre_box r-flex ali-c">
@@ -321,7 +321,7 @@ try {
                                     <div class="brk_box r-flex ali-c">
                                         <img src="img/time.svg" alt="sun set and date">
                                         <span>
-                                            <?php echo $delivery['time']; ?> - Today
+                                            <?php echo $delivery['time']; ?> - Daily
                                         </span>
                                     </div>
                                     <div class="pre_box r-flex ali-c">
