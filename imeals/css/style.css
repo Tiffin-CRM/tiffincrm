@@ -469,6 +469,7 @@
     margin-top: 70px;
   }
   .steps_items_container.active {
+    height: 100%;
    display: block;
   }
   .steps_collapse_btn {
