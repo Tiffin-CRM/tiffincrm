@@ -443,14 +443,15 @@
             You can always contact is to ask any query still you can refer to
             these faqs to get better knowledge of our product ..
           </p>
-          <div class="faqs r-flex jut-sb">
+          <div class="faqs r-flex jut-sb" itemscope itemtype="https://schema.org/FAQPage">
             <div class="faq-container-box">
-              <div class="container-faq">
-                <h2 class="question active">
+              <div class="container-faq" itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
+                <h2 class="question active" itemprop="name">
                   1. What is TiffinCrm and What’s it use?
                 </h2>
-                <div class="answercont" style="max-height: 200px;">
-                  <p class="answer">
+                <div class="answercont" style="max-height: 200px;" itemprop="acceptedAnswer" itemscope
+                  itemtype="https://schema.org/Answer">
+                  <p class="answer" itemprop="text">
                     TiffinCrm is a comprehensive CRM (Customer Relationship
                     Management) app designed specifically for tiffin service
                     businesses. It streamlines various aspects of managing a
