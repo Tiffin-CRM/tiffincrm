@@ -75,9 +75,11 @@ function getTransactions($id)
     return request([
         "action" => "select",
         "table" => "transactions",
+        "cols" => "*, DATE_FORMAT(timestamp,'%d %b') AS date ",
         "where" => [
             "client_id" => $id
-        ]
+        ],
+        "orderBy" => "timestamp DESC"
     ]);
 }
 function updateAccountStatus($id, $status)

@@ -244,7 +244,7 @@ try {
                     <tbody>
                         <?php foreach ($transactions as $transaction) : ?>
                         <tr>
-                            <td><?= $transaction["timestamp"] ?></td>
+                            <td><?= $transaction["date"] ?></td>
                             <td><?= $transaction["type"] ?> </td>
                             <td><?= $transaction["amount"] ?></td>
                         </tr>
