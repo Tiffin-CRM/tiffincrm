@@ -15,6 +15,10 @@
     background-color: var(--body-bg);
     color: #282828;
   }
+  a{
+    user-select: none;
+
+  }
   .nav_hamburger {
     width: 30px;
     height: 30px;
@@ -280,6 +284,7 @@
     max-width: 18px;
     height: 100%;
     max-height: 18px;
+    user-select: none;
   }
   .ask_quetion_link {
     color: var(--drk-font-color);
@@ -459,6 +464,8 @@
     width: fit-content;
     /* padding: 4px 10px; */
     border-radius: 5px;
+    user-select: none;
+
   }
   .step_check_img_box {
     width: 100%;
