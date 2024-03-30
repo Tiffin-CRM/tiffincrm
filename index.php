@@ -632,11 +632,6 @@
     <!-- <=================== faqs section close ============> -->
 <?php include 'inc/footer.php'; ?>
   </main>
-
-  <script></script>
-
-  <script src="/assets/script.js"></script>
-
   <script type="application/ld+json">
 
             {
