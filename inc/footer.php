@@ -7,7 +7,7 @@
               <img src="/assets/img/logo2.svg" alt="" />
             </div>
             <div class="footer_copyright">
-              Copyright © 2024 TiffinCRM | All Rights Reserved <a href="privacy-policy.php">Privacy Policy</a>
+              Copyright © 2024 TiffinCRM | <a href="privacy-policy.php">Privacy</a> | <a href="terms-of-use.php">Terms</a>
             </div>
           </div>
         </div>
