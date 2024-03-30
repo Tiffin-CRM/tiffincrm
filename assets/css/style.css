@@ -959,6 +959,10 @@ footer {
   font-weight: 400;
   color: var(--light-font-color);
 }
+footer a {
+  color: var(--drk-font-color);
+  text-decoration: underline;
+}
 .footer_logo {
   width: 100%;
   max-width: fit-content;
