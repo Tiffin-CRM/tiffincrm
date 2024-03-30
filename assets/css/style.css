@@ -960,7 +960,7 @@ footer {
   color: var(--light-font-color);
 }
 footer a {
-  color: var(--drk-font-color);
+  color: var(--light-font-color);
   text-decoration: underline;
 }
 .footer_logo {
