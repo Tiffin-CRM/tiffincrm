@@ -11,12 +11,12 @@
 </style>
 </head>
 <body>
-    <h1>About Us</h1>
+  <?php include 'inc/header.php'; ?>
+  <main>
+        <h1>About Us</h1>
     <p>
         TiffinCRM is a user-friendly web application that simplifies the management of tiffin services.
     </p>
-  <?php include 'inc/header.php'; ?>
-  <main>
       <?php include 'inc/footer.php'; ?>
 </main>
 </body>
