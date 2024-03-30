@@ -10,7 +10,6 @@
   }
   * {
     font-family: "Open Sans", sans-serif;
-    user-select: none;
   }
   body {
     background-color: var(--body-bg);
@@ -47,6 +46,7 @@
     width: 100%;
     padding: 20px 0px;
     position: relative;
+    user-select: none;
   }
   .nav-collapse .nav_menu_box .menu-item > a {
     color: #222121;

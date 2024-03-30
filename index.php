@@ -18,7 +18,7 @@
     <meta name="theme-color" content="#5546af" />
 
     <link rel="stylesheet" href="css/base.css?0.0.7" />
-    <link rel="stylesheet" href="css/style.css?25" />
+    <link rel="stylesheet" href="css/style.css?<?php echo filemtime('css/style.css'); ?>" />
 
     <!-- +++++++++++ fonts link ++++++++++++ -->
     <link
