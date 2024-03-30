@@ -59,7 +59,7 @@
 
         <h2 class="content_heading">Questions? Contact Us!</h2>
         <p class="steps_items_desc">
-          Got questions about your privacy? Reach out to us at [your support email address].
+          Got questions about your privacy? Visit <a href="contact-us.php">contact us </a> to get in touch.
         </p>
 
       </div>
