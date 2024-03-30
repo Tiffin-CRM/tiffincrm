@@ -14,7 +14,8 @@ try {
     include ("php/api.php");
     $user = getCustomer($phone);
     $_SESSION['user_id'] = $user["id"];
-    $deliveries = getOrders($user["id"]);
+    $deliveries = getDeliveries($user["id"]);
+    $orders = getOrders($user["id"]);
     //code...
 } catch (\Throwable $th) {
     header("Location: login.php?show_response=Phone%20Not%20Found");
@@ -306,7 +307,7 @@ self.addEventListener('beforeinstallprompt', (event) => {
                     </div>
                     <div id="active_plans_list">
 
-                    <?php foreach ($deliveries as $delivery) {
+                    <?php foreach ($orders as $delivery) {
                         if ($delivery['is_active'] == 1) {
                             ?>
                                             <div class="active_deliveries_box">
@@ -365,7 +366,7 @@ self.addEventListener('beforeinstallprompt', (event) => {
                         </span>
                     </div>
                     <div id="paused_plans_list" class="hideit">
-                    <?php foreach ($deliveries as $delivery) {
+                    <?php foreach ($orders as $delivery) {
                         if ($delivery['is_active'] == 0) {
                             ?>
                                             <div class="active_deliveries_box">

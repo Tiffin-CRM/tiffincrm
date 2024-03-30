@@ -49,12 +49,23 @@ function getCustomer($phone)
         return $users[0];
 }
 
-function getOrders($id)
+function getDeliveries($id)
 {
     return request([
         "action" => "select",
         "table" => "deliveries_view",
         "where" => [
+            "client_id" => $id
+        ]
+    ]);
+}
+function getOrders($id)
+{
+    return request([
+        "action" => "select",
+        "table" => "orders",
+        "cols" => "*, (SELECT COUNT(*) FROM deliveries WHERE order_id = orders.id AND status = 'delivered') as `total_deliveries`",
+        "where" => [ 
             "client_id" => $id
         ]
     ]);
