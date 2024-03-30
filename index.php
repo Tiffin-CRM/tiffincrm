@@ -5,7 +5,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>TiffinCRM - Ultimate Tiffin Service Business Management App 2024</title>
-  <meta name="description" content="TiffinCRM is a Mobile App to Manage Tiffin Service Business in India. It is all-in-one solution for efficient tiffin service business management. Streamline operations, manage customers, track deliveries, and optimize finances with ease. Join us and revolutionize your tiffin business today">
+  <meta name="description"
+    content="TiffinCRM is a Mobile App to Manage Tiffin Service Business in India. It is all-in-one solution for efficient tiffin service business management. Streamline operations, manage customers, track deliveries, and optimize finances with ease. Join us and revolutionize your tiffin business today">
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/icons/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/icons/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/icons/favicon-16x16.png">
@@ -30,7 +31,7 @@
   <header>
     <div class="container">
       <div class="navbar_container r-flex ali-c jut-sb">
-        <a href="#home" class="logo r-flex ali-c jut-c">
+        <a href="/" class="logo r-flex ali-c jut-c">
           <img src="/assets/img/logo2.svg" alt="TiffinCRM logo" />
         </a>
         <nav class="nav-collapse">
@@ -52,10 +53,10 @@
               </ul>
             </li> -->
             <li class="menu-item"><a href="#pricing_sec">Pricing</a></li>
-            <li class="menu-item"><a href="#">About</a></li>
-            <li class="menu-item"><a href="#">Contact</a></li>
+            <li class="menu-item"><a href="/about-us.php">About</a></li>
+            <li class="menu-item"><a href="/contact-us.php">Contact</a></li>
             <li class="menu-item start_btn">
-              <a href="https://wa.me/919068062563?text=I Want to Start Using TiffinCRM">Start Using it !</a>
+              <a href="/download-app.php">Start Using it !</a>
             </li>
           </ul>
         </nav>
@@ -75,12 +76,12 @@
       <div class="container">
         <div class="serice_hero_container r-flex ali-c jut-sb">
           <div class="service_left_side_cont">
-            <div class="color_hero_heading">
+            <h1 class="color_hero_heading">
               Tiffin Service Management CRM App
-            </div>
-            <h1 class="service_hero_main_heading">
-              Simplifying Tiffin Services
             </h1>
+            <div class="service_hero_main_heading">
+              Simplifying Tiffin Services
+            </div>
             <p class="service_help_text">
               You'll love the way we done it for you! 😉
 
@@ -113,12 +114,8 @@
                 </div>
                 <span>Use in Android Phone</span>
               </a>
-              <a href="https://wa.me/919068062563?text=I have a question about Tiffincrm"
-                class="ask_quetion_link r-flex ali-c gap-1">
+              <a href="https://bit.ly/msg-tiffin-crm" class="ask_quetion_link r-flex ali-c gap-1">
                 <span>Ask Question →</span>
-                <!-- <div class="play_stor_icon_box">
-                    <img src="/assets/img/left-arrow.svg?v1" alt="left arrow icon" />
-                  </div> -->
               </a>
             </div>
           </div>
@@ -144,8 +141,8 @@
     <section class="help_steps_section">
       <div class="container">
         <div class="help_steps_container">
-          <div class="color_step_heading">Features & use Case</div>
-          <h2 class="steps_main_heading">We help you in every Step</h2>
+          <h2 class="color_step_heading">Features & use Case</h2>
+          <h3 class="steps_main_heading">We help you in every Step</h3>
           <p class="steps_cont_text">
             We are highly Focused on this niche and understand how can we
             maximise the help our app can do.
@@ -713,7 +710,7 @@
 
   <script></script>
 
-  <script src="script.js?v=0.0.5"></script>
+  <script src="assets/script.js"></script>
 </body>
 
 </html>
