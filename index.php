@@ -6,19 +6,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>TiffinCRM - Ultimate Tiffin Service Business Management App 2024</title>
   <meta name="description" content="TiffinCRM is a Mobile App to Manage Tiffin Service Business in India. It is all-in-one solution for efficient tiffin service business management. Streamline operations, manage customers, track deliveries, and optimize finances with ease. Join us and revolutionize your tiffin business today">
-  <link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/img/icons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/img/icons/favicon-16x16.png">
-  <link rel="manifest" href="/img/icons/site.webmanifest">
-  <link rel="mask-icon" href="/img/icons/safari-pinned-tab.svg" color="#1205a3">
-  <link rel="shortcut icon" href="/img/icons/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/icons/favicon-16x16.png">
+  <link rel="manifest" href="/assets/img/icons/site.webmanifest">
+  <link rel="mask-icon" href="/assets/img/icons/safari-pinned-tab.svg" color="#1205a3">
+  <link rel="shortcut icon" href="/assets/img/icons/favicon.ico">
   <meta name="msapplication-TileColor" content="#da532c">
-  <meta name="msapplication-config" content="/img/icons/browserconfig.xml">
+  <meta name="msapplication-config" content="/assets/img/icons/browserconfig.xml">
   <meta name="theme-color" content="#ffffff">
 
   <meta name="theme-color" content="#5546af" />
-  <link rel="stylesheet" href="css/base.css?0.0.7" />
-  <link rel="stylesheet" href="css/style.css?<?php echo filemtime('css/style.css'); ?>" />
+  <link rel="stylesheet" href="/assets/css/base.css?0.0.7" />
+  <link rel="stylesheet" href="/assets/css/style.css?<?php echo filemtime('assets/css/style.css'); ?>" />
 
   <link
     href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
@@ -31,26 +31,26 @@
     <div class="container">
       <div class="navbar_container r-flex ali-c jut-sb">
         <a href="#home" class="logo r-flex ali-c jut-c">
-          <img src="/img/logo2.svg" alt="TiffinCRM logo" />
+          <img src="/assets/img/logo2.svg" alt="TiffinCRM logo" />
         </a>
         <nav class="nav-collapse">
           <ul class="nav_menu_box r-flex ali-c gap-1">
-            <li class="menu-item nav_featur_menu first_menu_item">
+            <!-- <li class="menu-item nav_featur_menu first_menu_item">
               <a href="javascript:void(0)" onclick="navMenu()" class="nav_featur_menu r-flex ali-c gap-05">
                 <span>Features</span>
-                <!-- <div class="menu_drop_dwon_icon r-flex ali-c jut-c">
+                <div class="menu_drop_dwon_icon r-flex ali-c jut-c">
                   <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M17.5 4.75L10 12.25L2.5 4.75L1 6.25L10 15.25L19 6.25L17.5 4.75Z" fill="#222121" />
                   </svg>
 
-                </div> -->
+                </div>
               </a>
-              <!-- <ul class="menu_drop_dwon c-flex gap-2">
+              <ul class="menu_drop_dwon c-flex gap-2">
                 <li><a href="#">Single Click</a></li>
                 <li><a href="#">iMeal</a></li>
                 <li><a href="#">Expense Manager</a></li>
-              </ul> -->
-            </li>
+              </ul>
+            </li> -->
             <li class="menu-item"><a href="#pricing_sec">Pricing</a></li>
             <li class="menu-item"><a href="#">About</a></li>
             <li class="menu-item"><a href="#">Contact</a></li>
@@ -88,19 +88,19 @@
             <div class="hero_tips_points_box c-flex gap-2">
               <div class="hero_tip_box r-flex ali-c gap-15">
                 <div class="tip_line_img">
-                  <img src="img/check-mark.svg" alt="check mark" />
+                  <img src="/assets/img/check-mark.svg" alt="check mark" />
                 </div>
                 <div class="tips_line_text">New Age CRM</div>
               </div>
               <div class="hero_tip_box r-flex ali-c gap-15">
                 <div class="tip_line_img">
-                  <img src="img/check-mark.svg" alt="check mark" />
+                  <img src="/assets/img/check-mark.svg" alt="check mark" />
                 </div>
                 <div class="tips_line_text">Minimal Taps, Maximum Results</div>
               </div>
               <div class="hero_tip_box r-flex ali-c gap-15">
                 <div class="tip_line_img">
-                  <img src="img/check-mark.svg" alt="check mark" />
+                  <img src="/assets/img/check-mark.svg" alt="check mark" />
                 </div>
                 <div class="tips_line_text">Easiest CRM on Earth</div>
               </div>
@@ -109,7 +109,7 @@
               <a href="https://wa.me/919068062563?text=I Want to Start Using TiffinCRM"
                 class="play_stor_link r-flex ali-c gap-1">
                 <div class="play_stor_icon_box">
-                  <img src="img/paly-stor-icon.svg" alt="play stor icon" />
+                  <img src="/assets/img/paly-stor-icon.svg" alt="play stor icon" />
                 </div>
                 <span>Use in Android Phone</span>
               </a>
@@ -117,22 +117,22 @@
                 class="ask_quetion_link r-flex ali-c gap-1">
                 <span>Ask Question →</span>
                 <!-- <div class="play_stor_icon_box">
-                    <img src="img/left-arrow.svg?v1" alt="left arrow icon" />
+                    <img src="/assets/img/left-arrow.svg?v1" alt="left arrow icon" />
                   </div> -->
               </a>
             </div>
           </div>
           <div class="service_right_side_cont">
             <div onclick="vdoPopUp()" class="hero_service_vdo_container">
-              <img src="img/thumbnail2.jpg" />
+              <img src="/assets/img/thumbnail2.jpg" />
             </div>
             <div class="video_pop_box">
               <div class="vdo_container">
                 <div onclick="vdoPopUp()" class="vdo_close_btn r-flex ali-c jut-c">
-                  <img src="img/close.svg" alt="crose icon" />
+                  <img src="/assets/img/close.svg" alt="crose icon" />
                 </div>
                 <div class="vdo_pop_box r-flex ali-c jut-c">
-                  <img src="img/thumbnail2.jpg" alt="" />
+                  <img src="/assets/img/thumbnail2.jpg" alt="" />
                 </div>
               </div>
             </div>
@@ -168,7 +168,7 @@
                 <div class="step_check_btn_box r-flex ali-c gap-05">
                   <span>Check How</span>
                   <div class="step_check_img_box r-flex ali-c jut-c">
-                    <img src="img/down-arrow.svg?v1" alt="down arrow icon" />
+                    <img src="/assets/img/down-arrow.svg?v1" alt="down arrow icon" />
                   </div>
                 </div>
               </div>
@@ -194,7 +194,7 @@
                 <div class="step_check_btn_box r-flex ali-c gap-05">
                   <span>Check How</span>
                   <div class="step_check_img_box r-flex ali-c jut-c">
-                    <img src="img/down-arrow.svg?v1" alt="down arrow icon" />
+                    <img src="/assets/img/down-arrow.svg?v1" alt="down arrow icon" />
                   </div>
                 </div>
               </div>
@@ -220,7 +220,7 @@
                 <div class="step_check_btn_box r-flex ali-c gap-05">
                   <span>Check How</span>
                   <div class="step_check_img_box r-flex ali-c jut-c">
-                    <img src="img/down-arrow.svg?v1" alt="down arrow icon" />
+                    <img src="/assets/img/down-arrow.svg?v1" alt="down arrow icon" />
                   </div>
                 </div>
               </div>
@@ -246,7 +246,7 @@
                 <div class="step_check_btn_box r-flex ali-c gap-05">
                   <span>Check How</span>
                   <div class="step_check_img_box r-flex ali-c jut-c">
-                    <img src="img/down-arrow.svg?v1" alt="down arrow icon" />
+                    <img src="/assets/img/down-arrow.svg?v1" alt="down arrow icon" />
                   </div>
                 </div>
               </div>
@@ -272,7 +272,7 @@
                 <div class="step_check_btn_box r-flex ali-c gap-05">
                   <span>Check How</span>
                   <div class="step_check_img_box r-flex ali-c jut-c">
-                    <img src="img/down-arrow.svg?v1" alt="down arrow icon" />
+                    <img src="/assets/img/down-arrow.svg?v1" alt="down arrow icon" />
                   </div>
                 </div>
               </div>
@@ -288,7 +288,7 @@
             >
               <span id="setep_expand">See ALL</span>
               <span id="step_collaps">Collapse Again</span>
-              <img src="img/collapse.svg" alt="down-arrow icon" />
+              <img src="/assets/img/collapse.svg" alt="down-arrow icon" />
             </div> -->
         </div>
       </div>
@@ -301,19 +301,19 @@
           <div class="cakes_box r-flex ali-c jut-sb">
             <div class="cakes_itm r-flex ali-c gap-2">
               <div class="cake_item_img r-flex ali-c jut-c">
-                <img src="img/cloude.svg" alt="Cloud" />
+                <img src="/assets/img/cloude.svg" alt="Cloud" />
               </div>
               <span>Fully on Cloud </span>
             </div>
             <div class="cakes_itm r-flex ali-c gap-2">
               <div class="cake_item_img r-flex ali-c jut-c">
-                <img src="img/wi-fi.svg" alt="Cloud" />
+                <img src="/assets/img/wi-fi.svg" alt="Cloud" />
               </div>
               <span>Offline Access</span>
             </div>
             <div class="cakes_itm r-flex ali-c gap-2">
               <div class="cake_item_img r-flex ali-c jut-c">
-                <img src="img/esy-uses.svg" alt="Cloud" />
+                <img src="/assets/img/esy-uses.svg" alt="Cloud" />
               </div>
               <span>Easy to Use</span>
             </div>
@@ -349,7 +349,7 @@
                 <div class="step_check_btn_box r-flex ali-c gap-05">
                   <span>Check How</span>
                   <div class="step_check_img_box r-flex ali-c jut-c">
-                    <img src="img/down-arrow.svg?v1" alt="down arrow icon" />
+                    <img src="/assets/img/down-arrow.svg?v1" alt="down arrow icon" />
                   </div>
                 </div>
               </div>
@@ -377,7 +377,7 @@
                 <div class="step_check_btn_box r-flex ali-c gap-05">
                   <span>Check How</span>
                   <div class="step_check_img_box r-flex ali-c jut-c">
-                    <img src="img/down-arrow.svg?v1" alt="down arrow icon" />
+                    <img src="/assets/img/down-arrow.svg?v1" alt="down arrow icon" />
                   </div>
                 </div>
               </div>
@@ -402,7 +402,7 @@
             <div class="left_side_pricing_box">
               <div class="top_pric_itme_heading_box r-flex ali-c gap-2">
                 <div class="item_heading_img_box r-flex ali-c jut-c">
-                  <img src="img/payment-feature.svg" alt="" />
+                  <img src="/assets/img/payment-feature.svg" alt="" />
                 </div>
                 <div class="item_heading_cont">
                   <span class="item_features_heading">All Features</span>
@@ -417,7 +417,7 @@
             <div class="right_side_pricing_box">
               <div class="top_pric_itme_heading_box r-flex ali-c gap-2">
                 <div class="item_heading_img_box r-flex ali-c jut-c">
-                  <img src="img/payment-feature.svg" alt="" />
+                  <img src="/assets/img/payment-feature.svg" alt="" />
                 </div>
                 <div class="item_heading_cont">
                   <span class="item_features_heading">All Features</span>
@@ -700,7 +700,7 @@
         <div class="container">
           <div class="footer_contaier r-flex ali-c jut-sb">
             <div class="footer_logo">
-              <img src="img/logo2.svg" alt="" />
+              <img src="/assets/img/logo2.svg" alt="" />
             </div>
             <div class="footer_copyright">
               Copyright © 2024 TiffinCRM | All Rights Reserved
