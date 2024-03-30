@@ -6,21 +6,6 @@
   <title>About Us - TiffinCRM</title>
   <meta name="description"
     content="At TiffinCrm, we're passionate about revolutionizing the way tiffin businesses operate. Our user-friendly app is designed to simplify every aspect of managing a tiffin service, from handling raw materials to ensuring timely deliveries.">
-  <style>
-    .main_content_area {
-      padding: 60px 10px;
-    }
-
-    .content_heading {
-      font-size: 24px;
-      margin: 20px 0;
-    }
-
-    a {
-      color: var(--theam-color);
-      font-weight: 600;
-    }
-  </style>
 </head>
 
 <body>
