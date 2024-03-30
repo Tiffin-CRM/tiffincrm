@@ -449,8 +449,7 @@
                 <h2 class="question active" itemprop="name">
                   1. What is TiffinCrm and What’s it use?
                 </h2>
-                <div class="answercont" style="max-height: 200px;" itemprop="acceptedAnswer" itemscope
-                  itemtype="https://schema.org/Answer">
+                <div class="answercont" itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
                   <p class="answer" itemprop="text">
                     TiffinCrm is a comprehensive CRM (Customer Relationship
                     Management) app designed specifically for tiffin service
@@ -461,12 +460,12 @@
                   </p>
                 </div>
               </div>
-              <div class="container-faq">
-                <h2 class="question">
+              <div class="container-faq" itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
+                <h2 class="question" itemprop="name">
                   2. How can TiffinCrm benefit my tiffin service business?
                 </h2>
-                <div class="answercont">
-                  <p class="answer">
+                <div class="answercont" itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+                  <p class="answer" itemprop="text">
                     TiffinCrm simplifies and automates many tasks involved in
                     running a tiffin service. It helps in managing raw
                     material inventory efficiently, keeping track of customer
@@ -475,10 +474,10 @@
                   </p>
                 </div>
               </div>
-              <div class="container-faq">
-                <h2 class="question">3. Is TiffinCrm easy to use?</h3>
-                  <div class="answercont">
-                    <p class="answer">
+              <div class="container-faq" itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
+                <h2 class="question" itemprop="name">3. Is TiffinCrm easy to use?</h3>
+                  <div class="answercont" itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+                    <p class="answer" itemprop="text">
                       Yes, TiffinCrm is designed with user-friendliness in mind.
                       Its intuitive interface makes it easy for tiffin service
                       owners and staff to navigate through various features and
@@ -486,12 +485,12 @@
                     </p>
                   </div>
               </div>
-              <div class="container-faq">
-                <h2 class="question">
+              <div class="container-faq" itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
+                <h2 class="question" itemprop="name">
                   4. How to start using and set up TiffinCrm?
                 </h2>
-                <div class="answercont">
-                  <p class="answer">
+                <div class="answercont" itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+                  <p class="answer" itemprop="text">
                     To start using TiffinCrm, simply sign up for an account on
                     our website and follow the step-by-step setup process.
                     You'll be guided through configuring your business
@@ -502,12 +501,12 @@
                   </p>
                 </div>
               </div>
-              <div class="container-faq">
-                <h2 class="question">
+              <div class="container-faq" itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
+                <h2 class="question" itemprop="name">
                   5. Can I customize TiffinCrm app to suit my business needs?
                 </h2>
-                <div class="answercont">
-                  <p class="answer">
+                <div class="answercont" itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+                  <p class="answer" itemprop="text">
                     We offer a plethora of built-in customization options to
                     tailor the app to your needs. However, if you find that
                     you require additional features or specific
@@ -517,13 +516,13 @@
                   </p>
                 </div>
               </div>
-              <div class="container-faq">
-                <h2 class="question">
+              <div class="container-faq" itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
+                <h2 class="question" itemprop="name">
                   6. Is TiffinCrm suitable for small as well as large tiffin
                   service businesses?
                 </h2>
-                <div class="answercont">
-                  <p class="answer">
+                <div class="answercont" itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+                  <p class="answer" itemprop="text">
                     Yes, TiffinCrm caters to tiffin service businesses of all
                     sizes. Whether you're a small local tiffin provider or a
                     large-scale operation serving multiple locations,
@@ -531,12 +530,12 @@
                   </p>
                 </div>
               </div>
-              <div class="container-faq">
-                <h2 class="question">
+              <div class="container-faq" itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
+                <h2 class="question" itemprop="name">
                   7. Can I add my business expenses here? ?
                 </h2>
-                <div class="answercont">
-                  <p class="answer">
+                <div class="answercont" itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+                  <p class="answer" itemprop="text">
                     Yes, TiffinCrm allows you to track and manage your
                     business expenses efficiently. You can easily add expenses
                     related to raw materials, operational costs, and other
@@ -545,12 +544,12 @@
                   </p>
                 </div>
               </div>
-              <div class="container-faq">
-                <h2 class="question">
+              <div class="container-faq" itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
+                <h2 class="question" itemprop="name">
                   8. Do I have to Add Daily Orders & Transaction?
                 </h2>
-                <div class="answercont">
-                  <p class="answer">
+                <div class="answercont" itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+                  <p class="answer" itemprop="text">
                     One Click on "Start Preparations" and all orders will be
                     created & amount will be deducted from customer's virtual
                     account. You can set up recurring orders for regular
@@ -560,12 +559,12 @@
                   </p>
                 </div>
               </div>
-              <div class="container-faq">
-                <h2 class="question">
+              <div class="container-faq" itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
+                <h2 class="question" itemprop="name">
                   9. What is imeals.in, and how does it relate to TiffinCrm?
                 </h2>
-                <div class="answercont">
-                  <p class="answer">
+                <div class="answercont" itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+                  <p class="answer" itemprop="text">
                     imeals.in is a user interface provided by TiffinCrm
                     exclusively for your tiffin service customers. It allows
                     your customers to conveniently manage their upcoming
@@ -579,13 +578,13 @@
                   </p>
                 </div>
               </div>
-              <div class="container-faq">
-                <h2 class="question">
+              <div class="container-faq" itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
+                <h2 class="question" itemprop="name">
                   10. What functionalities are available to customers on
                   imeals.in?
                 </h2>
-                <div class="answercont">
-                  <p class="answer">
+                <div class="answercont" itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+                  <p class="answer" itemprop="text">
                     Customers can manage their upcoming orders, including
                     pausing their account for vacations and canceling specific
                     deliveries or meals. They can also request edits to their
@@ -596,10 +595,10 @@
                   </p>
                 </div>
               </div>
-              <div class="container-faq">
-                <h2 class="question">11. How can customers access imeals.in?</h3>
-                  <div class="answercont">
-                    <p class="answer">
+              <div class="container-faq" itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
+                <h2 class="question" itemprop="name">11. How can customers access imeals.in?</h3>
+                  <div class="answercont" itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+                    <p class="answer" itemprop="text">
                       Only active customers of tiffin services utilizing
                       TiffinCrm have access to imeals.in. They can log in using
                       their credentials provided by their tiffin service
@@ -609,12 +608,12 @@
                     </p>
                   </div>
               </div>
-              <div class="container-faq">
-                <h2 class="question">
+              <div class="container-faq" itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
+                <h2 class="question" itemprop="name">
                   12. What is the pricing model for TiffinCrm?
                 </h2>
-                <div class="answercont">
-                  <p class="answer">
+                <div class="answercont" itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+                  <p class="answer" itemprop="text">
                     TiffinCrm offers a flexible pricing model designed to
                     accommodate the needs of tiffin service businesses of all
                     sizes. We provide a free trial period of 1 month, allowing
@@ -625,12 +624,12 @@
                   </p>
                 </div>
               </div>
-              <div class="container-faq">
-                <h2 class="question">
+              <div class="container-faq" itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
+                <h2 class="question" itemprop="name">
                   13. Does TiffinCrm charge any commission?
                 </h2>
-                <div class="answercont">
-                  <p class="answer">
+                <div class="answercont" itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+                  <p class="answer" itemprop="text">
                     No, TiffinCrm does not charge any commission on
                     transactions. We operate on a subscription-based pricing
                     model, where you pay a fixed fee for access to our
@@ -641,12 +640,12 @@
                 </div>
               </div>
 
-              <div class="container-faq">
-                <h2 class="question">
+              <div class="container-faq" itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
+                <h2 class="question" itemprop="name">
                   14. Can I try the app before committing to a subscription?
                 </h2>
-                <div class="answercont">
-                  <p class="answer">
+                <div class="answercont" itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+                  <p class="answer" itemprop="text">
                     Absolutely! We encourage you to take advantage of our free
                     trial period to explore TiffinCrm and determine how it can
                     benefit your tiffin service business. During the trial
@@ -656,12 +655,12 @@
                   </p>
                 </div>
               </div>
-              <div class="container-faq">
-                <h2 class="question">
+              <div class="container-faq" itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
+                <h2 class="question" itemprop="name">
                   15. Does TiffinCrm use or steal my customers or my data?
                 </h2>
-                <div class="answercont">
-                  <p class="answer">
+                <div class="answercont" itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+                  <p class="answer" itemprop="text">
                     Absolutely not. TiffinCrm respects the privacy and
                     ownership of your customer data. We do not use or steal
                     your customers or your data for any purpose other than
@@ -672,12 +671,13 @@
                 </div>
               </div>
 
-              <div class="container-faq" style="border-bottom: none">
-                <h2 class="question">
+              <div class="container-faq" style="border-bottom: none" itemprop="mainEntity" itemscope
+                itemtype="https://schema.org/Question">
+                <h2 class="question" itemprop="name">
                   16. Does TiffinCrm offer support and assistance for users?
                 </h2>
-                <div class="answercont">
-                  <p class="answer">
+                <div class="answercont" itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+                  <p class="answer" itemprop="text">
                     Yes, TiffinCrm provides dedicated customer support to
                     assist users with any queries or issues they may
                     encounter. Our support team is committed to ensuring that
