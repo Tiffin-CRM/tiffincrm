@@ -5,11 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TiffinCRM - Tiffin Service Management Application/Software</title>
 
-    <link rel="icon" href="/assets/icons/favicon.ico" sizes="any">
-    <link rel="apple-touch-icon" href="/assets/icons/apple-touch-icon.png">
-
+    <link rel="icon" href="img/favicon.svg" sizes="any">
+    <link rel="apple-touch-icon" href="img/favicon.svg">
     <meta name="theme-color" content="#5546af" />
-    <!-- +++++++++++  css ++++++++ -->
+
     <link rel="stylesheet" href="css/base.css?0.0.7" />
     <link rel="stylesheet" href="css/style.css?25" />
 
