@@ -17,7 +17,7 @@ try {
     $deliveries = getOrders($user["id"]);
     //code...
 } catch (\Throwable $th) {
-    header("Location: login.php?phone_not_found");
+    header("Location: login.php?show_response=Phone%20Not%20Found");
     echo $th->getMessage();
 }
 ?>
@@ -319,7 +319,7 @@ self.addEventListener('beforeinstallprompt', (event) => {
                                                     </div>
                                                     <div class="pre_box r-flex ali-c">
                                                         <img src="img/scooter-icon.svg?v1" alt="scooter icon">
-                                                        <span>Multiple Deliveries</span>
+                                                        <span><?php echo $delivery['total_deliveries']; ?> Deliveries</span>
                                                     </div>
                                                 </div>
                                                 <div class="meal_item_list r-flex ali-c">
@@ -378,7 +378,7 @@ self.addEventListener('beforeinstallprompt', (event) => {
                                                     </div>
                                                     <div class="pre_box r-flex ali-c">
                                                         <img src="img/scooter-icon.svg" alt="scooter icon">
-                                                        <span>Multiple Deliveries</span>
+                                                        <span><?php echo $delivery['total_deliveries']; ?> Deliveries</span>
                                                     </div>
                                                 </div>
                                                 <div class="meal_item_list r-flex ali-c">
