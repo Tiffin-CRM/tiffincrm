@@ -2,76 +2,14 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <?php include 'inc/head.php'; ?>
   <title>TiffinCRM - Ultimate Tiffin Service Business Management App 2024</title>
   <meta name="description"
     content="TiffinCRM is a Mobile App to Manage Tiffin Service Business in India. It is all-in-one solution for efficient tiffin service business management. Streamline operations, manage customers, track deliveries, and optimize finances with ease. Join us and revolutionize your tiffin business today">
-  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/icons/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/icons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/icons/favicon-16x16.png">
-  <link rel="manifest" href="/assets/img/icons/site.webmanifest">
-  <link rel="mask-icon" href="/assets/img/icons/safari-pinned-tab.svg" color="#1205a3">
-  <link rel="shortcut icon" href="/assets/img/icons/favicon.ico">
-  <meta name="msapplication-TileColor" content="#da532c">
-  <meta name="msapplication-config" content="/assets/img/icons/browserconfig.xml">
-  <meta name="theme-color" content="#ffffff">
-
-  <meta name="theme-color" content="#5546af" />
-  <link rel="stylesheet" href="/assets/css/base.css?0.0.7" />
-  <link rel="stylesheet" href="/assets/css/style.css?<?php echo filemtime('assets/css/style.css'); ?>" />
-
-  <link
-    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
-    rel="stylesheet" />
-
 </head>
 
 <body>
-  <header>
-    <div class="container">
-      <div class="navbar_container r-flex ali-c jut-sb">
-        <a href="/" class="logo r-flex ali-c jut-c">
-          <img src="/assets/img/logo2.svg" alt="TiffinCRM logo" />
-        </a>
-        <nav class="nav-collapse">
-          <ul class="nav_menu_box r-flex ali-c gap-1">
-            <!-- <li class="menu-item nav_featur_menu first_menu_item">
-              <a href="javascript:void(0)" onclick="navMenu()" class="nav_featur_menu r-flex ali-c gap-05">
-                <span>Features</span>
-                <div class="menu_drop_dwon_icon r-flex ali-c jut-c">
-                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M17.5 4.75L10 12.25L2.5 4.75L1 6.25L10 15.25L19 6.25L17.5 4.75Z" fill="#222121" />
-                  </svg>
-
-                </div>
-              </a>
-              <ul class="menu_drop_dwon c-flex gap-2">
-                <li><a href="#">Single Click</a></li>
-                <li><a href="#">iMeal</a></li>
-                <li><a href="#">Expense Manager</a></li>
-              </ul>
-            </li> -->
-            <li class="menu-item"><a href="#faq">Faqs</a></li>
-            <li class="menu-item"><a href="#pricing_sec">Pricing</a></li>
-            <li class="menu-item"><a href="/about-us.php">About</a></li>
-            <li class="menu-item"><a href="/contact-us.php">Contact</a></li>
-            <li class="menu-item start_btn">
-              <a href="/download-app.php?utm_source=website_header">Start Using it !</a>
-            </li>
-          </ul>
-        </nav>
-        <div onclick="hamburger()" class="hamburger_icon">
-          <svg width="24" height="18" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M1.125 1H14.875M1.125 6H14.875M1.125 11H14.875" stroke="#1B1B1B" stroke-width="1.25"
-              stroke-linecap="round" stroke-linejoin="round" />
-          </svg>
-        </div>
-      </div>
-    </div>
-  </header>
-
-
+  <?php include 'inc/header.php'; ?>
   <main>
     <section class="service_hero_sec">
       <div class="container">
@@ -692,26 +630,12 @@
       </div>
     </section>
     <!-- <=================== faqs section close ============> -->
-
-    <footer>
-      <section class="footer_sec">
-        <div class="container">
-          <div class="footer_contaier r-flex ali-c jut-sb">
-            <div class="footer_logo">
-              <img src="/assets/img/logo2.svg" alt="" />
-            </div>
-            <div class="footer_copyright">
-              Copyright © 2024 TiffinCRM | All Rights Reserved
-            </div>
-          </div>
-        </div>
-      </section>
-    </footer>
+<?php include 'inc/footer.php'; ?>
   </main>
 
   <script></script>
 
-  <script src="assets/script.js"></script>
+  <script src="/assets/script.js"></script>
 
   <script type="application/ld+json">
 
