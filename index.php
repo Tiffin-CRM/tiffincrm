@@ -721,6 +721,9 @@
             "name": "Tiffin Service Management App",
             "description": "Unlock the full potential of TiffinCrm. Manage orders, track
             deliveries, handle finances, and grow your tiffin business with ease.",
+            "image": [
+        "/assets/img/icons/android-chrome-512x512.png"
+       ],
             "brand": {
             "@type": "Organization",
             "name": "TiffinCrm"
