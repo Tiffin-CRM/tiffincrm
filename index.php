@@ -52,11 +52,12 @@
                 <li><a href="#">Expense Manager</a></li>
               </ul>
             </li> -->
+            <li class="menu-item"><a href="#faq">Faqs</a></li>
             <li class="menu-item"><a href="#pricing_sec">Pricing</a></li>
             <li class="menu-item"><a href="/about-us.php">About</a></li>
             <li class="menu-item"><a href="/contact-us.php">Contact</a></li>
             <li class="menu-item start_btn">
-              <a href="/download-app.php">Start Using it !</a>
+              <a href="/download-app.php?utm_source=website_header">Start Using it !</a>
             </li>
           </ul>
         </nav>
@@ -107,8 +108,7 @@
               </div>
             </div>
             <div class="left_side_btn_box r-flex ali-c gap-1">
-              <a href="https://wa.me/919068062563?text=I Want to Start Using TiffinCRM"
-                class="play_stor_link r-flex ali-c gap-1">
+              <a href="/download-app.php?utm_source=hero_section" class="play_stor_link r-flex ali-c gap-1">
                 <div class="play_stor_icon_box">
                   <img src="/assets/img/paly-stor-icon.svg" alt="play stor icon" />
                 </div>
