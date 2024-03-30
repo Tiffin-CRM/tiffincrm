@@ -50,7 +50,7 @@
 
 <h2 class="content_heading">7. Contact Us</h2>
 <p class="steps_items_desc">
-  If you have any questions or concerns about these Terms of Use, please contact us at [insert contact details].
+  If you have any questions or concerns about these Terms of Use, please <a href="contact-us.php">contact us </a>.
 </p>
 
 
