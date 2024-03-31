@@ -33,7 +33,7 @@
                     background="transparent" speed="1" style="width: 300px; height: 300px;margin: 20px auto;" loop
                     autoplay></dotlottie-player>
 
-                <h1 class="content_heading">Get Early Access</h1>
+                <h1 class="content_heading">Get Early Access for FREE</h1>
                 <p class="steps_items_desc">
                     TiffinCRM is not launched publically yet. </p>
                 <p class="steps_items_desc"> But you can request early access from here.
