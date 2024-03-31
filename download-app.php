@@ -30,7 +30,7 @@
                    <p class="steps_items_desc"> But you can request early access from here.
                    <br> We will give you a link to download the app for free.
                 </p>
-                <div class="left_side_btn_box r-flex ali-c gap-1">
+                <div class="left_side_btn_box r-flex ali-c gap-1 jut-c">
 
                 <a href="https://wa.me/919253029002?text=I Want Early Access of TiffinCrm" target="_blank" class="play_stor_link r-flex ali-c gap-1">
                 <div class="play_stor_icon_box  r-flex ali-c gap-1">
