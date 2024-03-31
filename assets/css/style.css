@@ -154,6 +154,7 @@ a {
 @media (max-width: 740px) {
   header {
     background-color: var(--white-bg);
+    z-index: 20;
   }
   .logo {
     margin-left: 10px;
@@ -183,6 +184,8 @@ a {
     top: -500px;
     transition: all 0.3s ease;
     margin-left: -10px;
+    border-bottom: 1px solid #bbb9b9;
+    z-index: 10;
   }
   .nav-collapse.active {
     top: 60px;
