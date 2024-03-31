@@ -56,7 +56,7 @@
                         </div>
                         <span>Request Access on WhatsApp</span>
                     </a>
-                    <a href="tel:919253029002" target="_blank" class="play_stor_link r-flex ali-c gap-1"
+                    <a href="tel:+919253029002" target="_blank" class="play_stor_link r-flex ali-c gap-1"
                         style="background:white;color:#292929;border: 1px solid #e7e7e7;">
                         <div class="play_stor_icon_box  r-flex ali-c gap-1">
                             <svg style="width: 25px;" fill="#292929" version="1.1" id="Capa_1"
