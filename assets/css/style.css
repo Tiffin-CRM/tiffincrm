@@ -852,10 +852,11 @@ a {
   transform: rotate(90deg);
   transition: 0.2s;
   border-radius: 30px;
-  padding: 0px 9px 0px 0px;
+  /* padding: 0px 9px 0px 0px; */
   color: #8d8ba7;
   transition: all 0.2s ease-in-out;
   display: flex;
+  top: 16%;
   align-items: center;
   justify-content: center;
 }
@@ -864,7 +865,7 @@ a {
   content: url("/assets/img/plus.svg?v4");
   transform: rotate(45deg);
   color: var(--white-bg);
-  padding: 0px;
+  /* padding: 0px; */
 }
 
 .question.active {
@@ -916,7 +917,7 @@ footer {
   }
   .question::after {
     font-size: 15px;
-    padding: 0px 9px 0px 0px;
+    /* padding: 0px 9px 0px 0px; */
     right: 10px;
   }
   .answer {
