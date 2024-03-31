@@ -863,7 +863,7 @@ a {
 
 .question.active::after {
   content: url("/assets/img/plus.svg?v3");
-  transform: rotate(0deg);
+  transform: rotate(45deg);
   color: var(--white-bg);
   background-color: #bcbacd;
 }
