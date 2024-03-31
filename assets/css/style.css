@@ -186,7 +186,7 @@ a {
     border-bottom: 1px solid #bbb9b9;
     z-index: 10;
     display: none;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
   }
   .nav-collapse.active {
     display: block;
