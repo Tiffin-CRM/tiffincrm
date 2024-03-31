@@ -30,7 +30,7 @@
                     type="module"></script>
 
                 <dotlottie-player src="https://lottie.host/2332dc71-0002-48a4-8591-de33e936896d/qghooPzyI3.json"
-                    background="transparent" speed="1" style="width: 400px; height: 400px;" loop autoplay
+                    background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay
                     style="margin: 20px auto;"></dotlottie-player>
 
                 <h1 class="content_heading">Request Early Access</h1>
