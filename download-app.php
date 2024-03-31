@@ -14,7 +14,7 @@
         }
         .play_stor_link{
             background-color: #075E54;
-        ;
+        max-width: 200px;
         }
     </style>
 </head>
