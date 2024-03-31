@@ -915,7 +915,7 @@ footer {
   }
   .question::after {
     font-size: 15px;
-    padding: 0px 6px;
+    padding: 0px 6px 9px 6px;
     right: 10px;
   }
   .answer {
