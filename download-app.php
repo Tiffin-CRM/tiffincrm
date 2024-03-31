@@ -24,7 +24,7 @@
 <body>
     <?php include 'inc/header.php'; ?>
     <main>
-        <section class="main_content_area" style="margin-bottom: 100px;">
+        <section class="main_content_area" style="margin-bottom: 100px;padding-top: 30px;">
             <div class="container">
                 <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
                     type="module"></script>
