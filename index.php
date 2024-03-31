@@ -50,7 +50,7 @@
                 <div class="play_stor_icon_box">
                   <img src="/assets/img/paly-stor-icon.svg" alt="play stor icon" />
                 </div>
-                <span>Start Using TiffinCRM</span>
+                <span>Start Using for FREE</span>
               </a>
               <a target="_blank" href="https://bit.ly/msg-tiffin-crm" class="ask_quetion_link r-flex ali-c gap-1">
                 <span>Ask Question →</span>
@@ -341,7 +341,7 @@
                 </div>
                 <div class="item_heading_cont">
                   <span class="item_features_heading">All Features</span>
-                  <h3 class="item_main_heading">PartTime Work</h3>
+                  <h3 class="item_main_heading">Starter</h3>
                 </div>
               </div>
               <div class="user_limit_text">Upto 20 User</div>
