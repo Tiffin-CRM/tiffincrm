@@ -845,7 +845,7 @@ a {
   color: var(--white);
 }
 .question::after {
-  content: url('data:image/svg+xml;utf8,<svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5.50089 1.78369V9.45228" stroke="#8D8BA7" stroke-width="1.77514" stroke-linecap="round" stroke-linejoin="round"/><path d="M1.66656 5.61816H9.33516" stroke="#8D8BA7" stroke-width="1.77514" stroke-linecap="round" stroke-linejoin="round"/></svg>');
+  content: url("/assets/img/plus.svg");
   font-size: 1.5rem;
   position: absolute;
   right: 20px;
@@ -862,7 +862,7 @@ a {
 }
 
 .question.active::after {
-  content: url('data:image/svg+xml;utf8,<svg width="11" height="3" viewBox="0 0 11 3" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.66656 1.61816H9.33516" stroke="#8D8BA7" stroke-width="1.77514" stroke-linecap="round" stroke-linejoin="round"/></svg>');
+  content: url("/assets/img/minus.svg");
   transform: rotate(0deg);
   color: var(--white-bg);
   background-color: #bcbacd;
