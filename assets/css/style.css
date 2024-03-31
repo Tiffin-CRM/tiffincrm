@@ -834,7 +834,7 @@ a {
 .question {
   font-size: 24px;
   font-weight: 500;
-  padding: 20px 80px 20px 20px;
+  padding: 0px 9px 0px 0px;
   position: relative;
   display: flex;
   cursor: pointer;
@@ -852,7 +852,7 @@ a {
   transform: rotate(90deg);
   transition: 0.2s;
   border-radius: 30px;
-  padding: 0px 9px;
+  padding: 0px 9px 0px 0px;
   color: #8d8ba7;
   transition: all 0.2s ease-in-out;
   display: flex;
@@ -920,7 +920,7 @@ footer {
   }
   .answer {
     font-size: 14px;
-    padding: 10px;
+    padding: 6px;
     line-height: 20px;
   }
   .answer ul {
