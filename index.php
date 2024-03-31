@@ -6,6 +6,8 @@
   <title>TiffinCRM - Ultimate Tiffin Service Business Management App 2024</title>
   <meta name="description"
     content="TiffinCRM is a Mobile App to Manage Tiffin Service Business in India. It is all-in-one solution for efficient tiffin service business management. Streamline operations, manage customers, track deliveries, and optimize finances with ease. Join us and revolutionize your tiffin business today">
+  <link rel="canonical" href="https://tiffincrm.com/" />
+
 </head>
 
 <body>

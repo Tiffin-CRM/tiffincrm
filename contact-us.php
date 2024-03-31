@@ -5,6 +5,8 @@
     <?php include 'inc/head.php'; ?>
     <title>Contact Us - TiffinCRM</title>
     <meta name="description" content="Contact TiffinCrm for any inquiries, feedback, or support.">
+    <link rel="canonical" href="https://tiffincrm.com/contact-us.php" />
+
     <style>
         .main_content_area a {
             text-decoration: underline;

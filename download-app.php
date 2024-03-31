@@ -5,6 +5,8 @@
     <?php include 'inc/head.php'; ?>
     <title>Download App - TiffinCRM</title>
     <meta name="description" content="Contact TiffinCrm for any inquiries, feedback, or support.">
+    <link rel="canonical" href="https://tiffincrm.com/download-app.php" />
+
     <style>
         .content_heading {
             text-align: center;

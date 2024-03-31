@@ -6,6 +6,8 @@
   <title>Privacy Policies Page - TiffinCRM</title>
   <meta name="description"
     content="we care about protecting your information. This Privacy Policy explains what data we collect, why, and how we keep it safe.">
+  <link rel="canonical" href="https://tiffincrm.com/privacy-policy.php" />
+
 </head>
 <style>
 

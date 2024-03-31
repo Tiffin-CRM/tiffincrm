@@ -6,6 +6,7 @@
   <title>About Us - TiffinCRM</title>
   <meta name="description"
     content="At TiffinCrm, we're passionate about revolutionizing the way tiffin businesses operate. Our user-friendly app is designed to simplify every aspect of managing a tiffin service, from handling raw materials to ensuring timely deliveries.">
+  <link rel="canonical" href="https://tiffincrm.com/about-us.php" />
 </head>
 
 <body>
