@@ -20,11 +20,12 @@
                 </p>
 
                 <h3 class="content_heading">Email Us</h3>
-                <p>
-                    Email: contact@tiffincrm.com
+                <p class="steps_items_desc">
+
+                    Email: <a href="mailto:tiffincrm.@gmail.com">contact@tiffincrm.com</a>
                 </p>
                 <p class="steps_items_desc">
-                    Email U: tiffincrm.@gmail.com
+                    Email 2: <a href="mailto:tiffincrm.@gmail.com">tiffincrm.@gmail.com</a>
                 </p>
                 <h3 class="content_heading">WhatsApp Us</h3>
 
