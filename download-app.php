@@ -38,7 +38,7 @@
                     TiffinCRM is not launched publically yet. </p>
                 <p class="steps_items_desc"> But you can request early access by sending message on Whatsapp or
                     contacting on call.
-                    <br> We will give you a link to download the app for free.
+                    <br><br> We will give you App download link for free.
                 </p>
                 <div class="left_side_btn_box r-flex ali-c gap-1 jut-c">
 
