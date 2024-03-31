@@ -26,9 +26,12 @@
           <li class="menu-item"><a href="/#pricing_sec">Pricing</a></li>
           <li class="menu-item"><a href="/about-us.php">About</a></li>
           <li class="menu-item"><a href="/contact-us.php">Contact</a></li>
-          <li class="menu-item start_btn">
+          <li class="menu-item"><a href="/download-app.php?utm_source=website_header">Start Using it !</a></li>
+
+
+          <!-- <li class="menu-item start_btn">
             <a href="/download-app.php?utm_source=website_header">Start Using it !</a>
-          </li>
+          </li> -->
         </ul>
       </nav>
       <div onclick="hamburger()" class="hamburger_icon">
