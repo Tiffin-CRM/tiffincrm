@@ -45,7 +45,7 @@
                 <p class="steps_items_desc">
                     Call Now: <a href="tel:+919253029002">(+91 92530-29002)</a>
                 </p>
-                </p>
+
             </div>
         </section>
         <?php include 'inc/footer.php'; ?>

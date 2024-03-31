@@ -52,7 +52,7 @@
                 </div>
                 <span>Use in Android Phone</span>
               </a>
-              <a href="https://bit.ly/msg-tiffin-crm" class="ask_quetion_link r-flex ali-c gap-1">
+              <a target="_blank" href="https://bit.ly/msg-tiffin-crm" class="ask_quetion_link r-flex ali-c gap-1">
                 <span>Ask Question →</span>
               </a>
             </div>
