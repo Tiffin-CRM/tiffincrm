@@ -8,9 +8,6 @@
     <style>
         .main_content_area a {
             text-decoration: underline;
-            font-weight: 400;
-            color: var(--mid-font-color);
-
         }
     </style>
 </head>
@@ -18,7 +15,7 @@
 <body>
     <?php include 'inc/header.php'; ?>
     <main>
-        <section class="main_content_area" style="margin-bottom: 200px;">
+        <section class="main_content_area">
             <div class="container">
                 <h1 class="content_heading">Contact Us</h1>
                 <p class="steps_items_desc">
