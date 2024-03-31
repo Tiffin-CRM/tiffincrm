@@ -32,7 +32,7 @@
                 <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
                     type="module"></script>
 
-                <dotlottie-player src="https://lottie.host/2332dc71-0002-48a4-8591-de33e936896d/qghooPzyI3.json"
+                <dotlottie-player src="https://lottie.host/37b1a639-6c44-44a1-a0dd-7ed4903259d6/txAlbe4k2b.json"
                     background="transparent" speed="1" style="width: 300px; height: 300px;margin: 20px auto;" loop
                     autoplay></dotlottie-player>
 
