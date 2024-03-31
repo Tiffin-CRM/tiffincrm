@@ -9,6 +9,8 @@
         .main_content_area a {
             text-decoration: underline;
             font-weight: 400;
+            color: var(--mid-font-color);
+            ;
         }
     </style>
 </head>
