@@ -12,6 +12,9 @@
         .content_heading {
             text-align: center;
         }
+        .steps_items_desc{
+            text-align:center;
+        }
     </style>
 </head>
 
@@ -26,13 +29,16 @@
                    <p class="steps_items_desc"> But you can request early access from here.
                    <br> We will give you a link to download the app for free.
                 </p>
+                <div class="left_side_btn_box>
+
+
                 <a href="https://wa.me/919253029002?text=I Want Early Access of TiffinCrm" target="_blank" class="play_stor_link r-flex ali-c gap-1">
                 <div class="play_stor_icon_box">
                   <img src="/assets/img/paly-stor-icon.svg" alt="play stor icon" />
                 </div>
                 <span>Request Access on WhatsApp</span>
                 </a>
-
+</div>
             </div>
         </section>
         <?php include 'inc/footer.php'; ?>
