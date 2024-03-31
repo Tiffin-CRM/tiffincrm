@@ -10,7 +10,7 @@
             text-decoration: underline;
             font-weight: 500;
             color: var(--mid-font-color);
-            ;
+
         }
     </style>
 </head>
