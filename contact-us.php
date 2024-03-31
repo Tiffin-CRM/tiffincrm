@@ -8,7 +8,7 @@
     <style>
         .main_content_area a {
             text-decoration: underline;
-            font-weight: 400;
+            font-weight: 500;
             color: var(--mid-font-color);
             ;
         }
