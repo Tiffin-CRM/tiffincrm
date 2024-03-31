@@ -1003,3 +1003,7 @@ footer a {
   align-items: unset;
   margin: 20px;
 }
+
+.main_content_area a {
+  text-decoration: underline;
+}

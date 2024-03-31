@@ -5,11 +5,7 @@
     <?php include 'inc/head.php'; ?>
     <title>Contact Us - TiffinCRM</title>
     <meta name="description" content="Contact TiffinCrm for any inquiries, feedback, or support.">
-    <style>
-        .main_content_area a {
-            color: var(--);
-        }
-    </style>
+
 </head>
 
 <body>
