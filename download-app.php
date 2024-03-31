@@ -32,7 +32,7 @@
                 <p class="steps_items_desc"> But you can request early access from here.
                     <br> We will give you a link to download the app for free.
                 </p>
-                <div class="left_side_btn_box c-flex ali-c gap-1 jut-c">
+                <div class="left_side_btn_box r-flex ali-c gap-1 jut-c">
 
                     <a href="https://wa.me/919253029002?text=I Want Early Access of TiffinCrm" target="_blank"
                         class="play_stor_link r-flex ali-c gap-1">
@@ -56,14 +56,13 @@
                         </div>
                         <span>Request Access on WhatsApp</span>
                     </a>
-                    <br>
                     <a href="https://wa.me/919253029002?text=I Want Early Access of TiffinCrm" target="_blank"
                         class="play_stor_link r-flex ali-c gap-1"
                         style="background:white;color:#292929;border: 1px solid #e7e7e7;">
                         <div class="play_stor_icon_box  r-flex ali-c gap-1">
-                            <svg fill="#292929" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
-                                xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 414.937 414.937"
-                                xml:space="preserve">
+                            <svg style="width: 25px;" fill="#292929" version="1.1" id="Capa_1"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                viewBox="0 0 414.937 414.937" xml:space="preserve">
                                 <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                                 <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
                                 <g id="SVGRepo_iconCarrier">
