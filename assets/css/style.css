@@ -864,6 +864,7 @@ a {
   content: url("/assets/img/plus.svg?v4");
   transform: rotate(45deg);
   color: var(--white-bg);
+  padding: 0px;
 }
 
 .question.active {
