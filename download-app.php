@@ -3,7 +3,7 @@
 
 <head>
     <?php include 'inc/head.php'; ?>
-    <title>Contact Us - TiffinCRM</title>
+    <title>Download App - TiffinCRM</title>
     <meta name="description" content="Contact TiffinCrm for any inquiries, feedback, or support.">
     <style>
         .content_heading {
