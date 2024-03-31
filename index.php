@@ -630,7 +630,7 @@
       </div>
     </section>
     <!-- <=================== faqs section close ============> -->
-<?php include 'inc/footer.php'; ?>
+    <?php include 'inc/footer.php'; ?>
   </main>
   <script type="application/ld+json">
 
@@ -665,6 +665,20 @@
             }
             ]
             }
+
+            {
+  "@context": "http://schema.org",
+  "@type": "WebSite",
+  "name": "TiffinCrm",
+  "url": "https://www.tiffincrm.com/",
+  "description": "Manage your tiffin service business efficiently with TiffinCrm. Simplify orders, deliveries, billing, and more.",
+  "sameAs": [
+    "https://www.facebook.com/TiffinCrm",
+    "https://twitter.com/TiffinCrm",
+    "https://www.instagram.com/TiffinCrm"
+  ]
+}
+
   </script>
 </body>
 
