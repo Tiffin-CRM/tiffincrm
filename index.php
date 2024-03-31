@@ -50,7 +50,7 @@
                 <div class="play_stor_icon_box">
                   <img src="/assets/img/paly-stor-icon.svg" alt="play stor icon" />
                 </div>
-                <span>Use in Android Phone</span>
+                <span>Start Using TiffinCRM</span>
               </a>
               <a target="_blank" href="https://bit.ly/msg-tiffin-crm" class="ask_quetion_link r-flex ali-c gap-1">
                 <span>Ask Question →</span>
