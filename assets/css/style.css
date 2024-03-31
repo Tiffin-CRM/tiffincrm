@@ -845,7 +845,7 @@ a {
   color: var(--white);
 }
 .question::after {
-  content: url("/assets/img/plus.svg?v1");
+  content: url("/assets/img/plus.svg?v2");
   font-size: 1.5rem;
   position: absolute;
   right: 20px;
@@ -862,7 +862,7 @@ a {
 }
 
 .question.active::after {
-  content: url("/assets/img/minus.svg?v1");
+  content: url("/assets/img/minus.svg?v2");
   transform: rotate(0deg);
   color: var(--white-bg);
   background-color: #bcbacd;
