@@ -638,8 +638,7 @@
             "@context": "http://schema.org",
             "@type": "Product",
             "name": "Tiffin Service Management App",
-            "description": "Unlock the full potential of TiffinCrm. Manage orders, track
-            deliveries, handle finances, and grow your tiffin business with ease.",
+            "description": "Unlock the full potential of TiffinCrm. Manage orders, track deliveries, handle finances, and grow your tiffin business with ease.",
             "image": [
         "/assets/img/icons/android-chrome-512x512.png"
        ],
@@ -647,16 +646,14 @@
             "@type": "Organization",
             "name": "TiffinCrm"
             },
-            "offers": [
-            {
+            "offers":   {
             "@type": "Offer",
             "price": "0.00",
             "priceCurrency": "INR",
             "availability": "https://schema.org/InStock",
-            "description": "Get started for free with our Starter plan. Manage essential tasks for your tiffin service business and explore all the features of TiffinCrm
-            at no cost."
+            "description": "Get started for free with our Starter plan. Manage essential tasks for your tiffin service business and explore all the features of TiffinCrm at no cost."
             }
-            ]
+
             }
 
             {
