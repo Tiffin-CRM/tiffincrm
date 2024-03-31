@@ -24,7 +24,7 @@
 <body>
     <?php include 'inc/header.php'; ?>
     <main>
-        <section class="main_content_area">
+        <section class="main_content_area" style="margin-bottom: 50px;">
             <div class="container">
                 <h1 class="content_heading">Request Early Access</h1>
                 <p class="steps_items_desc">
