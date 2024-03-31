@@ -30,8 +30,8 @@
                 <h3 class="content_heading">WhatsApp Us</h3>
 
                 <p class="steps_items_desc">
-                    WhatsApp: Message Us on Whatsapp (+91 92530-29002)
-                    <br>
+                    WhatsApp:
+
                     <a href="https://wa.me/+919253029002?text=Hello+I+have+query+regarding+TiffinCrm">Message Us on
                         Whatsapp (+91 92530-29002)</a>
                 </p>
