@@ -42,7 +42,8 @@
 
                 <div class="left_side_btn_box r-flex ali-c gap-1 jut-c">
 
-                    <a href="/ target=" _blank" class="play_stor_link r-flex ali-c gap-1">
+                    <a href="/ target=" _blank" class="play_stor_link r-flex ali-c gap-1"
+                        style="background:white;color:#292929;border: 1px solid #e7e7e7;">
                         <div class="play_stor_icon_box  r-flex ali-c gap-1">
                             <svg fill="#000000" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
                                 xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 495.398 495.398"
