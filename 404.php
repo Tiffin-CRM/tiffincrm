@@ -45,9 +45,9 @@
                     <a href="/ target=" _blank" class="play_stor_link r-flex ali-c gap-1"
                         style="background:white;color:#292929;border: 1px solid #e7e7e7;">
                         <div class="play_stor_icon_box  r-flex ali-c gap-1">
-                            <svg fill="#000000" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
-                                xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 495.398 495.398"
-                                xml:space="preserve">
+                            <svg style="width: 20px;" fill="#000000" version="1.1" id="Capa_1"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                viewBox="0 0 495.398 495.398" xml:space="preserve">
                                 <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                                 <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
                                 <g id="SVGRepo_iconCarrier">
