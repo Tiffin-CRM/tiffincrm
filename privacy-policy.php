@@ -3,25 +3,23 @@
 
 <head>
   <?php include 'inc/head.php'; ?>
-  <title>About Us - TiffinCRM</title>
+  <title>Privacy Policies Page - TiffinCRM</title>
   <meta name="description"
-    content="At TiffinCrm, we're passionate about revolutionizing the way tiffin businesses operate. Our user-friendly app is designed to simplify every aspect of managing a tiffin service, from handling raw materials to ensuring timely deliveries.">
+    content="we care about protecting your information. This Privacy Policy explains what data we collect, why, and how we keep it safe.">
 </head>
 <style>
 
 </style>
+
 <body>
   <?php include 'inc/header.php'; ?>
   <main>
     <section class="main_content_area">
       <div class="container">
-        <h1 class="content_heading">Privacy Policy Page</h1>
+        <h1 class="content_heading">Privacy Policies</h1>
         <p class="steps_items_desc">
           At <a href="https://tiffincrm.com">TiffinCrm</a>, we care about protecting your information. This Privacy
-          Policy explains what data we collect,
-          why, and
-          how we keep it safe.
-
+          Policy explains what data we collect, why, and how we keep it safe.
         </p>
 
         <h2 class="content_heading">Information We Collect</h2>
