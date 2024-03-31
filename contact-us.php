@@ -19,14 +19,14 @@
                     information below.
                 </p>
 
-                <h3 class="sub_heading">Email Us</h3>
+                <h3 class="content_heading">Email Us</h3>
                 <p>
                     Email: contact@tiffincrm.com
                 </p>
                 <p class="steps_items_desc">
                     Email U: tiffincrm.@gmail.com
                 </p>
-                <h3 class="sub_heading">WhatsApp Us</h3>
+                <h3 class="content_heading">WhatsApp Us</h3>
 
                 <p class="steps_items_desc">
                     WhatsApp: Message Us on Whatsapp (+91 92530-29002)
@@ -34,7 +34,7 @@
                     <a href="https://wa.me/+919253029002?text=Hello+I+have+query+regarding+TiffinCrm">Message Us on
                         Whatsapp (+91 92530-29002)</a>
                 </p>
-                <h3 class="sub_heading">Call Us</h3>
+                <h3 class="content_heading">Call Us</h3>
 
                 <p class="steps_items_desc">
                     Call Now: <a href="tel:+919253029002">(+91 92530-29002</a>
