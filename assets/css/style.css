@@ -181,14 +181,15 @@ a {
     background-color: var(--white-bg);
     position: absolute;
     left: 0px;
-    top: -500px;
+    top: 60px;
     transition: all 0.3s ease;
     margin-left: -10px;
     border-bottom: 1px solid #bbb9b9;
     z-index: 10;
+    display: none;
   }
   .nav-collapse.active {
-    top: 60px;
+    display: block;
   }
   .nav_menu_box {
     flex-direction: column;
