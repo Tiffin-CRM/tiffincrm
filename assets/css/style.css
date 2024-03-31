@@ -854,7 +854,6 @@ a {
   border-radius: 30px;
   padding: 0px 9px;
   color: #8d8ba7;
-  background-color: #f2f1fa;
   transition: all 0.2s ease-in-out;
   display: flex;
   align-items: center;
@@ -865,7 +864,6 @@ a {
   content: url("/assets/img/plus.svg?v4");
   transform: rotate(45deg);
   color: var(--white-bg);
-  background-color: #bcbacd;
 }
 
 .question.active {
