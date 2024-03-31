@@ -36,8 +36,7 @@
                 <h1 class="content_heading">Get Early Access for FREE</h1>
                 <p class="steps_items_desc">
                     TiffinCRM is not launched publically yet. </p>
-                <p class="steps_items_desc"> But you can request early access by sending message on Whatsapp or
-                    contacting on call.
+                <p class="steps_items_desc"> But you can get early access by by contacting us.
                     <br><br> We will give you App download link for free.
                 </p>
                 <div class="left_side_btn_box r-flex ali-c gap-1 jut-c">
