@@ -37,7 +37,7 @@
                 <p class="steps_items_desc">
                     TiffinCRM is not launched publically yet. </p>
                 <p class="steps_items_desc"> But you can get early access by by contacting us.
-                    <br><br> We will give you App download link for free.
+                    <br> We will give you App download link for free.
                 </p>
                 <div class="left_side_btn_box r-flex ali-c gap-1 jut-c">
 
@@ -61,7 +61,7 @@
                                 </g>
                             </svg>
                         </div>
-                        <span>Request Access on WhatsApp</span>
+                        <span>Get Access Via WhatsApp</span>
                     </a>
                     <a href="tel:+919253029002" target="_blank" class="play_stor_link r-flex ali-c gap-1"
                         style="background:white;color:#292929;border: 1px solid #e7e7e7;">
@@ -80,7 +80,7 @@
                                 </g>
                             </svg>
                         </div>
-                        <span>Request Access on Call</span>
+                        <span>Contact Us on Call</span>
                     </a>
                 </div>
             </div>
