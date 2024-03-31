@@ -5,6 +5,11 @@
     <?php include 'inc/head.php'; ?>
     <title>Contact Us - TiffinCRM</title>
     <meta name="description" content="Contact TiffinCrm for any inquiries, feedback, or support.">
+    <style>
+        .main_content_area a {
+            color: var(--);
+        }
+    </style>
 </head>
 
 <body>
@@ -38,7 +43,7 @@
                 <h3 class="content_heading">Call Us</h3>
 
                 <p class="steps_items_desc">
-                    Call Now: <a href="tel:+919253029002">(+91 92530-29002</a>
+                    Call Now: <a href="tel:+919253029002">(+91 92530-29002)</a>
                 </p>
                 </p>
             </div>

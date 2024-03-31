@@ -17,7 +17,7 @@ body {
 }
 a {
   user-select: none;
-  color: var(--theam-color);
+  color: var(--heading-color);
   font-weight: 600;
 }
 .nav_hamburger {
