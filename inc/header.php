@@ -22,7 +22,7 @@
                 <li><a href="#">Expense Manager</a></li>
               </ul>
             </li> -->
-          <li class="menu-item"><a href="https://tiffincrm.com/#faq">Faqs</a></li>
+          <li class="menu-item"><a href="#faq">Faqs</a></li>
           <li class="menu-item"><a href="https://tiffincrm.com//#pricing_sec">Pricing</a></li>
           <li class="menu-item"><a href="/about-us.php">About</a></li>
           <li class="menu-item"><a href="/contact-us.php">Contact</a></li>
