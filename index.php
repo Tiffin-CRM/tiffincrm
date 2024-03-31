@@ -655,13 +655,6 @@
             "availability": "https://schema.org/InStock",
             "description": "Get started for free with our Starter plan. Manage essential tasks for your tiffin service business and explore all the features of TiffinCrm
             at no cost."
-            },
-            {
-            "@type": "Offer",
-            "price": "9.99",
-            "priceCurrency": "INR",
-            "availability": "https://schema.org/InStock",
-            "description": "Upgrade to our Bussiness plan for full access to advanced features and Unlimited Users for your tiffin service business."
             }
             ]
             }
