@@ -3,9 +3,9 @@
 
 <head>
   <?php include 'inc/head.php'; ?>
-  <title>TiffinCRM - Ultimate Tiffin Service Business Management App 2024</title>
+  <title>Tiffin Service Management App for Your Food Business - TiffinCRM</title>
   <meta name="description"
-    content="TiffinCRM is a Mobile App to Manage Tiffin Service Business in India. It is all-in-one solution for efficient tiffin service business management. Streamline operations, manage customers, track deliveries, and optimize finances with ease. Manage tiffin service business today">
+    content="TiffinCRM is a Tiffin Service App CRM for day to day operations. which Streamline operations, manage customers, track deliveries, and optimise finances.">
   <link rel="canonical" href="https://tiffincrm.com/" />
 
 </head>
@@ -18,7 +18,7 @@
         <div class="serice_hero_container r-flex ali-c jut-sb">
           <div class="service_left_side_cont">
             <h1 class="color_hero_heading">
-              Tiffin Service Management CRM App
+              Tiffin Service Management App CRM 
             </h1>
             <div class="service_hero_main_heading">
               Simplifying Tiffin Services
@@ -402,7 +402,7 @@
               </div>
               <div class="container-faq" itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
                 <h2 class="question" itemprop="name">
-                  2. How can TiffinCrm benefit my tiffin service business?
+                  2. How can Tiffin Service App benefit my tiffin service business?
                 </h2>
                 <div class="answercont" itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
                   <p class="answer" itemprop="text">
@@ -566,7 +566,7 @@
               </div>
               <div class="container-faq" itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
                 <h2 class="question" itemprop="name">
-                  13. Does TiffinCrm charge any commission?
+                  13. Does Tiffin Service App charge any commission?
                 </h2>
                 <div class="answercont" itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
                   <p class="answer" itemprop="text">
