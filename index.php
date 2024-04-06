@@ -70,7 +70,7 @@
                 </div>
                 <div class="vdo_pop_box r-flex ali-c jut-c">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/J3OwLp3t6bA?si=Y7hdj9y_ypg-nkeh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                  <img src="/assets/img/thumbnail2.jpg" alt="" />
+                  <!-- <img src="/assets/img/thumbnail2.jpg" alt="" /> -->
                 </div>
               </div>
             </div>
