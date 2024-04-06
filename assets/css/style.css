@@ -91,7 +91,7 @@ a {
   transform: scale(0);
 }
 .video_pop_box.active {
-  transform: scale(1);
+  transform: scale(2);
 }
 .vdo_container {
   width: 100%;
@@ -104,7 +104,7 @@ a {
   transition: all 0.2s ease-in-out;
 }
 .video_pop_box.active .vdo_container {
-  transform: scale(1);
+  transform: scale(2);
 }
 .vdo_close_btn {
   position: absolute;
