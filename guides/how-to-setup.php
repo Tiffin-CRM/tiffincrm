@@ -122,7 +122,6 @@
                 <span class="info_box_title">General Info</span>
                 <div class="info_box_content">
                     <ol>
-
                         <li>Imagine you're in a kitchen making different dishes every day, like one day you cook Matar Paneer, and another day you make Daal.
                             <br><br>Now, instead of writing down the names of each dish every time, we use simple codes like "Sabji1," "Sabji2," and so on. These codes stand for different dishes. 
                             <br>If it's the same dish every day, we can still write down its real name.
@@ -130,7 +129,8 @@
                             When someone orders food, we ask them how many of each dish they want. For example, if they want 6 Rotis, 2 Sabjis, and some curd, we write it like this: "6 Rotis, Sabji1, Sabji2, curd." 
                             <br><br>
                             And if another person wants 2 Rotis, 3 Sabjis, and Milk, we write it as "2 Rotis, Sabji1, Sabji2, Sabji3, Milk.
-
+                            <br><br>
+                            Note: Use quantity as prefix with item name. Like 4 Roti, 2 Roti. Items without any numeric digit as prefix counted as single servicing or piece
                         </li>
                         <li>Enter quantity as prefix for the item name so you get exact quantity in item to prepare
                             screen.<br><br>
