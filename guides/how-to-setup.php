@@ -129,15 +129,13 @@
                             When someone orders food, we ask them how many of each dish they want. For example, if they want 6 Rotis, 2 Sabjis, and some curd, we write it like this: "6 Rotis, Sabji1, Sabji2, curd." 
                             <br><br>
                             And if another person wants 2 Rotis, 3 Sabjis, and Milk, we write it as "2 Rotis, Sabji1, Sabji2, Sabji3, Milk.
-                            <br><br>
-                            Note: Use quantity as prefix with item name. Like 4 Roti, 2 Roti. Items without any numeric digit as prefix counted as single serving or piece
+                           
                         </li>
                         <li>Enter quantity as prefix for the item name so you get exact quantity in item to prepare
                             screen.<br><br>
-                            Exp 1: If Customer takes 6 Roti, 2 Sabji & curd. then - you enter <br>
-                            6 Roti, Sabji1, Sabji2, curd. <br>Exp 2: If Customer takes 2 Roti, 3 Sabji & Milk. then you
-                            enter <br><br>
-                            2 Roti, Sabji1, Sabji2, Sabji3, Milk</li>
+                            Expample: 6 Roti, 4 Roti, Sabji1, Sabji2, 2 Raita <br>
+                            <br><br>
+                            Note: Items without any numeric digit as prefix counted as single serving or piece</li>
                         <li>Enter the Price to specify how much amount to deduct for this meal plan daily.</li>
                         <li>Use the timing for the meal from options breakfast, lunch or dinner.</li>
                         <li>Use the order type as repeat if customer wants it daily or use one_time if he want that for
