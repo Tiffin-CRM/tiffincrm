@@ -77,7 +77,7 @@
             How to Use Tiffin CRM?
         </h2>
         <p  class="steps_items_desc">
-            Understand How to use every function & usecase.  <br> Visit Previus<a href="https://tiffincrm.com/guides/how-to-use.php">How to Setup tiffin Crm</a> 
+            Understand How to use every function & usecase.  <br> Visit Previus <a href="https://tiffincrm.com/guides/how-to-use.php">How to Setup tiffin Crm</a> 
         </p>
 
         <div class="steps">
