@@ -2,13 +2,11 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>How to use Tiffin</title>
-    <link
-        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
-        rel="stylesheet" />
-    <link rel="stylesheet" href="https://tiffincrm.com/assets/css/style.css?1712421339">
+<?php include 'inc/head.php'; ?>
+  <title>How to Use Tiffin CRM - TiffinCRM</title>
+  <meta name="description"
+    content="At TiffinCrm, we're passionate about revolutionizing the way tiffin businesses operate. Our user-friendly app is designed to simplify every aspect of managing a tiffin service, from handling raw materials to ensuring timely deliveries.">
+  <link rel="canonical" href="https://tiffincrm.com/guides/how-to-use.php" />
     <style>
         * {
             margin-top: 10px;
@@ -70,6 +68,8 @@
 </head>
 
 <body>
+<?php include 'inc/header.php'; ?>
+
     <div class="content">
         <h1>
             How to Use Tiffin CRM?
@@ -332,6 +332,8 @@
 
 
     </div>
+    <?php include 'inc/footer.php'; ?>
+
 </body>
 
 </html>
