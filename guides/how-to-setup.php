@@ -2,20 +2,13 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>How to use Tiffin</title>
-    <link
-        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
-        rel="stylesheet" />
-    <link rel="stylesheet" href="https://tiffincrm.com/assets/css/style.css?1712421339">
+<?php include '../inc/head.php'; ?>
+  <title>How to Use Tiffin CRM - TiffinCRM</title>
+  <meta name="description"
+    content="At TiffinCrm, we're passionate about revolutionizing the way tiffin businesses operate. Our user-friendly app is designed to simplify every aspect of managing a tiffin service, from handling raw materials to ensuring timely deliveries.">
+  <link rel="canonical" href="https://tiffincrm.com/guides/how-to-use.php" />
     <style>
-        * {
-            margin-top: 10px;
-            font-family: "Open Sans", sans-serif;
-            line-height: 20px;
-        }
-
+        
         body {
             font-family: Arial, Helvetica, sans-serif;
             background-color: #F4F4F4;
@@ -24,7 +17,7 @@
         }
 
         .content {
-            max-width: 600px;
+            max-width: 1200px;
             padding: 10px;
             margin: 20px auto;
         }
@@ -32,10 +25,17 @@
         .steps {
             margin: 40px auto;
         }
+        main li{
+            list-style: auto;
+            margin: 10px 20px;
+        }
+        .main_content_area {
+    padding: 40px 10px;
+}
 
 
-        h1,
-        h2 {
+        h2,
+        h3 {
             color: #1205A3;
         }
 
@@ -70,17 +70,19 @@
 </head>
 
 <body>
-    <div class="content">
-        <h1>
+<?php include '../inc/header.php'; ?>
+
+    <div class="main_content_area content">
+        <h2>
             How to Setup Tiffin CRM?
-        </h1>
+        </h2>
         <p>
             Setup Tiffin CRM & Organise Your Businesses. </p>
 
         <div class="steps">
-            <h2>
+            <h3>
                 1. Add Customers
-            </h2>
+            </h3>
             <p class="heading_desc_text">
                 Add Your Existing Customers </p>
             <div class="info_box">
@@ -111,9 +113,9 @@
         </div>
 
         <div class="steps">
-            <h2>
+            <h3>
                 2. Add Repeat Orders/Meal Plan
-            </h2>
+            </h3>
             <p class="heading_desc_text">
                 Repeat order is the order which customers wants daily like a subscription or meal plan. </p>
             <div class="info_box">
@@ -158,9 +160,9 @@
 
         </div>
         <div class="steps">
-            <h2>
+            <h3>
                 3. Add/Deduct Balance
-            </h2>
+            </h3>
             <p class="heading_desc_text">
                 Add or Deduct Customer Balance
             <div class="info_box">
@@ -193,7 +195,9 @@
             </div>
         </div>
     </div>
-
-</body>
-
-</html>
+    <?php include '../inc/footer.php'; ?>
+      
+      </body>
+      
+      </html>
+      
