@@ -125,18 +125,18 @@
 
                         <li> Enter the items with quantity for the order. Generally some items are different for
                             everyday. like someday you make
-                            Matar Paneer and Some Day You Make Daal. Adding the Daily Menu for every customer is very
+                            Matar Paneer and Some Day You Make Daal. <br>Adding the Daily Menu for every customer is very
                             hectic so we introduced the
-                            variable which can reflects in your items to prepare screen. Like Sabji1, Sabji2, Sabji3. If
+                            variable which can reflects in your items to prepare screen. Like Sabji1, Sabji2, Sabji3. <br>If
                             You make same item daily
                             then you can also enter the exact name. otherwise entering the variable like sabji1 will be
                             a better option.
                         </li>
                         <li>Enter quantity as prefix for the item name so you get exact quantity in item to prepare
-                            screen.<br>
+                            screen.<br><br>
                             Exp 1: If Customer takes 6 Roti, 2 Sabji & curd. then - you enter <br>
                             6 Roti, Sabji1, Sabji2, curd. <br>Exp 2: If Customer takes 2 Roti, 3 Sabji & Milk. then you
-                            enter <br>
+                            enter <br><br>
                             2 Roti, Sabji1, Sabji2, Sabji3, Milk</li>
                         <li>Enter the Price to specify how much amount to deduct for this meal plan.</li>
                         <li>Use the timing for the meal from options breakfast, lunch or dinner.</li>
