@@ -138,7 +138,7 @@
                             6 Roti, Sabji1, Sabji2, curd. <br>Exp 2: If Customer takes 2 Roti, 3 Sabji & Milk. then you
                             enter <br><br>
                             2 Roti, Sabji1, Sabji2, Sabji3, Milk</li>
-                        <li>Enter the Price to specify how much amount to deduct for this meal plan.</li>
+                        <li>Enter the Price to specify how much amount to deduct for this meal plan daily.</li>
                         <li>Use the timing for the meal from options breakfast, lunch or dinner.</li>
                         <li>Use the order type as repeat if customer wants it daily or use one_time if he want that for
                             once only.</li>
