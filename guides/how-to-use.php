@@ -8,11 +8,6 @@
     content="At TiffinCrm, we're passionate about revolutionizing the way tiffin businesses operate. Our user-friendly app is designed to simplify every aspect of managing a tiffin service, from handling raw materials to ensuring timely deliveries.">
   <link rel="canonical" href="https://tiffincrm.com/guides/how-to-use.php" />
     <style>
-        * {
-            margin-top: 10px;
-            font-family: "Open Sans", sans-serif;
-            line-height: 20px;
-        }
 
         body {
             font-family: Arial, Helvetica, sans-serif;
