@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-<?php include 'inc/head.php'; ?>
+<?php include '../inc/head.php'; ?>
   <title>How to Use Tiffin CRM - TiffinCRM</title>
   <meta name="description"
     content="At TiffinCrm, we're passionate about revolutionizing the way tiffin businesses operate. Our user-friendly app is designed to simplify every aspect of managing a tiffin service, from handling raw materials to ensuring timely deliveries.">
@@ -329,10 +329,8 @@
 
 
 
-
-
     </div>
-    <?php include 'inc/footer.php'; ?>
+    <?php include '../inc/footer.php'; ?>
 
 </body>
 
