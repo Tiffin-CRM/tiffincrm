@@ -125,7 +125,7 @@
 
                         <li> Enter the items with quantity for the order. Generally some items are different for
                             everyday. like someday you make
-                            Matar Paneer and Some Day You Make Daal. <br>Adding the Daily Menu for every customer is very
+                            Matar Paneer and Some Day You Make Daal. <br><br>Adding the Daily Menu for every customer is very
                             hectic so we introduced the
                             variable which can reflects in your items to prepare screen. Like Sabji1, Sabji2, Sabji3. <br>If
                             You make same item daily
