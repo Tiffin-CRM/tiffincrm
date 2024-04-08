@@ -130,7 +130,7 @@
                             <br><br>
                             And if another person wants 2 Rotis, 3 Sabjis, and Milk, we write it as "2 Rotis, Sabji1, Sabji2, Sabji3, Milk.
                             <br><br>
-                            Note: Use quantity as prefix with item name. Like 4 Roti, 2 Roti. Items without any numeric digit as prefix counted as single servicing or piece
+                            Note: Use quantity as prefix with item name. Like 4 Roti, 2 Roti. Items without any numeric digit as prefix counted as single serving or piece
                         </li>
                         <li>Enter quantity as prefix for the item name so you get exact quantity in item to prepare
                             screen.<br><br>
