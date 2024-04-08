@@ -69,6 +69,7 @@
 <body>
 <?php include '../inc/header.php'; ?>
 <main>
+    <section class="main_content_area">
     <div class="content">
         <h2>
             How to Use Tiffin CRM?
@@ -330,7 +331,8 @@
 
     </div>
     <?php include '../inc/footer.php'; ?>
-    </main>
+    </section>    
+</main>
 </body>
 
 </html>
