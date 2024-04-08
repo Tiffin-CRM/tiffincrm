@@ -29,6 +29,9 @@
             list-style: auto;
             margin: 10px 20px;
         }
+        .main_content_area {
+    padding: 40px 10px;
+}
 
 
         h2,
