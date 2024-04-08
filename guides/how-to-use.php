@@ -68,7 +68,7 @@
 </head>
 
 <body>
-<?php include 'inc/header.php'; ?>
+<?php include '../inc/header.php'; ?>
 
     <div class="content">
         <h1>
