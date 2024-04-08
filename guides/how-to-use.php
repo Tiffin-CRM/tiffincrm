@@ -17,7 +17,7 @@
         }
 
         .content {
-            /* max-width: 800px; */
+            max-width: 1200px;
             padding: 10px;
             margin: 20px auto;
         }
