@@ -73,7 +73,7 @@
         <h1>
             How to Use Tiffin CRM?
         </h1>
-        <p>
+        <p  class="steps_items_desc">
             Understand How to use every function & usecase.
         </p>
 
