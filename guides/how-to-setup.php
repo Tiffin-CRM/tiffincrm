@@ -133,7 +133,7 @@
                         </li>
                         <li>Enter quantity as prefix for the item name so you get exact quantity in item to prepare
                             screen.<br><br>
-                            Expample: 6 Roti, 4 Roti, Sabji1, Sabji2, 2 Raita.
+                            For example, '6 Roti' means six Rotis, '4 Roti' means four Rotis, 'Sabji2' means one serving for 2nd Sabji, '2 Sabji2' means two serving of of second sabji. 'Raita' means one serving of raita.
                             <br> <br>
                             Note: Items without any numeric digit as prefix counted as single serving or piece</li>
                         <li>Enter the Price to specify how much amount to deduct for this meal plan daily.</li>
