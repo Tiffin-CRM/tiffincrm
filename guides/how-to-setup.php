@@ -76,7 +76,7 @@
         <h2>
             How to Setup Tiffin CRM?
         </h2>
-        <p>
+        <p  class="steps_items_desc">
             Setup Tiffin CRM & Organise Your Businesses. <br> Visit Next <a href="https://tiffincrm.com/guides/how-to-use.php">How to Use tiffin Crm</a> </p>
 
         <div class="steps">
