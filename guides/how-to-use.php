@@ -31,8 +31,8 @@
         }
 
 
-        h1,
-        h2 {
+        h2,
+        h3 {
             color: #1205A3;
         }
 
@@ -70,17 +70,17 @@
 <?php include '../inc/header.php'; ?>
 <main>
     <div class="content">
-        <h1>
+        <h2>
             How to Use Tiffin CRM?
-        </h1>
+        </h2>
         <p  class="steps_items_desc">
             Understand How to use every function & usecase.
         </p>
 
         <div class="steps">
-            <h2>
-                1. Understand Tiffin CRM Working
-            </h2>
+            <h3>
+                Understand Tiffin CRM Working
+            </h3>
            <p class="heading_desc_text steps_items_desc">  
                 Know How the app function & process the data
             </p>
@@ -132,9 +132,9 @@
         </div>
 
         <div class="steps">
-            <h2>
-                2. How to See what Items to Buy?
-            </h2>
+            <h3>
+                1. How to See what Items to Buy?
+            </h3>
            <p class="heading_desc_text steps_items_desc"> 
                 By default You will see it on time specific but you can also see it on daily bases and plan the
                 preparation accordingly.
@@ -161,9 +161,9 @@
 
         </div>
         <div class="steps">
-            <h2>
-                3. How to Cancel Someone’s Order?
-            </h2>
+            <h3>
+                2. How to Cancel Someone’s Order?
+            </h3>
            <p class="heading_desc_text steps_items_desc"> 
                 You can cancel orders before starting preparation. so customers who cancelled will not be charged.</p>
             <div class="info_box">
@@ -199,9 +199,9 @@
 
         </div>
         <div class="steps">
-            <h2>
-                4. How to Start Preparation?
-            </h2>
+            <h3>
+                3. How to Start Preparation?
+            </h3>
            <p class="heading_desc_text steps_items_desc"> 
                 Start Preparation is done to deduct balance for all potential deliveries of customers. Paused/blocked
                 Account,Inactive
@@ -213,9 +213,9 @@
 
         </div>
         <div class="steps">
-            <h2>
-                5. How to see what to pack?
-            </h2>
+            <h3>
+                4. How to see what to pack?
+            </h3>
            <p class="heading_desc_text steps_items_desc"> 
                 After Starting the preparation you will see this screen replacing items to prepare.</p>
             <div class="info_box">
@@ -235,9 +235,9 @@
 
         </div>
         <div class="steps">
-            <h2>
-                6. How to manage deliveries?
-            </h2>
+            <h3>
+                5. How to manage deliveries?
+            </h3>
            <p class="heading_desc_text steps_items_desc"> 
                 You can assign delivery boy and they can access only pending deliveries on their Tiffin CRM app. You can
                 perform the
@@ -261,9 +261,9 @@
             </div>
         </div>
         <div class="steps">
-            <h2>
-                7. How customer can manage orders?
-            </h2>
+            <h3>
+                6. How customer can manage orders?
+            </h3>
            <p class="heading_desc_text steps_items_desc"> 
                 you can provide link to imeals.in website to customer via WhatsApp and they can login their with their
                 mobile number and
@@ -309,18 +309,18 @@
 
 
         <div class="steps">
-            <h2>
-                8. How to See Customer Data?
-            </h2>
+            <h3>
+                7. How to See Customer Data?
+            </h3>
            <p class="heading_desc_text steps_items_desc"> 
                 You can use filter for tags, zones, status bases, inactive meals, Low Bal, & search box to see customers
                 data in
                 customer tab. You can also sort customer on bases of low balances, latest on top & Oldest on top.</p>
         </div>
         <div class="steps">
-            <h2>
-                9. How to Manage Finances?
-            </h2>
+            <h3>
+                8. How to Manage Finances?
+            </h3>
            <p class="heading_desc_text steps_items_desc"> 
                 To See Your finances navigate to finance tab. And Check Daily Revenue and Add Expenses.</p>
         </div>
