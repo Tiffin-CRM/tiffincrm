@@ -123,7 +123,7 @@
                 <div class="info_box_content">
                     <ol>
 
-                        <li>magine you're in a kitchen making different dishes every day, like one day you cook Matar Paneer, and another day you make Daal.
+                        <li>Imagine you're in a kitchen making different dishes every day, like one day you cook Matar Paneer, and another day you make Daal.
                             <br><br>Now, instead of writing down the names of each dish every time, we use simple codes like "Sabji1," "Sabji2," and so on. These codes stand for different dishes. If it's the same dish every day, we can still write down its real name.
                             <br>
                             When someone orders food, we ask them how many of each dish they want. For example, if they want 6 Rotis, 2 Sabjis, and some curd, we write it like this: "6 Rotis, Sabji1, Sabji2, curd." 
