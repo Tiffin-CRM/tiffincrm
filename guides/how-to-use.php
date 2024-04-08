@@ -25,6 +25,10 @@
         .steps {
             margin: 40px auto;
         }
+        li{
+            list-style: auto;
+
+        }
 
 
         h1,
@@ -77,7 +81,7 @@
             <h2>
                 1. Understand Tiffin CRM Working
             </h2>
-            <p class="heading_desc_text">
+           <p class="heading_desc_text steps_items_desc">  
                 Know How the app function & process the data
             </p>
             <div class="info_box">
@@ -131,7 +135,7 @@
             <h2>
                 2. How to See what Items to Buy?
             </h2>
-            <p class="heading_desc_text">
+           <p class="heading_desc_text steps_items_desc"> 
                 By default You will see it on time specific but you can also see it on daily bases and plan the
                 preparation accordingly.
                 You will also see the total count on top of the screen for how much orders are pending, paused and
@@ -160,7 +164,7 @@
             <h2>
                 3. How to Cancel Someone’s Order?
             </h2>
-            <p class="heading_desc_text">
+           <p class="heading_desc_text steps_items_desc"> 
                 You can cancel orders before starting preparation. so customers who cancelled will not be charged.</p>
             <div class="info_box">
                 <span class="info_box_title">General Info</span>
@@ -198,7 +202,7 @@
             <h2>
                 4. How to Start Preparation?
             </h2>
-            <p class="heading_desc_text">
+           <p class="heading_desc_text steps_items_desc"> 
                 Start Preparation is done to deduct balance for all potential deliveries of customers. Paused/blocked
                 Account,Inactive
                 Meal Plan & Cancelled Deliveries will be excluded from that meal time data. After clicking on start
@@ -212,7 +216,7 @@
             <h2>
                 5. How to see what to pack?
             </h2>
-            <p class="heading_desc_text">
+           <p class="heading_desc_text steps_items_desc"> 
                 After Starting the preparation you will see this screen replacing items to prepare.</p>
             <div class="info_box">
                 <span class="info_box_title">General Info</span>
@@ -234,7 +238,7 @@
             <h2>
                 6. How to manage deliveries?
             </h2>
-            <p class="heading_desc_text">
+           <p class="heading_desc_text steps_items_desc"> 
                 You can assign delivery boy and they can access only pending deliveries on their Tiffin CRM app. You can
                 perform the
                 same action via your admin app.</p>
@@ -260,7 +264,7 @@
             <h2>
                 7. How customer can manage orders?
             </h2>
-            <p class="heading_desc_text">
+           <p class="heading_desc_text steps_items_desc"> 
                 you can provide link to imeals.in website to customer via WhatsApp and they can login their with their
                 mobile number and
                 manage their orders.</p>
@@ -308,7 +312,7 @@
             <h2>
                 8. How to See Customer Data?
             </h2>
-            <p class="heading_desc_text">
+           <p class="heading_desc_text steps_items_desc"> 
                 You can use filter for tags, zones, status bases, inactive meals, Low Bal, & search box to see customers
                 data in
                 customer tab. You can also sort customer on bases of low balances, latest on top & Oldest on top.</p>
@@ -317,7 +321,7 @@
             <h2>
                 9. How to Manage Finances?
             </h2>
-            <p class="heading_desc_text">
+           <p class="heading_desc_text steps_items_desc"> 
                 To See Your finances navigate to finance tab. And Check Daily Revenue and Add Expenses.</p>
         </div>
 
