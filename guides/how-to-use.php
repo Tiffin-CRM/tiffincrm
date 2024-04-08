@@ -25,7 +25,7 @@
         .steps {
             margin: 40px auto;
         }
-        li{
+        main li{
             list-style: auto;
             margin: 10px 20px;
         }
