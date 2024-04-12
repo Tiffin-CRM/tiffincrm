@@ -18,11 +18,3 @@
     rel="stylesheet" />
 <meta name="robots" content="index,follow">
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-YFVKD01GB3"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', 'G-YFVKD01GB3');
-</script>
