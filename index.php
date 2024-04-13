@@ -350,7 +350,7 @@
               <div class="user_limit_text">Upto 20 User</div>
               <h3 class="about_pricing_price">Free</h3>
               <div class="pricing_time_limit">Lifetime</div>
-              <button class="palne_select_btn">Use Free</button>
+              <button class="palne_select_btn" onclick="window.open('/download-app.php?utm_source=pricing');">Use Free</button>
             </div>
             <div class="right_side_pricing_box">
               <div class="top_pric_itme_heading_box r-flex ali-c gap-2">
@@ -367,7 +367,7 @@
               </div>
               <h3 class="about_pricing_price">Free</h3>
               <div class="pricing_time_limit">Until Plan Launch</div>
-              <button class="palne_select_btn">Start Free</button>
+              <button class="palne_select_btn"  onclick="window.open('/download-app.php?utm_source=pricing-premium');">Start Free</button>
             </div>
           </div>
         </div>
