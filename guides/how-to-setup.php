@@ -70,6 +70,7 @@
             width:100%;
             max-widht:800px;
             margin:20px auto;
+            border-radius:5px;
         }
     </style>
 </head>
