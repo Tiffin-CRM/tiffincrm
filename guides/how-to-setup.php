@@ -79,6 +79,11 @@
             border-radius:5px;
             max-widht:800px;
             margin:10px auto;
+            font-style:italic;
+        }
+        .steps_items_desc a{
+            font-style:normal;
+            color:black;
         }
     </style>
 </head>
@@ -93,7 +98,7 @@
         </h2>
         <p class="steps_items_desc">
             Setup Tiffin CRM & Organise Your Businesses. <br> 
-            <div class="articel_links">Helpful:  "<a href="https://tiffincrm.com/guides/how-to-use.php">How to Use tiffin Crm</a> </div></p>
+            <div class="articel_links">Helpful: <a href="https://tiffincrm.com/guides/how-to-use.php">How to Use tiffin Crm</a> </div></p>
 
         <div class="steps">
             <h3>
