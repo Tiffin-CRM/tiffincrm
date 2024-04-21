@@ -159,27 +159,25 @@
 
         <div class="steps">
             <h3>
-                1. How to See what Items to Buy?
+                1. Raw Material & Preparation?
             </h3>
            <p class="heading_desc_text steps_items_desc"> 
-                By default You will see it on time specific but you can also see it on daily bases and plan the
-                preparation accordingly.
-                You will also see the total count on top of the screen for how much orders are pending, paused and
-                cancelled. </p>
+           You can plan your raw material and preparation based on time and daily needs. By adjusting the date, you can forecast the raw material required for future days. Additionally, the total order count is displayed at the top of the screen for the selected time period or day.
+</p>
             <div class="gen_info_box">
                 <h4 class="gen_info_box_title">General Info</h4>
                 <div class="info_box_content">
                     <ol>
 
-                        <li> You can use the time filter or by default you will see the items to prepare for that time
-                            if previous orders are
-                            completed or skipped.
-                        </li>
-                        <li>Roti and other countable items are shown exactly how much to prepare in pieces and other as
-                            servings.</li>
-                        <li>In items to prepare screen Veg and Non Veg Tabs are related to customer not meal. you can
-                            prepare different items for
-                            veg/non veg customers accordingly.</li>
+                    <li>
+                You can use the time filter to view and prepare items according to different time slots. By default, you'll see the items to prepare for the current time, considering if previous orders have been completed or skipped.
+            </li>
+            <li>
+                Roti and other items are displayed with precise quantities, indicating the number of pieces or servings to prepare.
+            </li>
+            <li>
+                The Veg and Non-Veg tabs in the preparation screen are associated with customer preferences rather than specific meals. This allows you to prepare different items for veg and non-veg customers accordingly.
+            </li>
                     </ol>
                 </div>
             </div>
