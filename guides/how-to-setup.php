@@ -140,7 +140,7 @@
                 2. Add Orders
             </h3>
             <p class="steps_items_desc">
-                 You can add repeat or one time orders for every customers. You can set the customer frequency of orders like repeat on sunday, repeat on sunday and tuesday,  or repeating daily.</p>
+                 You can add repeat or one time orders for every customers by going to customer profile and clicking on add order button. You can set the customer frequency of orders like repeat on sunday, repeat on sunday and tuesday,  or repeating daily.</p>
             <div class="gen_info_box">
                 <h4 class="gen_info_box_title">General Info</h4>
                 <div class="info_box_content">
