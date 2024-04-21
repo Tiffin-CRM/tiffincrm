@@ -168,7 +168,7 @@
                 <span class="info_box_title">Best Practices</span>
                 <div class="info_box_content">
                     <ol>
-                        <li> Set Meal Templates from “Sidebar” and you will get all the fields prefilled with that. which
+                        <li> Set Default Order Items from “Sidebar” and you will get all the fields prefilled with that. which
                             make your work super fast.
                         </li>
 

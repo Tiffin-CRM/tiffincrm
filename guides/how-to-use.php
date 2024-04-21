@@ -95,6 +95,8 @@
 <?php include '../inc/header.php'; ?>
 
     <div class="main_content_area content">
+    
+    <img class="featured_image" src="https://beebom.com/wp-content/uploads/2017/02/best-app-locker-for-android-featured.jpg" alt="">
         <h2>
             How to Use Tiffin CRM?
         </h2>
