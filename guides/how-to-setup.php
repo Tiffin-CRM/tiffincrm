@@ -140,25 +140,22 @@
                 2. Add Orders
             </h3>
             <p class="steps_items_desc">
-                 You can add repeat or one time orders for every customers. You can set the customer frequency of orders like repeat on sunday only or repeat on sunday and tuesday only or the repeating daily.</p>
+                 You can add repeat or one time orders for every customers. You can set the customer frequency of orders like repeat on sunday, repeat on sunday and tuesday,  or repeating daily.</p>
             <div class="gen_info_box">
                 <h4 class="gen_info_box_title">General Info</h4>
                 <div class="info_box_content">
                     <ol>
-                        <li>Imagine you're in a kitchen making different dishes every day, like some day you cook Matar Paneer, and another day you make Daal.
-                            <br><br>Now, instead of writing down the names of each dish every time, we use simple codes like "Sabji1," "Sabji2," and so on. These codes stand for different dishes. 
-                            <br>If it's the same dish every day, we can write down its real name.
+                        <li>In repeating orders, if you're delivering the same item every day, you can put the name of that item in the items input field. However, if some items are changing every day, like sabji or any other item, you can write them as Sabji 1, Sabji 2, or Extra Item 1. 
+                            <br>
+                            You can always put the quantity as a prefix for any item. For example, "5 Roti" to get more accurate information on the item to prepare/pack section of the home screen.
+                            <br>
+                            For example, if customer wants 6 Rotis, 2 Sabjis, and some curd,then we will write it like this: "6 Roti, Sabji 1, Sabji 2, curd." 
                             <br><br>
-                            For example, if customer wants 6 Rotis, 2 Sabjis, and some curd,then we will write it like this: "6 Rotis, Sabji1, Sabji2, curd." 
-                            <br><br>
-                            And if another person wants 2 Rotis, 3 Sabjis, and Milk, we will write it as "2 Rotis, Sabji1, Sabji2, Sabji3, Milk.
-                           
-                        </li>
-                        <li>Enter quantity as prefix for the item name so you get exact quantity in item to prepare
-                            screen.<br><br>
-                            For example, '6 Roti' means six Rotis,<br>'4 Roti' means four Rotis, <br>'Sabji2' means one serving for 2nd Sabji, <br>'2 Sabji2' means two serving of of second sabji. <br>'Raita' means one serving of raita.
-                            <br> <br>
+                            And if another customer wants 2 Rotis, 3 Sabjis, and Milk, we will write it as "2 Roti, Sabji 1, Sabji 2, Sabji 3, Milk.
+                            <br>
                             Note: Items without any numeric digit as prefix counted as single serving or piece</li>
+
+                        </li>
                         <li>Enter the Price to specify how much amount to deduct for this meal plan daily.</li>
                         <li>Use the timing for the meal from options breakfast, lunch or dinner.</li>
                         <li>Use the order type as repeat if customer wants it daily or use one_time if he want that for
