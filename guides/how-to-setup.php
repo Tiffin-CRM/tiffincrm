@@ -85,6 +85,9 @@
             font-style:normal;
             color:black;
         }
+        .gen_info_box{
+            margin-top:20px;
+        }
     </style>
 </head>
 
