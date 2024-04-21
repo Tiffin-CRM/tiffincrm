@@ -97,7 +97,7 @@
             How to Setup Tiffin CRM?
         </h2>
         <p class="steps_items_desc">
-            Setup Tiffin CRM & Organise Your Businesses. <br> 
+            Setup Tiffin CRM & Organise your Tiffin service business. <br> 
             <div class="articel_links">Must Read: <a href="https://tiffincrm.com/guides/how-to-use.php">How to Use tiffin Crm</a> </div></p>
 
         <div class="steps">
@@ -105,14 +105,14 @@
                 1. Add Customers
             </h3>
             <p class="steps_items_desc">
-                Add Your Existing Customers </p>
+                Add Your existing customers to start using Tiffin CRM</p>
             <div class="info_box">
                 <span class="info_box_title">General Info</span>
                 <div class="info_box_content">
                     <ol>
-                        <li> Go To Customer Section & Click on + Icon to Add Customer
+                        <li> Go To customer section & cllck on + icon to add customer
                         </li>
-                        <li>Only Name & Phone Number is Required.
+                        <li>Only Name & Phone number is required.
                     </ol>
                 </div>
             </div>
@@ -120,14 +120,13 @@
                 <span class="info_box_title">Best Practices</span>
                 <div class="info_box_content">
                     <ol>
-                        <li> Divide All the Customers by Landmarks and use those landmarks as Zones
-                        </li>
-                        <li>Use Tags to make groups of customers to navigation easily later.</li>
-                        <li>Use Customer Note Which Tell Details of customer which help later in delivery or preparation
-                        </li>
-                        <li>Set the Account status of loosed customer as blocked. So he can’t be able to resume their
-                            deliveries or access
-                            imeals.in.</li>
+                    <ol>
+    <li>Divide all the customers by landmarks and use those landmarks as zones.</li>
+    <li>Use tags to make groups of customers for easy navigation later.</li>
+    <li>Utilize customer notes that provide details helpful for delivery or preparation.</li>
+    <li>Set the account status of lost customers as blocked, so they cannot resume deliveries or access imeals.in.</li>
+</ol>
+
                     </ol>
                 </div>
             </div>
@@ -135,26 +134,26 @@
 
         <div class="steps">
             <h3>
-                2. Add Repeat Orders/Meal Plan
+                2. Add Orders
             </h3>
             <p class="steps_items_desc">
-                Repeat order is the order which customers wants daily like a subscription or meal plan. </p>
+                 You can add repeat or one time orders for every customers. You can set the customer frequency of orders like repeat on sunday only or repeat on sunday and tuesday only or the repeating daily.</p>
             <div class="info_box">
                 <span class="info_box_title">General Info</span>
                 <div class="info_box_content">
                     <ol>
-                        <li>Imagine you're in a kitchen making different dishes every day, like one day you cook Matar Paneer, and another day you make Daal.
+                        <li>Imagine you're in a kitchen making different dishes every day, like some day you cook Matar Paneer, and another day you make Daal.
                             <br><br>Now, instead of writing down the names of each dish every time, we use simple codes like "Sabji1," "Sabji2," and so on. These codes stand for different dishes. 
-                            <br>If it's the same dish every day, we can still write down its real name.
+                            <br>If it's the same dish every day, we can write down its real name.
                             <br><br>
-                            When someone orders food, we ask them how many of each dish they want. For example, if they want 6 Rotis, 2 Sabjis, and some curd, we write it like this: "6 Rotis, Sabji1, Sabji2, curd." 
+                            For example, if customer wants 6 Rotis, 2 Sabjis, and some curd,then we will write it like this: "6 Rotis, Sabji1, Sabji2, curd." 
                             <br><br>
-                            And if another person wants 2 Rotis, 3 Sabjis, and Milk, we write it as "2 Rotis, Sabji1, Sabji2, Sabji3, Milk.
+                            And if another person wants 2 Rotis, 3 Sabjis, and Milk, we will write it as "2 Rotis, Sabji1, Sabji2, Sabji3, Milk.
                            
                         </li>
                         <li>Enter quantity as prefix for the item name so you get exact quantity in item to prepare
                             screen.<br><br>
-                            For example, '6 Roti' means six Rotis, '4 Roti' means four Rotis, 'Sabji2' means one serving for 2nd Sabji, '2 Sabji2' means two serving of of second sabji. 'Raita' means one serving of raita.
+                            For example, '6 Roti' means six Rotis,<br>'4 Roti' means four Rotis, <br>'Sabji2' means one serving for 2nd Sabji, <br>'2 Sabji2' means two serving of of second sabji. <br>'Raita' means one serving of raita.
                             <br> <br>
                             Note: Items without any numeric digit as prefix counted as single serving or piece</li>
                         <li>Enter the Price to specify how much amount to deduct for this meal plan daily.</li>
