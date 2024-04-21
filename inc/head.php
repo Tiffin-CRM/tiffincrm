@@ -3,7 +3,6 @@
 
 <link rel="icon" href="/assets/img/web-icons/favicon.ico" sizes="any">
  <link rel="apple-touch-icon" href="/assets/img/web-icons/apple-touch-icon.png">
- <link rel="manifest" href="/assets/img/web-icons/manifest.json">
 
 <meta name="theme-color" content="#5546af" />
 <link rel="stylesheet" href="/assets/css/base.css?0.0.7" />
