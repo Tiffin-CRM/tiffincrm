@@ -24,9 +24,7 @@
 .show_content::-webkit-scrollbar{
     display:none;
 }
-.noscroll {
-    overflow: hidden;
-}
+
 .day-font{
     font-family: 'Days One', sans-serif;
 }

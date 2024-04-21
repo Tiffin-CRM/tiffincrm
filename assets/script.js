@@ -19,6 +19,11 @@ function hamburger() {
     const menu = document.querySelector('.nav-collapse');
     menu.classList.toggle('active');
     document.body.classList.toggle("noscroll");
+    const menuItems = document.querySelectorAll('.menu-item a, .start_btn a');
+// Loop through each <a> element and add the onclick attribute
+menuItems.forEach(item => {
+  item.setAttribute('onclick', 'hamburger()');
+});
 
 }
 // +++++++ hamburger click ++++++++
