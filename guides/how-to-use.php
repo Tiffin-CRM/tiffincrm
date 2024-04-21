@@ -66,6 +66,28 @@
         .semi_bold {
             font-weight: 600;
         }
+        .featured_image{
+            width:100%;
+            max-widht:800px;
+            margin:20px auto;
+            border-radius:5px;
+            margin-top:-20px;
+        }
+        .articel_links{
+            background:white;
+            padding:15px;
+            border-radius:5px;
+            max-widht:800px;
+            margin:10px auto;
+            font-style:italic;
+        }
+        .articel_links a{
+            font-style:normal;
+            color:black;
+        }
+        .gen_info_box{
+            margin-top:20px;
+        }
     </style>
 </head>
 
@@ -77,8 +99,9 @@
             How to Use Tiffin CRM?
         </h2>
         <p  class="steps_items_desc">
-            Understand How to use every function & usecase.  <br> Visit Previus <a href="https://tiffincrm.com/guides/how-to-setup.php">How to Setup tiffin Crm</a> 
+            Understand How to use every function & usecase.  <br>  
         </p>
+        <div class="articel_links">Visit Previus <a href="https://tiffincrm.com/guides/how-to-setup.php">How to Setup tiffin Crm</a> </div></p>
 
         <div class="steps">
             <h3>
@@ -87,8 +110,8 @@
            <p class="heading_desc_text steps_items_desc">  
                 Know How the app function & process the data
             </p>
-            <div class="info_box">
-                <span class="info_box_title">General Info</span>
+            <div class="gen_info_box">
+                <h4 class="gen_info_box_title">General Info</h4>
                 <div class="info_box_content">
                     <ol>
                         <li> All the active orders will shown in deliveries & home screen as per the current time and
@@ -143,8 +166,8 @@
                 preparation accordingly.
                 You will also see the total count on top of the screen for how much orders are pending, paused and
                 cancelled. </p>
-            <div class="info_box">
-                <span class="info_box_title">General Info</span>
+            <div class="gen_info_box">
+                <h4 class="gen_info_box_title">General Info</h4>
                 <div class="info_box_content">
                     <ol>
 
@@ -169,8 +192,8 @@
             </h3>
            <p class="heading_desc_text steps_items_desc"> 
                 You can cancel orders before starting preparation. so customers who cancelled will not be charged.</p>
-            <div class="info_box">
-                <span class="info_box_title">General Info</span>
+            <div class="gen_info_box">
+                <h4 class="gen_info_box_title">General Info</h4>
                 <div class="info_box_content">
                     <ol>
 
@@ -221,8 +244,8 @@
             </h3>
            <p class="heading_desc_text steps_items_desc"> 
                 After Starting the preparation you will see this screen replacing items to prepare.</p>
-            <div class="info_box">
-                <span class="info_box_title">General Info</span>
+            <div class="gen_info_box">
+                <h4 class="gen_info_box_title">General Info</h4>
                 <div class="info_box_content">
                     <ol>
 
@@ -245,8 +268,8 @@
                 You can assign delivery boy and they can access only pending deliveries on their Tiffin CRM app. You can
                 perform the
                 same action via your admin app.</p>
-            <div class="info_box">
-                <span class="info_box_title">General Info</span>
+            <div class="gen_info_box">
+                <h4 class="gen_info_box_title">General Info</h4>
                 <div class="info_box_content">
                     <ol>
 
@@ -271,8 +294,8 @@
                 you can provide link to imeals.in website to customer via WhatsApp and they can login their with their
                 mobile number and
                 manage their orders.</p>
-            <div class="info_box">
-                <span class="info_box_title">General Info</span>
+            <div class="gen_info_box">
+                <h4 class="gen_info_box_title">General Info</h4>
                 <div class="info_box_content">
                     <ol>
 
