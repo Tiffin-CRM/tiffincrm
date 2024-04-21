@@ -63,7 +63,7 @@
             <div onclick="vdoPopUp()" class="hero_service_vdo_container">
               <img src="/assets/img/thumbnail2.jpg" />
             </div>
-            <div class="video_pop_box">
+            <!-- <div class="video_pop_box"> -->
               <div class="vdo_container">
                 <div onclick="vdoPopUp()" class="vdo_close_btn r-flex ali-c jut-c">
                   <img src="/assets/img/close.svg" alt="crose icon" />

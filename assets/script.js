@@ -23,9 +23,13 @@ function hamburger() {
 }
 // +++++++ hamburger click ++++++++
 function vdoPopUp() {
-    const menu = document.querySelector('.video_pop_box');
-    menu.classList.toggle('active');
-    document.body.classList.toggle("noscroll");
+    // const menu = document.querySelector('.video_pop_box');
+    // menu.classList.toggle('active');
+    // document.body.classList.toggle("noscroll");
+    window.open('https://youtu.be/NiTm5JCsRp4', '_blank');
+
+
+
 }
 // +++++++ nav menu drop down ++++++++
 function navMenu() {
