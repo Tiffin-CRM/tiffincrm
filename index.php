@@ -61,7 +61,7 @@
           </div>
           <div class="service_right_side_cont">
             <div onclick="vdoPopUp()" class="hero_service_vdo_container">
-              <img src="/assets/img/thumbnail2.jpg" />
+              <img src="/assets/img/thumbnail.jpg?v1" />
             </div>
             <!-- <div class="video_pop_box">
               <div class="vdo_container">
