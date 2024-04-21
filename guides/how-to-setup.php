@@ -146,13 +146,13 @@
                 <div class="info_box_content">
                     <ol>
                         <li>In repeating orders, if you're delivering the same item every day, you can put the name of that item in the items input field. However, if some items are changing every day, like sabji or any other item, you can write them as Sabji 1, Sabji 2, or Extra Item 1. 
-                            <br>
+                            <br><br>
                             You can always put the quantity as a prefix for any item. For example, "5 Roti" to get more accurate information on the item to prepare/pack section of the home screen.
-                            <br>
+                            <br><br>
                             For example, if customer wants 6 Rotis, 2 Sabjis, and some curd,then we will write it like this: "6 Roti, Sabji 1, Sabji 2, curd." 
                             <br><br>
                             And if another customer wants 2 Rotis, 3 Sabjis, and Milk, we will write it as "2 Roti, Sabji 1, Sabji 2, Sabji 3, Milk.
-                            <br>
+                            <br><br>
                             Note: Items without any numeric digit as prefix counted as single serving or piece</li>
 
                         </li>
