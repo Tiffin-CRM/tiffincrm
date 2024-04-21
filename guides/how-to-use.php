@@ -103,7 +103,7 @@
         <p  class="steps_items_desc">
             Understand How to use every function & usecase.  <br>  
         </p>
-        <div class="articel_links">Visit Previus <a href="https://tiffincrm.com/guides/how-to-setup.php">How to Setup tiffin Crm</a> </div></p>
+        <div class="articel_links">Helpful Links: <a href="https://tiffincrm.com/guides/how-to-setup.php">How to Setup tiffin Crm</a> </div></p>
 
         <div class="steps">
             <h3>
