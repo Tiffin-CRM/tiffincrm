@@ -116,22 +116,22 @@
                 <h4 class="gen_info_box_title">General Info</h4>
                 <div class="info_box_content">
                     <ol>
-                        <li> All the active orders will shown in deliveries & home screen as per the current time and
-                            your
-                            action on last time deliveries.
+                        <li>All the orders that are awaiting any action will be visible in Home screen and delive tab. You can Change the date and time to check orders of other time and date.
                         </li>
-                        <li>Active orders exclude the order of customer who paused their account or meal plan or
+                        <li>Awaiting orders excludes the order of customer who paused their account or meal plan or
                             cancelled
                             the
                             specific deliveries.
-                        <li>Preparing the order mean deducting the balance from customers virtual wallet.
-                        <li>You can manage individual deliveries as well as from delivery tab<br />You can pause all the
+                        <li>Starting the Proccessing of any order will deduct the balance from customer's virtual wallet.
+                        <li>You can manage individual deliveries from delivery tab</li>
+                        <li>
+                        You can pause all the
                             future
-                            deliveries or cancel any specific delivery of any customer.<br />Customer can login to
+                            deliveries or cancel any specific delivery of any customer.</li>
+                            <li>Customer can login to
                             imeals.in
                             and
-                            also</li>
-                        <li>pause/resume all future deliveries if he isn’t blocked.</li>
+                            also pause/resume all future deliveries if he isn’t blocked.</li>
                         <li>Your daily work is to start preparing and update their delivery status individually or click
                             on
                             deliver all button.</li>
