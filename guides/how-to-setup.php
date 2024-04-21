@@ -107,8 +107,8 @@
             <p class="steps_items_desc">
                 Add Your existing customers to start using Tiffin CRM</p>
             <div class="gen_info_box">
-                <span class="info_box_title">General Info</span>
-                <div class="info_box_content">
+                <h4>General Info</h4>
+                <div class="gen_info_box_content">
                     <ol>
                         <li> Go To customer section & cllck on + icon to add customer
                         </li>
