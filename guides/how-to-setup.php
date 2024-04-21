@@ -73,6 +73,7 @@
 <?php include '../inc/header.php'; ?>
 
     <div class="main_content_area content">
+        <img width="100%" src="https://tutorialsbackend.bluehost.in/wp-content/uploads/2022/05/Blog-What-is-virtual-private-server.png" alt="">
         <h2>
             How to Setup Tiffin CRM?
         </h2>
