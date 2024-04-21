@@ -47,6 +47,7 @@ a {
 }
 .logo img {
   width: 100%;
+  margin-top:2px;
 }
 .navbar_container {
   width: 100%;
