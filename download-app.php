@@ -2,6 +2,12 @@
 <html lang="en">
 
 <head>
+<?php
+// Redirect to the desired URL
+header("Location: https://bit.ly/download-tiffin-crm");
+exit(); // Make sure to exit after the redirect to prevent further execution
+?>
+
     <?php include 'inc/head.php'; ?>
     <title>Download App - TiffinCRM</title>
     <meta name="description" content="Contact TiffinCrm for any inquiries, feedback, or support.">
