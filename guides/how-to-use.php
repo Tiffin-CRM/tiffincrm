@@ -85,7 +85,7 @@
             font-style:normal;
             color:black;
         }
-        .gen_info_box{
+        h3, h4{
             margin-top:20px;
         }
     </style>
