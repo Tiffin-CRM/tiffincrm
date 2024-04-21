@@ -95,7 +95,7 @@ a {
 }
 .vdo_container {
   width: 100%;
-  max-width: fit-content;
+  max-width: 700px;
   background-color: #fff;
   padding: 40px 30px;
   border-radius: 3px;
