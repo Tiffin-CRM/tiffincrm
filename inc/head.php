@@ -5,7 +5,7 @@
  <link rel="apple-touch-icon" href="/assets/img/web-icons/apple-touch-icon.png">
 
 <meta name="theme-color" content="#5546af" />
-<link rel="stylesheet" href="/assets/css/base.css?0.0.7" />
+<link rel="stylesheet" href="/assets/css/base.css?0.0.8" />
 <link rel="stylesheet" href="/assets/css/style.css?<?php echo filemtime('assets/css/style.css'); ?>" />
 
 <link
