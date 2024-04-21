@@ -100,11 +100,10 @@ a {
   padding: 40px 30px;
   border-radius: 3px;
   position: relative;
-  transform: scale(0);
   transition: all 0.2s ease-in-out;
 }
 .video_pop_box.active .vdo_container {
-  transform: scale(1);
+  position: relative;
 }
 .vdo_close_btn {
   position: absolute;
