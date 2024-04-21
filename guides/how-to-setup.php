@@ -71,6 +71,7 @@
             max-widht:800px;
             margin:20px auto;
             border-radius:5px;
+            margin-top:-20px;
         }
     </style>
 </head>
