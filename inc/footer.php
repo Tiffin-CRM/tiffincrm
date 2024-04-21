@@ -14,4 +14,4 @@
         </div>
       </section>
     </footer>
-  <script src="/assets/script.js?v1"></script>
+  <script src="/assets/script.js?<?php echo filemtime('assets/script.js'); ?>"></script>
