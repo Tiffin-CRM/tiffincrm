@@ -16,6 +16,10 @@ body {
   background-color: var(--body-bg);
   color: #282828;
 }
+main{
+  padding: 0px 10px;
+
+}
 a {
   user-select: none;
   color: var(--mid-font-color);
