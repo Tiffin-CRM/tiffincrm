@@ -141,7 +141,7 @@
             </h3>
             <p class="steps_items_desc">
                  You can add repeat or one time orders for every customers. You can set the customer frequency of orders like repeat on sunday only or repeat on sunday and tuesday only or the repeating daily.</p>
-            <div class="info_box">
+            <div class="gen_info_box">
                 <h4 class="gen_info_box_title">General Info</h4>
                 <div class="info_box_content">
                     <ol>
@@ -186,7 +186,7 @@
             </h3>
             <p class="steps_items_desc">
                 Add or Deduct Customer Balance
-            <div class="info_box">
+            <div class="gen_info_box">
                 <h4 class="gen_info_box_title">General Info</h4>
                 <div class="info_box_content">
                     <ol>
