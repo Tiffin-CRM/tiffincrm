@@ -6,7 +6,8 @@
   --mid-font-color: #686868;
   --light-font-color: #9795b5;
   --highlight-color: #170f49;
-  --theam-color: #1205a3;
+  --theme-color: #1205a3;
+  --theme-gradient: linear-gradient(90deg, #6078FE 0%, #4B13E9 100%);
 }
 * {
   font-family: "Open Sans", sans-serif;
@@ -35,7 +36,7 @@ a {
   width: 100%;
   max-width: 20px;
   height: 2px;
-  background-color: var(--theam-color);
+  background-color: var(--theme-gradient);
 }
 .mid_hamburger_line {
   width: 15px;
@@ -61,7 +62,7 @@ a {
   white-space: nowrap;
 }
 .start_btn a {
-  background-color: var(--theam-color);
+  background-color: var(--theme-gradient);
   color: var(--white-bg) !important;
   border-radius: 5px;
   transition: all 0.3s ease-in-out;
@@ -278,7 +279,7 @@ a {
   padding: 16px 24px;
 }
 .play_stor_link {
-  background-color: var(--theam-color);
+  background-color: var(--theme-gradient);
   color: var(--white-bg);
   border-radius: 5px;
   font-size: 16px;
@@ -297,7 +298,7 @@ a {
   font-weight: 500;
 }
 .ask_quetion_link:hover {
-  color: var(--theam-color);
+  color: var(--theme-gradient);
   font-weight: 600;
 }
 
@@ -377,7 +378,7 @@ a {
   margin-top: 50px;
 }
 .color_step_heading {
-  color: var(--theam-color);
+  color: var(--theme-gradient);;
   font-size: 18px;
   font-weight: 700;
   text-align: center;
@@ -620,7 +621,7 @@ a {
   margin-top: 50px;
 }
 .pricing_color_heading {
-  color: var(--theam-color);
+  color: var(--theme-gradient);
   font-size: 18px;
   font-weight: 700;
   letter-spacing: 1.8px;
@@ -694,7 +695,7 @@ a {
 .palne_select_btn {
   width: 100%;
   padding: 25px 0px;
-  background-color: var(--theam-color);
+  background-color: var(--theme-gradient);
   color: var(--white-bg);
   border: none;
   outline: none;
@@ -791,7 +792,7 @@ a {
   font-weight: 700;
   line-height: 17.751px;
   letter-spacing: 1.598px;
-  color: var(--theam-color);
+  color:var(--theme-gradient);
   text-align: center;
 }
 .faqs-main-content {
