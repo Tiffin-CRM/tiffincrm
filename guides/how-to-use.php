@@ -131,7 +131,7 @@
                             <li>Customer can login to
                             imeals.in
                             and
-                            also pause/resume all future deliveries if he isn’t blocked.</li>
+                            also pause/resume all his future deliveries if he isn’t blocked.</li>
                         <li>Your daily work is to start preparing and update their delivery status individually or click
                             on
                             deliver all button.</li>
