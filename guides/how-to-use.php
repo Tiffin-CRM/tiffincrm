@@ -132,7 +132,7 @@
                             imeals.in
                             and
                             also pause/resume all his future deliveries if he isn’t blocked.</li>
-                        <li>Your only work is to Press Start Proccessing and Deliver all button when orders delivered.</li>
+                        <li>Your only work is to Press Start Proccessing to deduct customer's balance and Press Deliver all button when orders got delivered.</li>
                         <li>If any customer want to cancel or pause their account. make sure it is reflecting on your
                             side
                             as
