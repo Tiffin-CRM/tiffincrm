@@ -132,9 +132,7 @@
                             imeals.in
                             and
                             also pause/resume all his future deliveries if he isn’t blocked.</li>
-                        <li>Your daily work is to start preparing and update their delivery status individually or click
-                            on
-                            deliver all button.</li>
+                        <li>Your only work is to cancel any individual delivery if need and then start proccessing and clicking on deliver all button when orders delivered.</li>
                         <li>If any customer want to cancel or pause their account. make sure it is reflecting on your
                             side
                             as
