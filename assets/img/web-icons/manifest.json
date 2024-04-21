@@ -1,0 +1,16 @@
+{
+  "name": "Tiffin Service Management",
+  "short_name": "Tiffin CRM",
+  "description": "Manage Tiffin Service Business With Tiffin CRM App",
+  "icons": [
+    { "src": "/assets/img/web-icons/favicon.ico", "type": "image/x-icon", "sizes": "16x16 32x32" },
+    { "src": "/assets/img/web-icons/icon-192.png", "type": "image/png", "sizes": "192x192" },
+    { "src": "/assets/img/web-icons/icon-512.png", "type": "image/png", "sizes": "512x512" },
+    { "src": "/assets/img/web-icons/icon-192-maskable.png", "type": "image/png", "sizes": "192x192", "purpose": "maskable" },
+    { "src": "/assets/img/web-icons/icon-512-maskable.png", "type": "image/png", "sizes": "512x512", "purpose": "maskable" }
+  ],
+  "start_url": "/index.php",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4e1eeb"
+}
