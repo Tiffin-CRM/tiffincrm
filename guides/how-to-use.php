@@ -335,13 +335,13 @@
                 7. How to See Customer Data?
             </h3>
             <p class="heading_desc_text steps_items_desc">
-                In the customer tab, you can utilize filters for tags, zones, status, inactive meals, low balance, and a search box to access customer data. Additionally, you can sort customers based on low balances, with the latest or oldest on top.
+                In the customer tab, you can utilize filters for tags, zones, status, inactive meals, low balance, and a search box to access customer data. Additionally, you can sort customers based on low balances, with the latest or oldest on top (Upcoming).
             </p>
         </div>
         
         <div class="steps">
             <h3>
-                8. How to Manage Finances?
+                8. How to Manage Finances? (Upcoming)
             </h3>
             <p class="heading_desc_text steps_items_desc">
                 To manage your finances, go to the finance tab. Here, you can view your daily revenue and add expenses as needed.
