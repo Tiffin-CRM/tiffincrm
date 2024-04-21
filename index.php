@@ -63,16 +63,16 @@
             <div onclick="vdoPopUp()" class="hero_service_vdo_container">
               <img src="/assets/img/thumbnail2.jpg" />
             </div>
-            <!-- <div class="video_pop_box"> -->
+            <!-- <div class="video_pop_box">
               <div class="vdo_container">
                 <div onclick="vdoPopUp()" class="vdo_close_btn r-flex ali-c jut-c">
                   <img src="/assets/img/close.svg" alt="crose icon" />
                 </div>
                 <div class="vdo_pop_box r-flex ali-c jut-c">
-                <iframe  src="https://www.youtube.com/embed/NiTm5JCsRp4?si=xi9Q05NlMd-1IdEw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                  <!-- <img src="/assets/img/thumbnail2.jpg" alt="" /> -->
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/NiTm5JCsRp4?si=xi9Q05NlMd-1IdEw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                  <img src="/assets/img/thumbnail2.jpg" alt="" />
                </div>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
