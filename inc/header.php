@@ -24,6 +24,8 @@
             </li> -->
           <li class="menu-item"><a href="/#faq">Faqs</a></li>
           <li class="menu-item"><a href="/#pricing_sec">Pricing</a></li>
+
+          <li class="menu-item"><a href="/guides/how-to-setup.php">How to Setup</a></li>
           <li class="menu-item"><a href="/about-us.php">About</a></li>
           <li class="menu-item"><a href="/contact-us.php">Contact</a></li>
           <li class="menu-item start_btn">
