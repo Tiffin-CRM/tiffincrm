@@ -66,6 +66,11 @@
         .semi_bold {
             font-weight: 600;
         }
+        .featured_image{
+            width:100%;
+            max-widht:800px;
+            margin:20px auto;
+        }
     </style>
 </head>
 
@@ -73,7 +78,7 @@
 <?php include '../inc/header.php'; ?>
 
     <div class="main_content_area content">
-        <img width="100%" src="https://tutorialsbackend.bluehost.in/wp-content/uploads/2022/05/Blog-What-is-virtual-private-server.png" alt="">
+        <img class="featured_image" src="https://tutorialsbackend.bluehost.in/wp-content/uploads/2022/05/Blog-What-is-virtual-private-server.png" alt="">
         <h2>
             How to Setup Tiffin CRM?
         </h2>
