@@ -140,12 +140,12 @@
                 2. Add Orders
             </h3>
             <p class="steps_items_desc">
-                 You can add repeat or one time orders for every customers by going to customer profile and clicking on add order button. You can set the customer frequency of orders like repeat on sunday, repeat on sunday and tuesday,  or repeating daily.</p>
+                 You can add repeat or one time orders for every customers by going to customer profile and clicking on add order button.</p>
             <div class="gen_info_box">
-                <h4 class="gen_info_box_title">General Info</h4>
+                <h4 class="gen_info_box_title">Understand Input Fields</h4>
                 <div class="info_box_content">
                     <ol>
-                        <li>In repeating orders, if you're delivering the same item every day, you can put the name of that item in the items input field. However, if some items are changing every day, like sabji or any other item, you can write them as Sabji 1, Sabji 2, or Extra Item 1. 
+                        <li><b>Items:</b>In repeating orders, if you're delivering the same item every day, you can put the name of that item in the items input field. However, if some items are changing every day, like sabji or any other item, you can write them as Sabji 1, Sabji 2, or Extra Item 1. 
                             <br><br>
                             You can always put the quantity as a prefix for any item to get more accurate information on the the home screen. 
                             <br><br>
@@ -156,10 +156,10 @@
                             Note: Items without any numeric digit as prefix counted as single serving or piece</li>
 
                         </li>
-                        <li>Enter the Price to specify how much amount to deduct for this meal plan daily.</li>
-                        <li>Use the timing for the meal from options breakfast, lunch or dinner.</li>
-                        <li>Use the order type as repeat if customer wants it daily or use one_time if he want that for
-                            once only.</li>
+                        <li><b>Price:</b>Enter the Price to specify how much amount to deduct for this order everytime.</li>
+                        <li><b>Time:</b>Use the timing for the meal from options breakfast, lunch or dinner.</li>
+                        <li><b>Type:</b>Use the order type as repeat if customer wants it daily or use one_time if he want that for once only.</li>
+                        <li><b>Frequency:</b>Use Daily or choose customer and select days to repeat on.</li>
                     </ol>
                 </div>
             </div>
@@ -167,7 +167,7 @@
                 <span class="info_box_title">Best Practices</span>
                 <div class="info_box_content">
                     <ol>
-                        <li> Set Meal Templates from “More Tab” and all the fields will be populated as per that. which
+                        <li> Set Meal Templates from “Sidebar” and you will get all the fields prefilled with that. which
                             make your work super fast.
                         </li>
 
