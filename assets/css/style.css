@@ -86,13 +86,12 @@ a {
   top: 0;
   right: 0;
   background-color: #0400305b;
-  display: flex;
   align-items: center;
   justify-content: center;
   display: none;
 }
 .video_pop_box.active {
-  display: block;
+  display: flex;
 }
 .vdo_container {
   width: 100%;
