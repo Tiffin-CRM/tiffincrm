@@ -75,10 +75,10 @@
         }
         .articel_links{
             background:white;
-            padding:10px;
+            padding:15px;
             border-radius:5px;
             max-widht:800px;
-            margin:20px auto;
+            margin:10px auto;
         }
     </style>
 </head>
@@ -93,7 +93,7 @@
         </h2>
         <p class="steps_items_desc">
             Setup Tiffin CRM & Organise Your Businesses. <br> 
-            <div class="articel_links">Visit Next <a href="https://tiffincrm.com/guides/how-to-use.php">How to Use tiffin Crm</a> </div></p>
+            <div class="articel_links">Helpful:  "<a href="https://tiffincrm.com/guides/how-to-use.php">How to Use tiffin Crm</a> </div></p>
 
         <div class="steps">
             <h3>
