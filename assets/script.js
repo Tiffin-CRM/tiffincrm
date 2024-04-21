@@ -26,7 +26,6 @@ function vdoPopUp() {
     const menu = document.querySelector('.video_pop_box');
     menu.classList.toggle('active');
     document.body.classList.toggle("noscroll");
-
 }
 // +++++++ nav menu drop down ++++++++
 function navMenu() {

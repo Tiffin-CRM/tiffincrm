@@ -89,10 +89,10 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  transform: scale(0);
+  display: none;
 }
 .video_pop_box.active {
-  transform: scale(1);
+  display: block;
 }
 .vdo_container {
   width: 100%;
