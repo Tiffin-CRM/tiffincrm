@@ -139,7 +139,7 @@
                             well before starting preparation.</li>
                         <li>You can click “skip all deliveries” button in case of any non working day. it will not
                             deduct
-                            balances of your customers until you prepare food for them.</li>
+                            balances of your customers until you Start Proccessing their orders.</li>
                     </ol>
                 </div>
             </div>
