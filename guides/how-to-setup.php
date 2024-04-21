@@ -106,7 +106,7 @@
             </h3>
             <p class="steps_items_desc">
                 Add Your existing customers to start using Tiffin CRM</p>
-            <div class="info_box">
+            <div class="gen_info_box">
                 <span class="info_box_title">General Info</span>
                 <div class="info_box_content">
                     <ol>
