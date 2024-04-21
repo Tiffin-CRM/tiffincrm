@@ -2,7 +2,7 @@
   <div class="container">
     <div class="navbar_container r-flex ali-c jut-sb">
       <a href="/" class="logo r-flex ali-c jut-c">
-        <img src="/assets/img/logo2.svg" alt="TiffinCRM logo" />
+        <img src="/assets/img/tiffincrm-logo.png" alt="TiffinCRM logo" />
       </a>
       <nav class="nav-collapse">
         <ul class="nav_menu_box r-flex ali-c gap-1">
