@@ -62,13 +62,13 @@ a {
   white-space: nowrap;
 }
 .start_btn a {
-  background-color: var(--theme-color);
+  background-image: var(--theme-gradient);
   color: var(--white-bg) !important;
   border-radius: 5px;
   transition: all 0.3s ease-in-out;
 }
 .start_btn a:hover {
-  background-color: #0f0579;
+  background-color: var(--theme-color);
 }
 .menu_drop_dwon {
   position: absolute;
@@ -693,19 +693,18 @@ a {
 .palne_select_btn {
   width: 100%;
   padding: 25px 0px;
-  background-color: var(--theme-color);
+  background-image: var(--theme-gradient);
   color: var(--white-bg);
   border: none;
   outline: none;
   border-radius: 5px;
-  background: #4a3aff;
   margin-top: 25px;
   cursor: pointer;
   font-size: 18px;
   font-weight: 700;
 }
 .palne_select_btn:hover {
-  background-color: #2e1bfa;
+  background-color: var(--theme-color);
 }
 @media (max-width: 700px) {
   .pricing_color_heading {
