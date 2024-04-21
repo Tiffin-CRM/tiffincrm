@@ -81,7 +81,7 @@
             margin:10px auto;
             font-style:italic;
         }
-        .steps_items_desc a{
+        .articel_links a{
             font-style:normal;
             color:black;
         }
