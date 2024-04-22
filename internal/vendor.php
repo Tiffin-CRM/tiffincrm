@@ -31,6 +31,9 @@
         </thead>
         <tbody>
           <?php
+          error_reporting(E_ALL);
+          ini_set('display_errors', 1);
+          
             // Database credentials
             $db_host = 'localhost'; // Assuming the database is hosted locally
             $db_name = 'mbgfdkhzks';
