@@ -47,7 +47,7 @@
             }
 
             // Fetch data from the database
-            $query = "SELECT * FROM vendor_summary ORDER BY vendor_created_at DESC";
+            $query = "SELECT * FROM vendor_summary ORDER BY id DESC";
             $result = mysqli_query($connection, $query);
 
             // Check if there are any rows returned
