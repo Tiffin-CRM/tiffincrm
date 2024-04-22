@@ -42,6 +42,7 @@
 
             // Check connection
             if (!$connection) {
+                echo 'Connection Error';
               die('Database connection failed: ' . mysqli_connect_error());
             }
 
