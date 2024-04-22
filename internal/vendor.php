@@ -55,6 +55,8 @@
 
             // Check if there are any rows returned
             if (mysqli_num_rows($result) > 0) {
+                echo 'Result Found';
+
               // Loop through each row and display the data
               while ($row = mysqli_fetch_assoc($result)) {
                 echo '<tr>';
