@@ -35,7 +35,7 @@
           ini_set('display_errors', 1);
           
             // Database credentials
-            $db_host = 'localhost'; // Assuming the database is hosted locally
+            $db_host = '64.227.148.74'; // Assuming the database is hosted locally
             $db_name = 'mbgfdkhzks';
             $db_user = 'mbgfdkhzks';
             $db_pass = '53VR2AnP4w';
@@ -55,8 +55,6 @@
 
             // Check if there are any rows returned
             if (mysqli_num_rows($result) > 0) {
-                echo 'Result Found';
-
               // Loop through each row and display the data
               while ($row = mysqli_fetch_assoc($result)) {
                 echo '<tr>';
