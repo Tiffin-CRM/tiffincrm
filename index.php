@@ -3,9 +3,9 @@
 
 <head>
   <?php include 'inc/head.php'; ?>
-  <title>Tiffin Service Management App for Your Tiffin Business - TiffinCRM</title>
+  <title>Tiffin Service Management | App to Manage Tiffin Business - TiffinCRM</title>
   <meta name="description"
-    content="TiffinCRM is a Tiffin Service App CRM for day to day operations. which Streamline operations, manage customers, track deliveries, and optimise finances.">
+    content="TiffinCRM is a Tiffin Service Management CRM for your daily operations. which Streamline operations, manage customers, track deliveries, and optimise finances of Tiffin business">
   <link rel="canonical" href="https://tiffincrm.com/" />
 
 </head>
