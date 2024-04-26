@@ -29,7 +29,7 @@
           <li class="menu-item"><a href="/about-us.php">About</a></li>
           <li class="menu-item"><a href="/contact-us.php">Contact</a></li>
           <li class="menu-item start_btn">
-            <a href="/download-app.php?utm_source=website_header">Start Using it !</a>
+            <a href="/download-app.php?utm_source=website_header"  onclick="trackPlayStoreVisit('header');">Start Using it !</a>
           </li>
         </ul>
       </nav>

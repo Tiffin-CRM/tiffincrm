@@ -40,3 +40,12 @@ fbq('track', 'PageView');
 src="https://www.facebook.com/tr?id=1176971540333148&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Meta Pixel Code -->
+<script>
+function trackPlayStoreVisit(label) {
+  // Send the 'visited_play_store' event to GA4
+  gtag('event', 'visited_play_store', {
+    'event_category': 'Outbound Link',
+    'event_label': label
+  });
+}
+</script>

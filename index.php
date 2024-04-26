@@ -48,19 +48,19 @@
               </div>
             </div>
             <div class="left_side_btn_box r-flex ali-c gap-1">
-              <a href="/download-app.php?utm_source=hero_section" class="play_stor_link r-flex ali-c gap-1">
+              <a href="/download-app.php?utm_source=hero_section" class="play_stor_link r-flex ali-c gap-1" onclick="trackPlayStoreVisit('featured_btn');">
                 <div class="play_stor_icon_box">
                   <img src="/assets/img/paly-stor-icon.svg" alt="play stor icon" />
                 </div>
                 <span>Start Using for FREE</span>
               </a>
-              <a target="_blank" href="https://bit.ly/msg-tiffin-crm" class="ask_quetion_link r-flex ali-c gap-1">
+              <a target="_blank" href="https://bit.ly/msg-tiffin-crm" class="ask_quetion_link r-flex ali-c gap-1"  onclick="gtag('event', 'contacted');">
                 <span>Ask Question →</span>
               </a>
             </div>
           </div>
           <div class="service_right_side_cont">
-            <div onclick="vdoPopUp()" class="hero_service_vdo_container">
+            <div onclick="vdoPopUp(); gtag('event', 'thumbnail_clicked');" class="hero_service_vdo_container">
               <img src="/assets/img/thumbnail.jpg?v1" />
             </div>
             <!-- <div class="video_pop_box">
@@ -349,7 +349,7 @@
               <div class="user_limit_text">Upto 20 User</div>
               <h3 class="about_pricing_price">Free</h3>
               <div class="pricing_time_limit">Lifetime</div>
-              <button class="palne_select_btn" onclick="window.open('/download-app.php?utm_source=pricing');">Use Free</button>
+              <button class="palne_select_btn" onclick="trackPlayStoreVisit('pricing1'); window.open('/download-app.php?utm_source=pricing');" >Use Free</button>
             </div>
             <div class="right_side_pricing_box">
               <div class="top_pric_itme_heading_box r-flex ali-c gap-2">
@@ -366,7 +366,7 @@
               </div>
               <h3 class="about_pricing_price">Free</h3>
               <div class="pricing_time_limit">Until Plan Launch</div>
-              <button class="palne_select_btn"  onclick="window.open('/download-app.php?utm_source=pricing-premium');">Start Free</button>
+              <button class="palne_select_btn"  onclick="trackPlayStoreVisit('pricing1'); window.open('/download-app.php?utm_source=pricing-premium');">Start Free</button>
             </div>
           </div>
         </div>
