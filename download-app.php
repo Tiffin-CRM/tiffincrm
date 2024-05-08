@@ -4,7 +4,7 @@
 <head>
 <?php
 // Redirect to the desired URL
-header("Location: https://bit.ly/download-tiffin-crm");
+header("Location: https://bit.ly/download-tiffin-crm-app");
 exit(); // Make sure to exit after the redirect to prevent further execution
 ?>
 
