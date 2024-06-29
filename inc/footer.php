@@ -9,7 +9,7 @@
               <img src="/assets/img/tiffincrm-logo.png?v2" alt="Tiffin Service Business Management App TiffinCRM Logo" /></a>
             </div>
             <div class="footer_copyright">
-              Copyright © 2024 TiffinCRM | <a href="privacy-policy.php">Privacy</a> | <a href="terms-of-use.php">Terms</a>
+              Copyright © 2024 TiffinCRM | <a href="/privacy-policy.php">Privacy</a> | <a href="/terms-of-use.php">Terms</a>
             </div>
           </div>
         </div>
